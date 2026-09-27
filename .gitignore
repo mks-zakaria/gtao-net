@@ -15,3 +15,7 @@ __pycache__/
 # Local scratch
 .tmp/
 *.log
+
+# Local-only exploration notebooks + their exports (repo stays results-only)
+/notebooks/
+/output/
