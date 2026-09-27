@@ -40,16 +40,6 @@ gtao-net/
 ├── CITATION.cff               citation metadata
 ├── assets/
 │   └── architecture.png       Figure 1 (gTAO-Net overview)
-├── kaggle/
-│   ├── dipseer_grid/           DIPSER full-factorial kernel (notebook)
-│   │   ├── gtao_grid.py        sealed grid: 29 configs, 435 fits
-│   │   └── kernel-metadata.json
-│   ├── daisee/                 DAiSEE 3-stream kernel (script)
-│   │   ├── daisee-gtao.py
-│   │   └── kernel-metadata.json
-│   └── engagenet/              EngageNet scoped P2 kernel (script)
-│       ├── engagenet-gtao-scoped.py
-│       └── kernel-metadata.json
 └── results/
     ├── DIPSER_grid_v1_metrics.json   325 config-seed rows (DIPSER)
     ├── DIPSER_h4_masked_eval.json    masked-eval probe (H4)
@@ -57,9 +47,8 @@ gtao-net/
     └── EngageNet_metrics.json        scoped P2 grid (EngageNet)
 ```
 
-The scripts under `kaggle/` are **verbatim copies of the sealed kernels** that produced the
-reported numbers — they are self-contained (dataset mount → protocol → metrics JSON) and
-edited only to make `is_private: false`.
+The reproducing **code lives in the public Kaggle kernels** (linked below) and is kept there;
+this repository is the results-and-documentation entry point for those runs.
 
 ---
 
@@ -134,27 +123,9 @@ CORE-hybrid loss — placing the previously contradictory ordinal-supervision re
 | 3 | [`gtao-net-engagenet-scoped-p2-benchmark-v2`](https://www.kaggle.com/code/zakariamakhas/gtao-net-engagenet-scoped-p2-benchmark-v2) | EngageNet — scoped P2 grid | ✅ public |
 | 4 | [`dipseer-gtao-net-smoke-single-subject-multimodal`](https://www.kaggle.com/code/zakariamakhas/dipseer-gtao-net-smoke-single-subject-multimodal) | Single-subject smoke run (cite α≈0.994 collapse) | ✅ public |
 
-The kernel source + metadata in `kaggle/` is what you push:
-
-```bash
-kaggle kernels push -p kaggle/dipseer_grid   # DIPSER
-kaggle kernels push -p kaggle/daisee         # DAiSEE
-kaggle kernels push -p kaggle/engagenet      # EngageNet
-```
-
-### Run it locally
-
-The scripts are self-contained and run against a saved feature archive. Minimal dependencies:
-`torch`, `numpy`, `scikit-learn`, `mpmath`, `Pillow`, `pandas`. The DIPSER / DAiSEE / EngageNet
-feature corpora are the `.npz` archives produced by each kernel's feature-extraction cell (also
-mounted as Kaggle datasets — see below). Set `OUT`/`INPUT_DIR` to your local paths and run:
-
-```bash
-python kaggle/dipseer_grid/gtao_grid.py            # needs the DIPSER feature .npz
-python kaggle/engagenet/engagenet-gtao-scoped.py   # needs the EngageNet feature .npz
-```
-
-Full per-config, per-seed, per-fold artifacts are downloadable from each kernel's **Output** tab.
+Each kernel is public and self-contained: it mounts its dataset, runs the sealed protocol, and
+writes its metric document to the kernel **Output** tab (the same documents committed under
+`results/` here). To reproduce, open the kernel and click **Run (version)** on Kaggle.
 
 ---
 
