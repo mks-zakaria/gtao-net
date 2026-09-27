@@ -9,7 +9,7 @@ low-to-high attention judgment under a **sealed, pre-registered, ceiling-anchore
 engagement benchmarks — [DAiSEE](https://arxiv.org/abs/1609.01885) and
 [EngageNet](https://dl.acm.org/doi/10.1145/3577190.3614164).
 
-The paper is **not a new state-of-the-art-QWK race**. It is a mechanistically instrumented
+This work is **not a new state-of-the-art-QWK race**. It is a mechanistically instrumented
 diagnosis of *why* unconditional multimodal fusion fails in classroom attention estimation:
 a learned gate collapses to a frozen one-hot stream switch, a global link is confirmed as a
 gradient highway, and no fusion configuration exceeds the best unimodal stream on any of the
@@ -38,10 +38,8 @@ gtao-net/
 ├── README.md                  ← you are here (entry point)
 ├── LICENSE                    MIT
 ├── CITATION.cff               citation metadata
-├── paper/
-│   ├── Article2_manuscript.md  full manuscript source
-│   ├── Article2_v13.docx       compiled manuscript (Word)
-│   └── architecture.png        Figure 1
+├── assets/
+│   └── architecture.png       Figure 1 (gTAO-Net overview)
 ├── kaggle/
 │   ├── dipseer_grid/           DIPSER full-factorial kernel (notebook)
 │   │   ├── gtao_grid.py        sealed grid: 29 configs, 435 fits
@@ -67,7 +65,7 @@ edited only to make `is_private: false`.
 
 ## Architecture
 
-![gTAO-Net overview](paper/architecture.png)
+![gTAO-Net overview](assets/architecture.png)
 
 Each stream is encoded by a compact **discrete-orthogonal Tchebichef-moment** front-end, then
 passed through a per-stream temporal tower. A **learned gate α** re-weights cross-modal
@@ -168,17 +166,6 @@ Full per-config, per-seed, per-fold artifacts are downloadable from each kernel'
 | DIPSER processed slice | [`zakariamakhas/dipseer-paper1-slice`](https://www.kaggle.com/datasets/zakariamakhas/dipseer-paper1-slice) | Tchebichef feature archive used by kernel 1 |
 | **DAiSEE** | [`olgaparfenova/daisee`](https://www.kaggle.com/datasets/olgaparfenova/daisee) · [`mahisharamesh/daisee`](https://www.kaggle.com/datasets/mahisharamesh/daisee) | Raw videos, Kaggle mirrors |
 | **EngageNet** | [`laavanayadhawan/engagenet-personalization`](https://www.kaggle.com/datasets/laavanayadhawan/engagenet-personalization) · [`laavanayadhawan/openface-engagenet`](https://www.kaggle.com/datasets/laavanayadhawan/openface-engagenet) | Raw clips + OpenFace features |
-
----
-
-## Paper
-
-- Manuscript (Markdown): [`paper/Article2_manuscript.md`](paper/Article2_manuscript.md)
-- Compiled Word file: [`paper/Article2_v13.docx`](paper/Article2_v13.docx)
-- Architecture figure: [`paper/architecture.png`](paper/architecture.png)
-
-Key sections: §5 the factorial results, §5.8 out-of-setting transfer (DAiSEE, EngageNet),
-§6.1 gate-collapse analysis, §6.2 the link-from-initialization probes, §7 discussion and limitations.
 
 ---
 
