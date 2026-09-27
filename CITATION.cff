@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite it as below."
+title: "gTAO-Net: Gated Multimodal Ordinal Fusion for Attention Estimation in In-Person Classrooms"
+authors:
+  - family-names: Makhkhas
+    given-names: Zakaria
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+version: 1.0
+date-released: "2026-09-27"
+license: MIT
+keywords:
+  - student attention estimation
+  - multimodal ordinal fusion
+  - Tchebichef moments
+  - gating
+  - DIPSER
+  - DAiSEE
+  - EngageNet

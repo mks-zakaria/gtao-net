@@ -1,0 +1,17 @@
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.DS_Store
+*.npz
+
+# Kaggle output caches
+/kaggle/**/results/*.npz
+/results/*.npz
+
+# Local scratch
+.tmp/
+*.log
