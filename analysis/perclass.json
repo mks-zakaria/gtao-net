@@ -1,0 +1,3449 @@
+{
+ "dipser/gtao_grid_v1/core_skip0_drop0": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.608,
+   0.281,
+   0.0
+  ],
+  "confusion_sum": [
+   [
+    1238,
+    798,
+    1
+   ],
+   [
+    1896,
+    743,
+    1
+   ],
+   [
+    13,
+    8,
+    0
+   ]
+  ],
+  "gates": null
+ },
+ "dipser/gtao_grid_v1/core_skip0_drop0_hybrid": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.614,
+   0.288,
+   0.0
+  ],
+  "confusion_sum": [
+   [
+    1250,
+    785,
+    2
+   ],
+   [
+    1877,
+    761,
+    2
+   ],
+   [
+    15,
+    6,
+    0
+   ]
+  ],
+  "gates": null
+ },
+ "dipser/gtao_grid_v1/core_skip0_drop0_soft": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.696,
+   0.295,
+   0.0
+  ],
+  "confusion_sum": [
+   [
+    1417,
+    619,
+    1
+   ],
+   [
+    1862,
+    778,
+    0
+   ],
+   [
+    19,
+    2,
+    0
+   ]
+  ],
+  "gates": null
+ },
+ "dipser/gtao_grid_v1/core_skip0_drop1": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.719,
+   0.256,
+   0.048
+  ],
+  "confusion_sum": [
+   [
+    1465,
+    541,
+    31
+   ],
+   [
+    1958,
+    676,
+    6
+   ],
+   [
+    15,
+    5,
+    1
+   ]
+  ],
+  "gates": null
+ },
+ "dipser/gtao_grid_v1/core_skip0_drop1_hybrid": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.635,
+   0.203,
+   0.0
+  ],
+  "confusion_sum": [
+   [
+    1293,
+    737,
+    7
+   ],
+   [
+    2100,
+    537,
+    3
+   ],
+   [
+    15,
+    6,
+    0
+   ]
+  ],
+  "gates": null
+ },
+ "dipser/gtao_grid_v1/core_skip0_drop1_soft": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.724,
+   0.297,
+   0.0
+  ],
+  "confusion_sum": [
+   [
+    1475,
+    562,
+    0
+   ],
+   [
+    1857,
+    783,
+    0
+   ],
+   [
+    17,
+    4,
+    0
+   ]
+  ],
+  "gates": null
+ },
+ "dipser/gtao_grid_v1/core_skip1_drop0": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.614,
+   0.166,
+   0.048
+  ],
+  "confusion_sum": [
+   [
+    1251,
+    270,
+    516
+   ],
+   [
+    1598,
+    439,
+    603
+   ],
+   [
+    19,
+    1,
+    1
+   ]
+  ],
+  "gates": null
+ },
+ "dipser/gtao_grid_v1/core_skip1_drop0_hybrid": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.683,
+   0.127,
+   0.095
+  ],
+  "confusion_sum": [
+   [
+    1392,
+    339,
+    306
+   ],
+   [
+    2106,
+    334,
+    200
+   ],
+   [
+    18,
+    1,
+    2
+   ]
+  ],
+  "gates": null
+ },
+ "dipser/gtao_grid_v1/core_skip1_drop0_soft": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.649,
+   0.264,
+   0.048
+  ],
+  "confusion_sum": [
+   [
+    1322,
+    448,
+    267
+   ],
+   [
+    1458,
+    696,
+    486
+   ],
+   [
+    17,
+    3,
+    1
+   ]
+  ],
+  "gates": null
+ },
+ "dipser/gtao_grid_v1/core_skip1_drop1": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.715,
+   0.116,
+   0.333
+  ],
+  "confusion_sum": [
+   [
+    1457,
+    164,
+    416
+   ],
+   [
+    1499,
+    305,
+    836
+   ],
+   [
+    13,
+    1,
+    7
+   ]
+  ],
+  "gates": null
+ },
+ "dipser/gtao_grid_v1/core_skip1_drop1_hybrid": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.623,
+   0.15,
+   0.238
+  ],
+  "confusion_sum": [
+   [
+    1270,
+    476,
+    291
+   ],
+   [
+    1896,
+    397,
+    347
+   ],
+   [
+    13,
+    3,
+    5
+   ]
+  ],
+  "gates": null
+ },
+ "dipser/gtao_grid_v1/core_skip1_drop1_soft": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.598,
+   0.195,
+   0.238
+  ],
+  "confusion_sum": [
+   [
+    1219,
+    313,
+    505
+   ],
+   [
+    1323,
+    515,
+    802
+   ],
+   [
+    15,
+    1,
+    5
+   ]
+  ],
+  "gates": null
+ },
+ "dipser/gtao_grid_v1/gate_skip0_drop0": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.596,
+   0.259,
+   0.095
+  ],
+  "confusion_sum": [
+   [
+    1215,
+    765,
+    57
+   ],
+   [
+    1927,
+    684,
+    29
+   ],
+   [
+    12,
+    7,
+    2
+   ]
+  ],
+  "gates": {
+   "n": 15,
+   "one_hot": 6,
+   "winners": {
+    "facemesh": 6,
+    "physio": 4,
+    "face": 3,
+    "head_pose": 2
+   },
+   "mean_max_weight": 0.78
+  }
+ },
+ "dipser/gtao_grid_v1/gate_skip0_drop0_hybrid": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.602,
+   0.261,
+   0.0
+  ],
+  "confusion_sum": [
+   [
+    1226,
+    811,
+    0
+   ],
+   [
+    1949,
+    690,
+    1
+   ],
+   [
+    16,
+    5,
+    0
+   ]
+  ],
+  "gates": {
+   "n": 15,
+   "one_hot": 4,
+   "winners": {
+    "physio": 7,
+    "facemesh": 4,
+    "face": 3,
+    "head_pose": 1
+   },
+   "mean_max_weight": 0.722
+  }
+ },
+ "dipser/gtao_grid_v1/gate_skip0_drop0_soft": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.739,
+   0.286,
+   0.0
+  ],
+  "confusion_sum": [
+   [
+    1506,
+    531,
+    0
+   ],
+   [
+    1885,
+    755,
+    0
+   ],
+   [
+    18,
+    3,
+    0
+   ]
+  ],
+  "gates": {
+   "n": 15,
+   "one_hot": 7,
+   "winners": {
+    "face": 5,
+    "head_pose": 5,
+    "facemesh": 4,
+    "physio": 1
+   },
+   "mean_max_weight": 0.753
+  }
+ },
+ "dipser/gtao_grid_v1/gate_skip0_drop1": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.635,
+   0.193,
+   0.0
+  ],
+  "confusion_sum": [
+   [
+    1294,
+    740,
+    3
+   ],
+   [
+    2100,
+    509,
+    31
+   ],
+   [
+    14,
+    7,
+    0
+   ]
+  ],
+  "gates": {
+   "n": 15,
+   "one_hot": 6,
+   "winners": {
+    "face": 12,
+    "head_pose": 3
+   },
+   "mean_max_weight": 0.854
+  }
+ },
+ "dipser/gtao_grid_v1/gate_skip0_drop1_hybrid": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.704,
+   0.191,
+   0.095
+  ],
+  "confusion_sum": [
+   [
+    1435,
+    549,
+    53
+   ],
+   [
+    2115,
+    505,
+    20
+   ],
+   [
+    17,
+    2,
+    2
+   ]
+  ],
+  "gates": {
+   "n": 15,
+   "one_hot": 7,
+   "winners": {
+    "face": 14,
+    "head_pose": 1
+   },
+   "mean_max_weight": 0.857
+  }
+ },
+ "dipser/gtao_grid_v1/gate_skip0_drop1_soft": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.734,
+   0.316,
+   0.0
+  ],
+  "confusion_sum": [
+   [
+    1495,
+    542,
+    0
+   ],
+   [
+    1805,
+    835,
+    0
+   ],
+   [
+    17,
+    4,
+    0
+   ]
+  ],
+  "gates": {
+   "n": 15,
+   "one_hot": 13,
+   "winners": {
+    "face": 14,
+    "facemesh": 1
+   },
+   "mean_max_weight": 0.98
+  }
+ },
+ "dipser/gtao_grid_v1/gate_skip1_drop0": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.823,
+   0.053,
+   0.238
+  ],
+  "confusion_sum": [
+   [
+    1676,
+    96,
+    265
+   ],
+   [
+    2071,
+    139,
+    430
+   ],
+   [
+    12,
+    4,
+    5
+   ]
+  ],
+  "gates": {
+   "n": 15,
+   "one_hot": 8,
+   "winners": {
+    "head_pose": 7,
+    "face": 3,
+    "facemesh": 3,
+    "physio": 2
+   },
+   "mean_max_weight": 0.828
+  }
+ },
+ "dipser/gtao_grid_v1/gate_skip1_drop0_hybrid": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.604,
+   0.114,
+   0.476
+  ],
+  "confusion_sum": [
+   [
+    1230,
+    94,
+    713
+   ],
+   [
+    1414,
+    301,
+    925
+   ],
+   [
+    9,
+    2,
+    10
+   ]
+  ],
+  "gates": {
+   "n": 15,
+   "one_hot": 13,
+   "winners": {
+    "facemesh": 7,
+    "physio": 4,
+    "head_pose": 3,
+    "face": 1
+   },
+   "mean_max_weight": 0.915
+  }
+ },
+ "dipser/gtao_grid_v1/gate_skip1_drop0_soft": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.554,
+   0.2,
+   0.19
+  ],
+  "confusion_sum": [
+   [
+    1129,
+    340,
+    568
+   ],
+   [
+    995,
+    529,
+    1116
+   ],
+   [
+    10,
+    7,
+    4
+   ]
+  ],
+  "gates": {
+   "n": 15,
+   "one_hot": 11,
+   "winners": {
+    "head_pose": 6,
+    "facemesh": 4,
+    "face": 3,
+    "physio": 2
+   },
+   "mean_max_weight": 0.842
+  }
+ },
+ "dipser/gtao_grid_v1/gate_skip1_drop1": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.753,
+   0.126,
+   0.333
+  ],
+  "confusion_sum": [
+   [
+    1534,
+    330,
+    173
+   ],
+   [
+    2072,
+    332,
+    236
+   ],
+   [
+    13,
+    1,
+    7
+   ]
+  ],
+  "gates": {
+   "n": 15,
+   "one_hot": 12,
+   "winners": {
+    "head_pose": 5,
+    "face": 5,
+    "facemesh": 4,
+    "physio": 1
+   },
+   "mean_max_weight": 0.896
+  }
+ },
+ "dipser/gtao_grid_v1/gate_skip1_drop1_hybrid": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.67,
+   0.124,
+   0.238
+  ],
+  "confusion_sum": [
+   [
+    1365,
+    345,
+    327
+   ],
+   [
+    1717,
+    327,
+    596
+   ],
+   [
+    11,
+    5,
+    5
+   ]
+  ],
+  "gates": {
+   "n": 15,
+   "one_hot": 14,
+   "winners": {
+    "face": 6,
+    "facemesh": 4,
+    "head_pose": 3,
+    "physio": 2
+   },
+   "mean_max_weight": 0.979
+  }
+ },
+ "dipser/gtao_grid_v1/gate_skip1_drop1_soft": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.466,
+   0.094,
+   0.095
+  ],
+  "confusion_sum": [
+   [
+    949,
+    230,
+    858
+   ],
+   [
+    1227,
+    247,
+    1166
+   ],
+   [
+    16,
+    3,
+    2
+   ]
+  ],
+  "gates": {
+   "n": 15,
+   "one_hot": 7,
+   "winners": {
+    "head_pose": 5,
+    "facemesh": 4,
+    "physio": 3,
+    "face": 3
+   },
+   "mean_max_weight": 0.764
+  }
+ },
+ "dipser/gtao_grid_v1/shuffle_core_skip1_drop1": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.597,
+   0.241,
+   0.143
+  ],
+  "confusion_sum": [
+   [
+    1216,
+    502,
+    319
+   ],
+   [
+    1570,
+    637,
+    433
+   ],
+   [
+    13,
+    5,
+    3
+   ]
+  ],
+  "gates": null
+ },
+ "dipser/gtao_grid_v1/unimodal_face_cw": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.588,
+   0.227,
+   0.0
+  ],
+  "confusion_sum": [
+   [
+    1197,
+    839,
+    1
+   ],
+   [
+    2040,
+    600,
+    0
+   ],
+   [
+    9,
+    12,
+    0
+   ]
+  ],
+  "gates": null
+ },
+ "dipser/gtao_grid_v1/unimodal_face_cw_soft": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.748,
+   0.258,
+   0.0
+  ],
+  "confusion_sum": [
+   [
+    1523,
+    514,
+    0
+   ],
+   [
+    1958,
+    682,
+    0
+   ],
+   [
+    16,
+    5,
+    0
+   ]
+  ],
+  "gates": null
+ },
+ "dipser/gtao_grid_v1/unimodal_facemesh_cw": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.567,
+   0.523,
+   0.0
+  ],
+  "confusion_sum": [
+   [
+    1154,
+    882,
+    1
+   ],
+   [
+    1257,
+    1381,
+    2
+   ],
+   [
+    6,
+    15,
+    0
+   ]
+  ],
+  "gates": null
+ },
+ "dipser/gtao_grid_v1/unimodal_facemesh_cw_soft": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.549,
+   0.713,
+   0.0
+  ],
+  "confusion_sum": [
+   [
+    1118,
+    919,
+    0
+   ],
+   [
+    758,
+    1882,
+    0
+   ],
+   [
+    12,
+    9,
+    0
+   ]
+  ],
+  "gates": null
+ },
+ "dipser/gtao_grid_v1/unimodal_head_pose_cw": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.733,
+   0.258,
+   0.0
+  ],
+  "confusion_sum": [
+   [
+    1494,
+    516,
+    27
+   ],
+   [
+    1924,
+    680,
+    36
+   ],
+   [
+    20,
+    1,
+    0
+   ]
+  ],
+  "gates": null
+ },
+ "dipser/gtao_grid_v1/unimodal_head_pose_cw_soft": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.573,
+   0.364,
+   0.0
+  ],
+  "confusion_sum": [
+   [
+    1167,
+    870,
+    0
+   ],
+   [
+    1679,
+    961,
+    0
+   ],
+   [
+    19,
+    2,
+    0
+   ]
+  ],
+  "gates": null
+ },
+ "dipser/gtao_grid_v1/unimodal_physio_cw": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.677,
+   0.316,
+   0.048
+  ],
+  "confusion_sum": [
+   [
+    1379,
+    638,
+    20
+   ],
+   [
+    1788,
+    835,
+    17
+   ],
+   [
+    10,
+    10,
+    1
+   ]
+  ],
+  "gates": null
+ },
+ "dipser/gtao_grid_v1/unimodal_physio_cw_soft": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.598,
+   0.272,
+   0.0
+  ],
+  "confusion_sum": [
+   [
+    1218,
+    819,
+    0
+   ],
+   [
+    1921,
+    719,
+    0
+   ],
+   [
+    14,
+    7,
+    0
+   ]
+  ],
+  "gates": null
+ },
+ "daisee/P1_official/core_skip0_drop0": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.0,
+   0.0,
+   0.519,
+   0.553
+  ],
+  "confusion_sum": [
+   [
+    0,
+    0,
+    41,
+    28
+   ],
+   [
+    1,
+    0,
+    239,
+    189
+   ],
+   [
+    1,
+    0,
+    1267,
+    1171
+   ],
+   [
+    0,
+    0,
+    603,
+    747
+   ]
+  ],
+  "gates": null
+ },
+ "daisee/P1_official/core_skip0_drop0_hybrid": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.0,
+   0.0,
+   0.657,
+   0.449
+  ],
+  "confusion_sum": [
+   [
+    0,
+    0,
+    47,
+    22
+   ],
+   [
+    0,
+    0,
+    295,
+    134
+   ],
+   [
+    0,
+    0,
+    1603,
+    836
+   ],
+   [
+    0,
+    0,
+    744,
+    606
+   ]
+  ],
+  "gates": null
+ },
+ "daisee/P1_official/core_skip0_drop0_soft": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.0,
+   0.0,
+   0.519,
+   0.553
+  ],
+  "confusion_sum": [
+   [
+    0,
+    0,
+    41,
+    28
+   ],
+   [
+    1,
+    0,
+    239,
+    189
+   ],
+   [
+    1,
+    0,
+    1267,
+    1171
+   ],
+   [
+    0,
+    0,
+    603,
+    747
+   ]
+  ],
+  "gates": null
+ },
+ "daisee/P1_official/core_skip0_drop1": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.0,
+   0.002,
+   0.541,
+   0.556
+  ],
+  "confusion_sum": [
+   [
+    0,
+    1,
+    42,
+    26
+   ],
+   [
+    0,
+    1,
+    253,
+    175
+   ],
+   [
+    0,
+    1,
+    1320,
+    1118
+   ],
+   [
+    1,
+    0,
+    598,
+    751
+   ]
+  ],
+  "gates": null
+ },
+ "daisee/P1_official/core_skip0_drop1_hybrid": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.0,
+   0.0,
+   0.588,
+   0.504
+  ],
+  "confusion_sum": [
+   [
+    0,
+    0,
+    50,
+    19
+   ],
+   [
+    0,
+    0,
+    272,
+    157
+   ],
+   [
+    1,
+    0,
+    1435,
+    1003
+   ],
+   [
+    2,
+    0,
+    668,
+    680
+   ]
+  ],
+  "gates": null
+ },
+ "daisee/P1_official/core_skip0_drop1_soft": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.0,
+   0.002,
+   0.541,
+   0.556
+  ],
+  "confusion_sum": [
+   [
+    0,
+    1,
+    42,
+    26
+   ],
+   [
+    0,
+    1,
+    253,
+    175
+   ],
+   [
+    0,
+    1,
+    1320,
+    1118
+   ],
+   [
+    1,
+    0,
+    598,
+    751
+   ]
+  ],
+  "gates": null
+ },
+ "daisee/P1_official/core_skip1_drop0": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.13,
+   0.0,
+   0.302,
+   0.62
+  ],
+  "confusion_sum": [
+   [
+    9,
+    0,
+    21,
+    39
+   ],
+   [
+    42,
+    0,
+    123,
+    264
+   ],
+   [
+    222,
+    0,
+    736,
+    1481
+   ],
+   [
+    135,
+    0,
+    378,
+    837
+   ]
+  ],
+  "gates": null
+ },
+ "daisee/P1_official/core_skip1_drop0_hybrid": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.058,
+   0.005,
+   0.139,
+   0.796
+  ],
+  "confusion_sum": [
+   [
+    4,
+    0,
+    9,
+    56
+   ],
+   [
+    36,
+    2,
+    41,
+    350
+   ],
+   [
+    140,
+    13,
+    339,
+    1947
+   ],
+   [
+    68,
+    3,
+    205,
+    1074
+   ]
+  ],
+  "gates": null
+ },
+ "daisee/P1_official/core_skip1_drop0_soft": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.13,
+   0.0,
+   0.302,
+   0.62
+  ],
+  "confusion_sum": [
+   [
+    9,
+    0,
+    21,
+    39
+   ],
+   [
+    42,
+    0,
+    123,
+    264
+   ],
+   [
+    222,
+    0,
+    736,
+    1481
+   ],
+   [
+    135,
+    0,
+    378,
+    837
+   ]
+  ],
+  "gates": null
+ },
+ "daisee/P1_official/core_skip1_drop1": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.072,
+   0.0,
+   0.106,
+   0.89
+  ],
+  "confusion_sum": [
+   [
+    5,
+    0,
+    6,
+    58
+   ],
+   [
+    18,
+    0,
+    57,
+    354
+   ],
+   [
+    88,
+    0,
+    259,
+    2092
+   ],
+   [
+    25,
+    0,
+    123,
+    1202
+   ]
+  ],
+  "gates": null
+ },
+ "daisee/P1_official/core_skip1_drop1_hybrid": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.058,
+   0.0,
+   0.2,
+   0.767
+  ],
+  "confusion_sum": [
+   [
+    4,
+    0,
+    14,
+    51
+   ],
+   [
+    36,
+    0,
+    77,
+    316
+   ],
+   [
+    117,
+    0,
+    488,
+    1834
+   ],
+   [
+    50,
+    0,
+    264,
+    1036
+   ]
+  ],
+  "gates": null
+ },
+ "daisee/P1_official/core_skip1_drop1_soft": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.072,
+   0.0,
+   0.106,
+   0.89
+  ],
+  "confusion_sum": [
+   [
+    5,
+    0,
+    6,
+    58
+   ],
+   [
+    18,
+    0,
+    57,
+    354
+   ],
+   [
+    88,
+    0,
+    259,
+    2092
+   ],
+   [
+    25,
+    0,
+    123,
+    1202
+   ]
+  ],
+  "gates": null
+ },
+ "daisee/P1_official/gate_skip0_drop0": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.0,
+   0.0,
+   0.613,
+   0.486
+  ],
+  "confusion_sum": [
+   [
+    0,
+    0,
+    49,
+    20
+   ],
+   [
+    1,
+    0,
+    276,
+    152
+   ],
+   [
+    4,
+    0,
+    1494,
+    941
+   ],
+   [
+    1,
+    0,
+    693,
+    656
+   ]
+  ],
+  "gates": {
+   "n": 3,
+   "one_hot": 1,
+   "winners": {
+    "facemesh": 2,
+    "head_pose": 1
+   },
+   "mean_max_weight": 0.836
+  }
+ },
+ "daisee/P1_official/gate_skip0_drop0_hybrid": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.0,
+   0.0,
+   0.535,
+   0.529
+  ],
+  "confusion_sum": [
+   [
+    0,
+    0,
+    40,
+    29
+   ],
+   [
+    0,
+    0,
+    248,
+    181
+   ],
+   [
+    1,
+    1,
+    1306,
+    1131
+   ],
+   [
+    2,
+    0,
+    634,
+    714
+   ]
+  ],
+  "gates": {
+   "n": 3,
+   "one_hot": 2,
+   "winners": {
+    "head_pose": 2,
+    "facemesh": 1
+   },
+   "mean_max_weight": 0.947
+  }
+ },
+ "daisee/P1_official/gate_skip0_drop0_soft": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.0,
+   0.0,
+   0.613,
+   0.486
+  ],
+  "confusion_sum": [
+   [
+    0,
+    0,
+    49,
+    20
+   ],
+   [
+    1,
+    0,
+    276,
+    152
+   ],
+   [
+    4,
+    0,
+    1494,
+    941
+   ],
+   [
+    1,
+    0,
+    693,
+    656
+   ]
+  ],
+  "gates": {
+   "n": 3,
+   "one_hot": 1,
+   "winners": {
+    "facemesh": 2,
+    "head_pose": 1
+   },
+   "mean_max_weight": 0.836
+  }
+ },
+ "daisee/P1_official/gate_skip0_drop1": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.0,
+   0.0,
+   0.556,
+   0.518
+  ],
+  "confusion_sum": [
+   [
+    0,
+    0,
+    39,
+    30
+   ],
+   [
+    1,
+    0,
+    270,
+    158
+   ],
+   [
+    1,
+    0,
+    1355,
+    1083
+   ],
+   [
+    1,
+    0,
+    650,
+    699
+   ]
+  ],
+  "gates": {
+   "n": 3,
+   "one_hot": 2,
+   "winners": {
+    "face": 3
+   },
+   "mean_max_weight": 0.991
+  }
+ },
+ "daisee/P1_official/gate_skip0_drop1_hybrid": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.0,
+   0.0,
+   0.559,
+   0.518
+  ],
+  "confusion_sum": [
+   [
+    0,
+    0,
+    40,
+    29
+   ],
+   [
+    0,
+    0,
+    256,
+    173
+   ],
+   [
+    0,
+    1,
+    1364,
+    1074
+   ],
+   [
+    1,
+    0,
+    650,
+    699
+   ]
+  ],
+  "gates": {
+   "n": 3,
+   "one_hot": 3,
+   "winners": {
+    "face": 3
+   },
+   "mean_max_weight": 1.0
+  }
+ },
+ "daisee/P1_official/gate_skip0_drop1_soft": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.0,
+   0.0,
+   0.556,
+   0.518
+  ],
+  "confusion_sum": [
+   [
+    0,
+    0,
+    39,
+    30
+   ],
+   [
+    1,
+    0,
+    270,
+    158
+   ],
+   [
+    1,
+    0,
+    1355,
+    1083
+   ],
+   [
+    1,
+    0,
+    650,
+    699
+   ]
+  ],
+  "gates": {
+   "n": 3,
+   "one_hot": 2,
+   "winners": {
+    "face": 3
+   },
+   "mean_max_weight": 0.991
+  }
+ },
+ "daisee/P1_official/gate_skip1_drop0": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.058,
+   0.0,
+   0.122,
+   0.845
+  ],
+  "confusion_sum": [
+   [
+    4,
+    0,
+    9,
+    56
+   ],
+   [
+    19,
+    0,
+    48,
+    362
+   ],
+   [
+    70,
+    0,
+    298,
+    2071
+   ],
+   [
+    28,
+    0,
+    181,
+    1141
+   ]
+  ],
+  "gates": {
+   "n": 3,
+   "one_hot": 1,
+   "winners": {
+    "head_pose": 2,
+    "facemesh": 1
+   },
+   "mean_max_weight": 0.674
+  }
+ },
+ "daisee/P1_official/gate_skip1_drop0_hybrid": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.087,
+   0.0,
+   0.159,
+   0.787
+  ],
+  "confusion_sum": [
+   [
+    6,
+    0,
+    6,
+    57
+   ],
+   [
+    37,
+    0,
+    76,
+    316
+   ],
+   [
+    103,
+    0,
+    388,
+    1948
+   ],
+   [
+    53,
+    0,
+    234,
+    1063
+   ]
+  ],
+  "gates": {
+   "n": 3,
+   "one_hot": 0,
+   "winners": {
+    "facemesh": 2,
+    "head_pose": 1
+   },
+   "mean_max_weight": 0.616
+  }
+ },
+ "daisee/P1_official/gate_skip1_drop0_soft": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.058,
+   0.0,
+   0.122,
+   0.845
+  ],
+  "confusion_sum": [
+   [
+    4,
+    0,
+    9,
+    56
+   ],
+   [
+    19,
+    0,
+    48,
+    362
+   ],
+   [
+    70,
+    0,
+    298,
+    2071
+   ],
+   [
+    28,
+    0,
+    181,
+    1141
+   ]
+  ],
+  "gates": {
+   "n": 3,
+   "one_hot": 1,
+   "winners": {
+    "head_pose": 2,
+    "facemesh": 1
+   },
+   "mean_max_weight": 0.674
+  }
+ },
+ "daisee/P1_official/gate_skip1_drop1": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.014,
+   0.0,
+   0.002,
+   0.99
+  ],
+  "confusion_sum": [
+   [
+    1,
+    0,
+    0,
+    68
+   ],
+   [
+    9,
+    0,
+    2,
+    418
+   ],
+   [
+    34,
+    0,
+    6,
+    2399
+   ],
+   [
+    14,
+    0,
+    0,
+    1336
+   ]
+  ],
+  "gates": {
+   "n": 3,
+   "one_hot": 2,
+   "winners": {
+    "face": 1,
+    "facemesh": 1,
+    "head_pose": 1
+   },
+   "mean_max_weight": 0.966
+  }
+ },
+ "daisee/P1_official/gate_skip1_drop1_hybrid": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.13,
+   0.0,
+   0.159,
+   0.732
+  ],
+  "confusion_sum": [
+   [
+    9,
+    0,
+    17,
+    43
+   ],
+   [
+    68,
+    0,
+    83,
+    278
+   ],
+   [
+    309,
+    0,
+    389,
+    1741
+   ],
+   [
+    148,
+    0,
+    214,
+    988
+   ]
+  ],
+  "gates": {
+   "n": 3,
+   "one_hot": 2,
+   "winners": {
+    "facemesh": 1,
+    "face": 1,
+    "head_pose": 1
+   },
+   "mean_max_weight": 0.942
+  }
+ },
+ "daisee/P1_official/gate_skip1_drop1_soft": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.014,
+   0.0,
+   0.002,
+   0.99
+  ],
+  "confusion_sum": [
+   [
+    1,
+    0,
+    0,
+    68
+   ],
+   [
+    9,
+    0,
+    2,
+    418
+   ],
+   [
+    34,
+    0,
+    6,
+    2399
+   ],
+   [
+    14,
+    0,
+    0,
+    1336
+   ]
+  ],
+  "gates": {
+   "n": 3,
+   "one_hot": 2,
+   "winners": {
+    "face": 1,
+    "facemesh": 1,
+    "head_pose": 1
+   },
+   "mean_max_weight": 0.966
+  }
+ },
+ "daisee/P1_official/unimodal_face": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.0,
+   0.0,
+   0.554,
+   0.544
+  ],
+  "confusion_sum": [
+   [
+    0,
+    0,
+    42,
+    27
+   ],
+   [
+    1,
+    0,
+    267,
+    161
+   ],
+   [
+    1,
+    0,
+    1352,
+    1086
+   ],
+   [
+    1,
+    0,
+    614,
+    735
+   ]
+  ],
+  "gates": null
+ },
+ "daisee/P1_official/unimodal_facemesh": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.0,
+   0.0,
+   0.062,
+   0.933
+  ],
+  "confusion_sum": [
+   [
+    0,
+    0,
+    4,
+    65
+   ],
+   [
+    0,
+    0,
+    31,
+    398
+   ],
+   [
+    0,
+    0,
+    151,
+    2288
+   ],
+   [
+    0,
+    0,
+    90,
+    1260
+   ]
+  ],
+  "gates": null
+ },
+ "daisee/P1_official/unimodal_head_pose": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.029,
+   0.002,
+   0.683,
+   0.354
+  ],
+  "confusion_sum": [
+   [
+    2,
+    0,
+    53,
+    14
+   ],
+   [
+    0,
+    1,
+    292,
+    136
+   ],
+   [
+    9,
+    7,
+    1667,
+    756
+   ],
+   [
+    2,
+    1,
+    869,
+    478
+   ]
+  ],
+  "gates": null
+ },
+ "daisee/P1_test/core_skip0_drop0_hybrid": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.0,
+   0.012,
+   0.585,
+   0.46
+  ],
+  "confusion_sum": [
+   [
+    0,
+    0,
+    1,
+    11
+   ],
+   [
+    1,
+    3,
+    143,
+    96
+   ],
+   [
+    6,
+    11,
+    1491,
+    1039
+   ],
+   [
+    2,
+    9,
+    1129,
+    972
+   ]
+  ],
+  "gates": null
+ },
+ "daisee/P1_test/unimodal_face": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.0,
+   0.021,
+   0.67,
+   0.362
+  ],
+  "confusion_sum": [
+   [
+    0,
+    0,
+    3,
+    9
+   ],
+   [
+    1,
+    5,
+    167,
+    70
+   ],
+   [
+    12,
+    22,
+    1707,
+    806
+   ],
+   [
+    6,
+    22,
+    1319,
+    765
+   ]
+  ],
+  "gates": null
+ },
+ "daisee/P2_groupkfold/core_skip0_drop0": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.006,
+   0.005,
+   0.571,
+   0.475
+  ],
+  "confusion_sum": [
+   [
+    1,
+    0,
+    107,
+    72
+   ],
+   [
+    2,
+    6,
+    754,
+    513
+   ],
+   [
+    25,
+    11,
+    7081,
+    5291
+   ],
+   [
+    31,
+    9,
+    5159,
+    4695
+   ]
+  ],
+  "gates": null
+ },
+ "daisee/P2_groupkfold/core_skip0_drop0_hybrid": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.017,
+   0.002,
+   0.588,
+   0.465
+  ],
+  "confusion_sum": [
+   [
+    3,
+    0,
+    92,
+    85
+   ],
+   [
+    7,
+    2,
+    747,
+    519
+   ],
+   [
+    26,
+    14,
+    7300,
+    5068
+   ],
+   [
+    26,
+    8,
+    5256,
+    4604
+   ]
+  ],
+  "gates": null
+ },
+ "daisee/P2_groupkfold/core_skip0_drop0_soft": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.006,
+   0.005,
+   0.571,
+   0.475
+  ],
+  "confusion_sum": [
+   [
+    1,
+    0,
+    107,
+    72
+   ],
+   [
+    2,
+    6,
+    754,
+    513
+   ],
+   [
+    25,
+    11,
+    7081,
+    5291
+   ],
+   [
+    31,
+    9,
+    5159,
+    4695
+   ]
+  ],
+  "gates": null
+ },
+ "daisee/P2_groupkfold/core_skip0_drop1": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.0,
+   0.005,
+   0.568,
+   0.488
+  ],
+  "confusion_sum": [
+   [
+    0,
+    1,
+    100,
+    79
+   ],
+   [
+    2,
+    7,
+    754,
+    512
+   ],
+   [
+    18,
+    71,
+    7042,
+    5277
+   ],
+   [
+    4,
+    43,
+    5020,
+    4827
+   ]
+  ],
+  "gates": null
+ },
+ "daisee/P2_groupkfold/core_skip0_drop1_hybrid": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.006,
+   0.005,
+   0.598,
+   0.438
+  ],
+  "confusion_sum": [
+   [
+    1,
+    0,
+    101,
+    78
+   ],
+   [
+    1,
+    6,
+    763,
+    505
+   ],
+   [
+    10,
+    44,
+    7418,
+    4936
+   ],
+   [
+    4,
+    17,
+    5540,
+    4333
+   ]
+  ],
+  "gates": null
+ },
+ "daisee/P2_groupkfold/core_skip0_drop1_soft": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.0,
+   0.005,
+   0.568,
+   0.488
+  ],
+  "confusion_sum": [
+   [
+    0,
+    1,
+    100,
+    79
+   ],
+   [
+    2,
+    7,
+    754,
+    512
+   ],
+   [
+    18,
+    71,
+    7042,
+    5277
+   ],
+   [
+    4,
+    43,
+    5020,
+    4827
+   ]
+  ],
+  "gates": null
+ },
+ "daisee/P2_groupkfold/core_skip1_drop0": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.1,
+   0.0,
+   0.202,
+   0.758
+  ],
+  "confusion_sum": [
+   [
+    18,
+    0,
+    46,
+    116
+   ],
+   [
+    91,
+    0,
+    245,
+    939
+   ],
+   [
+    587,
+    0,
+    2510,
+    9311
+   ],
+   [
+    424,
+    0,
+    1975,
+    7495
+   ]
+  ],
+  "gates": null
+ },
+ "daisee/P2_groupkfold/core_skip1_drop0_hybrid": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.061,
+   0.0,
+   0.137,
+   0.841
+  ],
+  "confusion_sum": [
+   [
+    11,
+    0,
+    24,
+    145
+   ],
+   [
+    89,
+    0,
+    126,
+    1060
+   ],
+   [
+    491,
+    1,
+    1701,
+    10215
+   ],
+   [
+    259,
+    0,
+    1317,
+    8318
+   ]
+  ],
+  "gates": null
+ },
+ "daisee/P2_groupkfold/core_skip1_drop0_soft": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.1,
+   0.0,
+   0.202,
+   0.758
+  ],
+  "confusion_sum": [
+   [
+    18,
+    0,
+    46,
+    116
+   ],
+   [
+    91,
+    0,
+    245,
+    939
+   ],
+   [
+    587,
+    0,
+    2510,
+    9311
+   ],
+   [
+    424,
+    0,
+    1975,
+    7495
+   ]
+  ],
+  "gates": null
+ },
+ "daisee/P2_groupkfold/core_skip1_drop1": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.05,
+   0.005,
+   0.292,
+   0.672
+  ],
+  "confusion_sum": [
+   [
+    9,
+    3,
+    75,
+    93
+   ],
+   [
+    56,
+    7,
+    346,
+    866
+   ],
+   [
+    334,
+    47,
+    3627,
+    8400
+   ],
+   [
+    179,
+    35,
+    3028,
+    6652
+   ]
+  ],
+  "gates": null
+ },
+ "daisee/P2_groupkfold/core_skip1_drop1_hybrid": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.1,
+   0.0,
+   0.127,
+   0.827
+  ],
+  "confusion_sum": [
+   [
+    18,
+    0,
+    14,
+    148
+   ],
+   [
+    112,
+    0,
+    112,
+    1051
+   ],
+   [
+    600,
+    13,
+    1580,
+    10215
+   ],
+   [
+    442,
+    6,
+    1259,
+    8187
+   ]
+  ],
+  "gates": null
+ },
+ "daisee/P2_groupkfold/core_skip1_drop1_soft": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.05,
+   0.005,
+   0.292,
+   0.672
+  ],
+  "confusion_sum": [
+   [
+    9,
+    3,
+    75,
+    93
+   ],
+   [
+    56,
+    7,
+    346,
+    866
+   ],
+   [
+    334,
+    47,
+    3627,
+    8400
+   ],
+   [
+    179,
+    35,
+    3028,
+    6652
+   ]
+  ],
+  "gates": null
+ },
+ "daisee/P2_groupkfold/gate_skip0_drop0": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.0,
+   0.002,
+   0.536,
+   0.518
+  ],
+  "confusion_sum": [
+   [
+    0,
+    0,
+    94,
+    86
+   ],
+   [
+    7,
+    2,
+    735,
+    531
+   ],
+   [
+    22,
+    7,
+    6654,
+    5725
+   ],
+   [
+    16,
+    5,
+    4752,
+    5121
+   ]
+  ],
+  "gates": {
+   "n": 15,
+   "one_hot": 6,
+   "winners": {
+    "facemesh": 6,
+    "head_pose": 5,
+    "face": 4
+   },
+   "mean_max_weight": 0.835
+  }
+ },
+ "daisee/P2_groupkfold/gate_skip0_drop0_hybrid": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.017,
+   0.002,
+   0.565,
+   0.475
+  ],
+  "confusion_sum": [
+   [
+    3,
+    0,
+    100,
+    77
+   ],
+   [
+    6,
+    3,
+    752,
+    514
+   ],
+   [
+    21,
+    10,
+    7012,
+    5365
+   ],
+   [
+    21,
+    7,
+    5166,
+    4700
+   ]
+  ],
+  "gates": {
+   "n": 15,
+   "one_hot": 6,
+   "winners": {
+    "facemesh": 6,
+    "face": 6,
+    "head_pose": 3
+   },
+   "mean_max_weight": 0.736
+  }
+ },
+ "daisee/P2_groupkfold/gate_skip0_drop0_soft": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.0,
+   0.002,
+   0.536,
+   0.518
+  ],
+  "confusion_sum": [
+   [
+    0,
+    0,
+    94,
+    86
+   ],
+   [
+    7,
+    2,
+    735,
+    531
+   ],
+   [
+    22,
+    7,
+    6654,
+    5725
+   ],
+   [
+    16,
+    5,
+    4752,
+    5121
+   ]
+  ],
+  "gates": {
+   "n": 15,
+   "one_hot": 6,
+   "winners": {
+    "facemesh": 6,
+    "head_pose": 5,
+    "face": 4
+   },
+   "mean_max_weight": 0.835
+  }
+ },
+ "daisee/P2_groupkfold/gate_skip0_drop1": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.0,
+   0.0,
+   0.544,
+   0.498
+  ],
+  "confusion_sum": [
+   [
+    0,
+    0,
+    97,
+    83
+   ],
+   [
+    2,
+    0,
+    740,
+    533
+   ],
+   [
+    33,
+    0,
+    6754,
+    5621
+   ],
+   [
+    11,
+    0,
+    4955,
+    4928
+   ]
+  ],
+  "gates": {
+   "n": 15,
+   "one_hot": 15,
+   "winners": {
+    "face": 15
+   },
+   "mean_max_weight": 1.0
+  }
+ },
+ "daisee/P2_groupkfold/gate_skip0_drop1_hybrid": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.0,
+   0.0,
+   0.542,
+   0.506
+  ],
+  "confusion_sum": [
+   [
+    0,
+    0,
+    97,
+    83
+   ],
+   [
+    3,
+    0,
+    735,
+    537
+   ],
+   [
+    20,
+    0,
+    6727,
+    5661
+   ],
+   [
+    13,
+    3,
+    4874,
+    5004
+   ]
+  ],
+  "gates": {
+   "n": 15,
+   "one_hot": 15,
+   "winners": {
+    "face": 15
+   },
+   "mean_max_weight": 1.0
+  }
+ },
+ "daisee/P2_groupkfold/gate_skip0_drop1_soft": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.0,
+   0.0,
+   0.544,
+   0.498
+  ],
+  "confusion_sum": [
+   [
+    0,
+    0,
+    97,
+    83
+   ],
+   [
+    2,
+    0,
+    740,
+    533
+   ],
+   [
+    33,
+    0,
+    6754,
+    5621
+   ],
+   [
+    11,
+    0,
+    4955,
+    4928
+   ]
+  ],
+  "gates": {
+   "n": 15,
+   "one_hot": 15,
+   "winners": {
+    "face": 15
+   },
+   "mean_max_weight": 1.0
+  }
+ },
+ "daisee/P2_groupkfold/gate_skip1_drop0": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.1,
+   0.006,
+   0.27,
+   0.671
+  ],
+  "confusion_sum": [
+   [
+    18,
+    3,
+    31,
+    128
+   ],
+   [
+    137,
+    8,
+    333,
+    797
+   ],
+   [
+    676,
+    86,
+    3356,
+    8290
+   ],
+   [
+    492,
+    58,
+    2707,
+    6637
+   ]
+  ],
+  "gates": {
+   "n": 15,
+   "one_hot": 5,
+   "winners": {
+    "head_pose": 5,
+    "face": 5,
+    "facemesh": 5
+   },
+   "mean_max_weight": 0.816
+  }
+ },
+ "daisee/P2_groupkfold/gate_skip1_drop0_hybrid": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.117,
+   0.001,
+   0.161,
+   0.727
+  ],
+  "confusion_sum": [
+   [
+    21,
+    0,
+    27,
+    132
+   ],
+   [
+    161,
+    1,
+    186,
+    927
+   ],
+   [
+    1448,
+    1,
+    1996,
+    8963
+   ],
+   [
+    1089,
+    2,
+    1613,
+    7190
+   ]
+  ],
+  "gates": {
+   "n": 15,
+   "one_hot": 8,
+   "winners": {
+    "facemesh": 7,
+    "face": 5,
+    "head_pose": 3
+   },
+   "mean_max_weight": 0.895
+  }
+ },
+ "daisee/P2_groupkfold/gate_skip1_drop0_soft": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.1,
+   0.006,
+   0.27,
+   0.671
+  ],
+  "confusion_sum": [
+   [
+    18,
+    3,
+    31,
+    128
+   ],
+   [
+    137,
+    8,
+    333,
+    797
+   ],
+   [
+    676,
+    86,
+    3356,
+    8290
+   ],
+   [
+    492,
+    58,
+    2707,
+    6637
+   ]
+  ],
+  "gates": {
+   "n": 15,
+   "one_hot": 5,
+   "winners": {
+    "head_pose": 5,
+    "face": 5,
+    "facemesh": 5
+   },
+   "mean_max_weight": 0.816
+  }
+ },
+ "daisee/P2_groupkfold/gate_skip1_drop1": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.1,
+   0.0,
+   0.208,
+   0.776
+  ],
+  "confusion_sum": [
+   [
+    18,
+    0,
+    51,
+    111
+   ],
+   [
+    88,
+    0,
+    271,
+    916
+   ],
+   [
+    375,
+    9,
+    2579,
+    9445
+   ],
+   [
+    218,
+    5,
+    1990,
+    7681
+   ]
+  ],
+  "gates": {
+   "n": 15,
+   "one_hot": 5,
+   "winners": {
+    "facemesh": 6,
+    "face": 5,
+    "head_pose": 4
+   },
+   "mean_max_weight": 0.825
+  }
+ },
+ "daisee/P2_groupkfold/gate_skip1_drop1_hybrid": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.056,
+   0.005,
+   0.189,
+   0.759
+  ],
+  "confusion_sum": [
+   [
+    10,
+    0,
+    40,
+    130
+   ],
+   [
+    89,
+    6,
+    199,
+    981
+   ],
+   [
+    573,
+    45,
+    2340,
+    9450
+   ],
+   [
+    356,
+    31,
+    1998,
+    7509
+   ]
+  ],
+  "gates": {
+   "n": 15,
+   "one_hot": 8,
+   "winners": {
+    "face": 6,
+    "head_pose": 5,
+    "facemesh": 4
+   },
+   "mean_max_weight": 0.877
+  }
+ },
+ "daisee/P2_groupkfold/gate_skip1_drop1_soft": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.1,
+   0.0,
+   0.208,
+   0.776
+  ],
+  "confusion_sum": [
+   [
+    18,
+    0,
+    51,
+    111
+   ],
+   [
+    88,
+    0,
+    271,
+    916
+   ],
+   [
+    375,
+    9,
+    2579,
+    9445
+   ],
+   [
+    218,
+    5,
+    1990,
+    7681
+   ]
+  ],
+  "gates": {
+   "n": 15,
+   "one_hot": 5,
+   "winners": {
+    "facemesh": 6,
+    "face": 5,
+    "head_pose": 4
+   },
+   "mean_max_weight": 0.825
+  }
+ },
+ "daisee/P2_groupkfold/shuffle_core_skip1_drop1": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.278,
+   0.005,
+   0.238,
+   0.526
+  ],
+  "confusion_sum": [
+   [
+    50,
+    1,
+    29,
+    100
+   ],
+   [
+    334,
+    7,
+    254,
+    680
+   ],
+   [
+    3282,
+    25,
+    2958,
+    6143
+   ],
+   [
+    2547,
+    9,
+    2137,
+    5201
+   ]
+  ],
+  "gates": null
+ },
+ "daisee/P2_groupkfold/unimodal_face": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.0,
+   0.002,
+   0.6,
+   0.425
+  ],
+  "confusion_sum": [
+   [
+    0,
+    0,
+    104,
+    76
+   ],
+   [
+    5,
+    2,
+    767,
+    501
+   ],
+   [
+    27,
+    36,
+    7443,
+    4902
+   ],
+   [
+    12,
+    27,
+    5648,
+    4207
+   ]
+  ],
+  "gates": null
+ },
+ "daisee/P2_groupkfold/unimodal_facemesh": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.0,
+   0.001,
+   0.405,
+   0.565
+  ],
+  "confusion_sum": [
+   [
+    0,
+    0,
+    87,
+    93
+   ],
+   [
+    0,
+    1,
+    551,
+    723
+   ],
+   [
+    0,
+    2,
+    5025,
+    7381
+   ],
+   [
+    0,
+    2,
+    4301,
+    5591
+   ]
+  ],
+  "gates": null
+ },
+ "daisee/P2_groupkfold/unimodal_head_pose": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.0,
+   0.001,
+   0.458,
+   0.576
+  ],
+  "confusion_sum": [
+   [
+    0,
+    0,
+    101,
+    79
+   ],
+   [
+    0,
+    1,
+    677,
+    597
+   ],
+   [
+    0,
+    2,
+    5685,
+    6721
+   ],
+   [
+    0,
+    0,
+    4191,
+    5703
+   ]
+  ],
+  "gates": null
+ },
+ "engagenet/P2_groupkfold/core_skip1_drop0": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.168,
+   0.11,
+   0.221,
+   0.589
+  ],
+  "confusion_sum": [
+   [
+    2908,
+    2466,
+    3473,
+    8493
+   ],
+   [
+    1775,
+    1371,
+    2820,
+    6454
+   ],
+   [
+    2132,
+    2672,
+    4402,
+    10690
+   ],
+   [
+    4157,
+    5011,
+    9270,
+    26442
+   ]
+  ],
+  "gates": null
+ },
+ "engagenet/P2_groupkfold/gate_skip1_drop0": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.136,
+   0.121,
+   0.327,
+   0.553
+  ],
+  "confusion_sum": [
+   [
+    2360,
+    2920,
+    5153,
+    6907
+   ],
+   [
+    1084,
+    1509,
+    3897,
+    5930
+   ],
+   [
+    1246,
+    2257,
+    6500,
+    9893
+   ],
+   [
+    1569,
+    3763,
+    14730,
+    24818
+   ]
+  ],
+  "gates": {
+   "n": 15,
+   "one_hot": 7,
+   "winners": {
+    "face": 7,
+    "facemesh": 4,
+    "head_pose": 4
+   },
+   "mean_max_weight": 0.869
+  }
+ },
+ "engagenet/P2_groupkfold/shuffle_core_skip1_drop1": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.109,
+   0.026,
+   0.312,
+   0.591
+  ],
+  "confusion_sum": [
+   [
+    1898,
+    661,
+    5189,
+    9592
+   ],
+   [
+    591,
+    326,
+    3679,
+    7824
+   ],
+   [
+    1056,
+    449,
+    6203,
+    12188
+   ],
+   [
+    3236,
+    800,
+    14306,
+    26538
+   ]
+  ],
+  "gates": null
+ },
+ "engagenet/P2_groupkfold/unimodal_face": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.334,
+   0.164,
+   0.24,
+   0.402
+  ],
+  "confusion_sum": [
+   [
+    5798,
+    2646,
+    4399,
+    4497
+   ],
+   [
+    3932,
+    2031,
+    3235,
+    3222
+   ],
+   [
+    6243,
+    3475,
+    4781,
+    5397
+   ],
+   [
+    10201,
+    6074,
+    10564,
+    18041
+   ]
+  ],
+  "gates": null
+ },
+ "engagenet/P2_groupkfold/unimodal_facemesh": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.532,
+   0.0,
+   0.012,
+   0.907
+  ],
+  "confusion_sum": [
+   [
+    9220,
+    28,
+    217,
+    7875
+   ],
+   [
+    2875,
+    6,
+    142,
+    9397
+   ],
+   [
+    3623,
+    18,
+    246,
+    16009
+   ],
+   [
+    3814,
+    15,
+    338,
+    40713
+   ]
+  ],
+  "gates": null
+ },
+ "engagenet/P2_groupkfold/unimodal_head_pose": {
+  "n_seeds": 3,
+  "recall_mean": [
+   0.491,
+   0.003,
+   0.006,
+   0.923
+  ],
+  "confusion_sum": [
+   [
+    8519,
+    133,
+    132,
+    8556
+   ],
+   [
+    2571,
+    34,
+    54,
+    9761
+   ],
+   [
+    2971,
+    54,
+    118,
+    16753
+   ],
+   [
+    3313,
+    53,
+    94,
+    41420
+   ]
+  ],
+  "gates": null
+ }
+}

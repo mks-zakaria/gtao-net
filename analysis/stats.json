@@ -1,0 +1,266 @@
+{
+ "dipser_link": {
+  "p_config": 0.0024,
+  "n_pairs": 12,
+  "wins": 10,
+  "n_diffs": 36,
+  "median": 0.0762,
+  "mean": 0.0833,
+  "p": 0.006
+ },
+ "dipser_gate_vs_core": {
+  "p_config": 0.68,
+  "n_pairs": 12,
+  "wins": 7,
+  "n_diffs": 36,
+  "median": -0.0089,
+  "mean": 0.0072,
+  "p": 0.88
+ },
+ "dipser_soft_vs_coral": {
+  "p_config": 0.023,
+  "n_pairs": 8,
+  "wins": 7,
+  "n_diffs": 24,
+  "median": 0.0623,
+  "mean": 0.0717,
+  "p": 0.0059
+ },
+ "dipser_soft_vs_hybrid": {
+  "p_config": 0.016,
+  "n_pairs": 8,
+  "wins": 7,
+  "n_diffs": 24,
+  "median": 0.1172,
+  "mean": 0.1179,
+  "p": 0.00018
+ },
+ "dipser_drop": {
+  "p_config": 0.62,
+  "n_pairs": 12,
+  "wins": 8,
+  "n_diffs": 36,
+  "median": -0.0159,
+  "mean": 0.0049,
+  "p": 0.99
+ },
+ "dipser_unimodal_soft_vs_coral": {
+  "p_config": 0.62,
+  "n_pairs": 4,
+  "wins": 2,
+  "n_diffs": 12,
+  "median": 0.011,
+  "mean": 0.0343,
+  "p": 0.73
+ },
+ "dipser_best": [
+  "gate_skip1_drop0_soft",
+  0.1245,
+  "unimodal_facemesh_cw_soft",
+  0.2558,
+  -0.1313
+ ],
+ "dipser_fusion_vs_uni_bestpair_perseed": [
+  -0.3268,
+  -0.0464,
+  -0.0206
+ ],
+ "dipser_fusion_seedcells_above_uni": [
+  0,
+  1,
+  0
+ ],
+ "dipser_n_fusion_cfgs": 24,
+ "dipser_shuffle": 0.0085,
+ "dipser_probes": {
+  "gate_skip1_drop0_soft": {
+   "tower_first_skipON": 13.4631,
+   "tower_first_skipOFF": 0.1022,
+   "skip_grad": 123.6485,
+   "ratio_skip_over_towerOFF": 1209.8
+  },
+  "core_skip1_drop1": {
+   "tower_first_skipON": 7.9878,
+   "tower_first_skipOFF": 0.3498,
+   "skip_grad": 90.977,
+   "ratio_skip_over_towerOFF": 260.088
+  },
+  "core_skip1_drop1_soft": {
+   "tower_first_skipON": 7.9878,
+   "tower_first_skipOFF": 0.3498,
+   "skip_grad": 90.977,
+   "ratio_skip_over_towerOFF": 260.088
+  },
+  "core_skip1_drop0_soft": {
+   "tower_first_skipON": 9.3922,
+   "tower_first_skipOFF": 0.7711,
+   "skip_grad": 91.7592,
+   "ratio_skip_over_towerOFF": 118.994
+  },
+  "gate_skip1_drop0": {
+   "tower_first_skipON": 13.4631,
+   "tower_first_skipOFF": 0.1022,
+   "skip_grad": 123.6485,
+   "ratio_skip_over_towerOFF": 1209.8
+  },
+  "gate_skip1_drop1_hybrid": {
+   "tower_first_skipON": 11.7795,
+   "tower_first_skipOFF": 0.1338,
+   "skip_grad": 123.6485,
+   "ratio_skip_over_towerOFF": 924.046
+  },
+  "gate_skip1_drop0_hybrid": {
+   "tower_first_skipON": 13.4631,
+   "tower_first_skipOFF": 0.1022,
+   "skip_grad": 123.6485,
+   "ratio_skip_over_towerOFF": 1209.8
+  },
+  "shuffle_core_skip1_drop1": {
+   "tower_first_skipON": 3.8205,
+   "tower_first_skipOFF": 3.1398,
+   "skip_grad": 47.9429,
+   "ratio_skip_over_towerOFF": 15.269
+  },
+  "core_skip1_drop0": {
+   "tower_first_skipON": 9.3922,
+   "tower_first_skipOFF": 0.7711,
+   "skip_grad": 91.7592,
+   "ratio_skip_over_towerOFF": 118.994
+  },
+  "gate_skip1_drop1_soft": {
+   "tower_first_skipON": 11.7795,
+   "tower_first_skipOFF": 0.1338,
+   "skip_grad": 123.6485,
+   "ratio_skip_over_towerOFF": 924.046
+  },
+  "gate_skip1_drop1": {
+   "tower_first_skipON": 11.7795,
+   "tower_first_skipOFF": 0.1338,
+   "skip_grad": 123.6485,
+   "ratio_skip_over_towerOFF": 924.046
+  },
+  "core_skip1_drop1_hybrid": {
+   "tower_first_skipON": 7.9878,
+   "tower_first_skipOFF": 0.3498,
+   "skip_grad": 90.977,
+   "ratio_skip_over_towerOFF": 260.088
+  },
+  "core_skip1_drop0_hybrid": {
+   "tower_first_skipON": 9.3922,
+   "tower_first_skipOFF": 0.7711,
+   "skip_grad": 91.7592,
+   "ratio_skip_over_towerOFF": 118.994
+  }
+ },
+ "dipser_probe_first_layer_ratio_range": [
+  1.2,
+  131.7
+ ],
+ "dipser_probe_unique": [
+  [
+   3.8205,
+   3.1398
+  ],
+  [
+   7.9878,
+   0.3498
+  ],
+  [
+   9.3922,
+   0.7711
+  ],
+  [
+   11.7795,
+   0.1338
+  ],
+  [
+   13.4631,
+   0.1022
+  ]
+ ],
+ "dipser_masked": {
+  "gate_skip1_drop0_soft": {
+   "none": 0.0,
+   "mask_face": -0.063,
+   "mask_facemesh": -0.129,
+   "mask_head_pose": -0.051,
+   "mask_physio": -0.047
+  },
+  "core_skip1_drop0_soft": {
+   "none": 0.0,
+   "mask_face": -0.111,
+   "mask_facemesh": -0.053,
+   "mask_head_pose": 0.01,
+   "mask_physio": -0.067
+  }
+ },
+ "dipser_masked_base": {
+  "gate_skip1_drop0_soft": 0.1245,
+  "core_skip1_drop0_soft": 0.072
+ },
+ "daisee_P1_soft_identical_to_coral": true,
+ "daisee_P1_link": {
+  "p_config": 0.0078,
+  "n_pairs": 8,
+  "wins": 0,
+  "n_diffs": 24,
+  "median": -0.0464,
+  "mean": -0.0537,
+  "p": 2.4e-07
+ },
+ "daisee_P1_gate_vs_core": {
+  "p_config": 0.46,
+  "n_pairs": 8,
+  "wins": 4,
+  "n_diffs": 24,
+  "median": -0.0176,
+  "mean": -0.0063,
+  "p": 0.18
+ },
+ "daisee_P1_best": [
+  "core_skip0_drop0_hybrid",
+  0.0922,
+  "unimodal_face",
+  0.093,
+  -0.0008
+ ],
+ "daisee_P2_soft_identical_to_coral": true,
+ "daisee_P2_link": {
+  "p_config": 0.016,
+  "n_pairs": 8,
+  "wins": 1,
+  "n_diffs": 24,
+  "median": -0.0243,
+  "mean": -0.0212,
+  "p": 0.0014
+ },
+ "daisee_P2_gate_vs_core": {
+  "p_config": 0.95,
+  "n_pairs": 8,
+  "wins": 4,
+  "n_diffs": 24,
+  "median": 0.0052,
+  "mean": 0.0012,
+  "p": 0.58
+ },
+ "daisee_P2_best": [
+  "core_skip0_drop1",
+  0.0593,
+  "unimodal_head_pose",
+  0.0495,
+  0.0098
+ ],
+ "engagenet_best": [
+  "gate_skip1_drop0",
+  0.1701,
+  "unimodal_facemesh",
+  0.3662
+ ],
+ "engagenet_gap": -0.1961,
+ "engagenet_gate_vs_core_perseed": [
+  0.112,
+  0.0335,
+  0.0634
+ ],
+ "_results_dir": "v2"
+}
