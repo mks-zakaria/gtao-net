@@ -12,3 +12,4 @@ jobs:
       - run: sha256sum -c SHA256SUMS
       - run: python verify/verify_results.py
       - run: python verify/person_disjoint_sensitivity.py
+      - run: python verify/late_fusion_baseline.py

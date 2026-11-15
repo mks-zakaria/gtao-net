@@ -62,6 +62,7 @@ gtao-net/
 ├── verify/                      independent verification (see below)
 │   ├── verify_results.py        recomputes every reported number from the raw predictions
 │   ├── person_disjoint_sensitivity.py   DIPSER rescored on person-disjoint windows
+│   ├── late_fusion_baseline.py  decision-level fusion (vote of the 4 single streams), §6.1
 │   ├── local_cost_benchmark.py  time / memory / parameters on a CPU-only laptop (Table 5)
 │   ├── local_cost_benchmark.json  measured on Apple M5, 4 threads, no GPU
 │   ├── claims.json              numbers quoted in the abstract
@@ -89,6 +90,7 @@ gtao-net/
 pip install -r requirements.txt
 python verify/verify_results.py                  # ~1 min, exit code 0 = all checks passed
 python verify/person_disjoint_sensitivity.py     # optional DIPSER sensitivity analysis
+python verify/late_fusion_baseline.py            # late-fusion baseline quoted in §6.1
 python verify/local_cost_benchmark.py --kernel <gtao_grid.py from the DIPSER kernel>   # optional, needs torch
 sha256sum -c SHA256SUMS                          # file integrity (shasum -a 256 -c on macOS)
 ```
