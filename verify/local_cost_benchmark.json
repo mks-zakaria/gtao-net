@@ -1,0 +1,90 @@
+{
+ "machine": {
+  "platform": "macOS-26.4.1-arm64-arm-64bit-Mach-O",
+  "processor": "arm",
+  "python": "3.14.4",
+  "torch": "2.15.0",
+  "torch_threads": 4,
+  "gpu": "none (CPU only)"
+ },
+ "tchebichef_encoding": {
+  "windows_timed": 200,
+  "frames_per_window": 40,
+  "ms_per_window": 0.6,
+  "estimated_s_for_1566_windows": 0.9,
+  "feature_dims": [
+   1536,
+   8604,
+   18,
+   48
+  ],
+  "note": "moments only; image decoding and the shipped MediaPipe landmarks are not included"
+ },
+ "feature_cache_mb_float32": 61.0,
+ "training": [
+  {
+   "config": "largest fusion: gate + link, 4 streams",
+   "parameters": 2068679,
+   "seconds_per_fold": [
+    2.63,
+    1.06,
+    1.36,
+    1.25,
+    2.14
+   ],
+   "epochs_per_fold": [
+    17,
+    9,
+    11,
+    9,
+    18
+   ],
+   "mean_seconds_per_fold": 1.69,
+   "mean_seconds_per_epoch": 0.131,
+   "upper_bound_s_per_fold_40_epochs": 5.2
+  },
+  {
+   "config": "core fusion, no link, 4 streams",
+   "parameters": 1348675,
+   "seconds_per_fold": [
+    0.71,
+    2.33,
+    1.52,
+    1.01,
+    0.89
+   ],
+   "epochs_per_fold": [
+    9,
+    27,
+    11,
+    12,
+    10
+   ],
+   "mean_seconds_per_fold": 1.29,
+   "mean_seconds_per_epoch": 0.095,
+   "upper_bound_s_per_fold_40_epochs": 3.8
+  },
+  {
+   "config": "single stream: face mesh",
+   "parameters": 1118083,
+   "seconds_per_fold": [
+    0.52,
+    0.58,
+    0.45,
+    0.48,
+    0.51
+   ],
+   "epochs_per_fold": [
+    9,
+    11,
+    9,
+    10,
+    9
+   ],
+   "mean_seconds_per_fold": 0.51,
+   "mean_seconds_per_epoch": 0.053,
+   "upper_bound_s_per_fold_40_epochs": 2.1
+  }
+ ],
+ "peak_memory_mb": 574.0
+}
