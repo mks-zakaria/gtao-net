@@ -1,12 +1,15 @@
 cff-version: 1.2.0
 message: "If you use this software or its results, please cite it as below."
-title: "gTAO-Net: Gated Multimodal Ordinal Fusion for Attention Estimation in In-Person Classrooms"
+title: "gTAO-Net: Does Multimodal Fusion Help Classroom Attention Estimation? Results and verification"
 authors:
   - family-names: Makhkhas
     given-names: Zakaria
-    orcid: "https://orcid.org/0000-0000-0000-0000"
-version: 1.0
-date-released: "2026-09-27"
+  - family-names: Rifai
+    given-names: Amal
+  - family-names: Sadiq
+    given-names: Abdelalim
+version: 2.0
+date-released: "2026-11-15"
 license: MIT
 keywords:
   - student attention estimation

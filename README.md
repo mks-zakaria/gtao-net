@@ -32,6 +32,13 @@ classroom) and two webcam benchmarks, [DAiSEE](https://arxiv.org/abs/1609.01885)
 Limitation: every EngageNet clip in the cached features is one frame repeated, so EngageNet
 tests static geometry only.
 
+Limitation: DIPSER folds are grouped by session-subject (`group/experiment/subject`). The slice
+holds two sessions of the same 20 students, so for 5–20% of scored windows (depending on the
+seed) the same student's other session is in training. `verify/person_disjoint_sensitivity.py`
+rescores every run on person-disjoint windows only: no fusion beats the best stream (0/24),
+the gate stays inert (p = 0.79) and the link still helps (10/12, p = 0.021); the soft-vs-CORAL
+gain weakens to 6/8 pairs (p = 0.078).
+
 ---
 
 ## Repository layout
@@ -42,6 +49,14 @@ gtao-net/
 ├── LICENSE                      MIT
 ├── CITATION.cff
 ├── assets/architecture.png
+├── requirements.txt             numpy, scipy (verification and analysis)
+├── SHA256SUMS                   checksums of every result file
+├── verify/                      independent verification (see below)
+│   ├── verify_results.py        recomputes every reported number from the raw predictions
+│   ├── person_disjoint_sensitivity.py   DIPSER rescored on person-disjoint windows
+│   ├── claims.json              numbers quoted in the abstract
+│   └── dipser_session_subjects.txt      the 40 session-subjects the DIPSER folds are dealt from
+├── tables/                      the LaTeX tables exactly as printed in the paper
 ├── analysis/                    scripts that regenerate every table of the paper
 │   ├── stats.py                 paired tests -> stats.json
 │   ├── tables.py                LaTeX tables
@@ -58,12 +73,35 @@ gtao-net/
     └── *.json                   v1 results (epoch selected on the scored fold)
 ```
 
-Regenerate the statistics from the v2 results:
+## Verify the results
 
 ```bash
-GTAO_RESULTS=results/v2 python analysis/stats.py
-GTAO_RESULTS=results/v2 python analysis/perclass.py
+pip install -r requirements.txt
+python verify/verify_results.py                  # ~1 min, exit code 0 = all checks passed
+python verify/person_disjoint_sensitivity.py     # optional DIPSER sensitivity analysis
+sha256sum -c SHA256SUMS                          # file integrity (shasum -a 256 -c on macOS)
 ```
+
+`verify_results.py` does not reuse the training or analysis code for its core checks. It
+
+1. recomputes QWK, accuracy, MAE, n and n_subjects of all 288 out-of-fold prediction files
+   (3 seeds × every configuration, DIPSER / DAiSEE P1, P2, P1-Test / EngageNet);
+2. checks every per-seed QWK, mean and standard deviation in the four metrics files against them;
+3. rebuilds every outer fold with the kernels' rule (sorted subjects, `numpy.random.default_rng(seed)`
+   shuffle, round-robin into 5 folds), checks the fold sizes against the recorded `n_val`, and checks
+   that no inner-validation subject used for epoch selection belongs to the scored fold;
+4. checks the permuted-label controls (|QWK| ≤ 0.10) and the nested-split lines in the Kaggle logs;
+5. reruns `analysis/*.py` in a temporary folder and requires `analysis/*.json` and every
+   `tables/*.tex` to come out byte-identical;
+6. compares the numbers quoted in the abstract (`verify/claims.json`) with the results.
+
+The same checks run on every push (`.github/workflows/verify.yml`).
+
+To regenerate the tables yourself: `GTAO_RESULTS=results/v2 python analysis/stats.py`, then
+`tables.py`, `perclass.py` and `comparison.py` (they write into `tables/`).
+
+The training code is the three public Kaggle kernels below; the versions that produced
+`results/v2` are DIPSER version 1, DAiSEE version 3 (versions 2 + 3, resumed), EngageNet version 2.
 
 ---
 

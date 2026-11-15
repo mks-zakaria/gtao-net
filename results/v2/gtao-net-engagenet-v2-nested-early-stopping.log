@@ -1,0 +1,279 @@
+[{"stream_name":"stdout","time":12.19877162,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 294.6/294.6 kB 6.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":12.49872978,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 35.7/35.7 MB 61.3 MB/s eta 0:00:00\n"}
+,{"stream_name":"stderr","time":16.270148506,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":16.270174279,"data":"bigframes 2.39.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":16.270180242,"data":"google-adk 1.29.0 requires google-cloud-bigquery-storage\u003e=2.0.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":16.270185029,"data":"grpcio-tools 1.71.2 requires protobuf\u003c6.0dev,\u003e=5.26.1, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.270189624,"data":"google-cloud-vision 3.15.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.270193698,"data":"google-cloud-videointelligence 2.20.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.27019761,"data":"a2a-sdk 0.3.26 requires protobuf\u003e=5.29.5, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.270201399,"data":"grpc-google-iam-v1 0.14.4 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.270206939,"data":"google-cloud-dataplex 2.18.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.270214247,"data":"tensorflow 2.20.0 requires protobuf\u003e=5.28.0, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.270216859,"data":"google-cloud-firestore 2.27.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.270219395,"data":"google-cloud-secret-manager 2.27.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.270222065,"data":"google-cloud-appengine-logging 1.9.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.27022472,"data":"proto-plus 1.27.2 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.270227319,"data":"google-cloud-bigquery-connection 1.21.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.270229879,"data":"google-cloud-speech 2.38.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.270232397,"data":"ydf 0.15.0 requires protobuf\u003c7.0.0,\u003e=5.29.1, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.270234922,"data":"google-cloud-audit-log 0.5.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.270238999,"data":"google-cloud-resource-manager 1.17.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.270252425,"data":"google-cloud-language 2.20.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.270270925,"data":"google-cloud-iam 2.22.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.270275262,"data":"google-cloud-pubsub 2.37.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.270279763,"data":"google-cloud-spanner 3.65.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.270283988,"data":"google-cloud-translate 3.26.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.270288611,"data":"google-cloud-datastore 2.24.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.270292621,"data":"google-cloud-dataproc 5.27.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.270296461,"data":"google-cloud-logging 3.15.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.270300215,"data":"opentelemetry-proto 1.38.0 requires protobuf\u003c7.0,\u003e=5.0, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.270304054,"data":"google-cloud-functions 1.23.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.270307723,"data":"google-api-core 2.30.3 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.270311689,"data":"googleapis-common-protos 1.74.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.270317113,"data":"google-cloud-monitoring 2.30.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.270324223,"data":"grain 0.2.16 requires protobuf\u003e=5.28.3, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.270326727,"data":"grpcio-status 1.71.2 requires protobuf\u003c6.0dev,\u003e=5.26.1, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.270329711,"data":"google-cloud-trace 1.19.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stdout","time":16.36695845,"data":"PB_FILE /usr/local/lib/python3.12/dist-packages/google/protobuf/__init__.py\n"}
+,{"stream_name":"stdout","time":16.366986295,"data":"PB_VER 4.25.3\n"}
+,{"stream_name":"stdout","time":16.366992147,"data":"RV_EXISTS_AFTER_SHIM True\n"}
+,{"stream_name":"stdout","time":35.246186272,"data":"MP_OK_TOP 0.10.14\n"}
+,{"stream_name":"stdout","time":35.913531364,"data":"device: cuda | FAST: False\n"}
+,{"stream_name":"stderr","time":52.301021019,"data":"INFO: Created TensorFlow Lite XNNPACK delegate for CPU.\n"}
+,{"stream_name":"stderr","time":52.303786061,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stderr","time":52.303809977,"data":"W0000 00:00:1793870151.734366      57 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\n"}
+,{"stream_name":"stderr","time":52.325616586,"data":"W0000 00:00:1793870151.756109      56 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\n"}
+,{"stream_name":"stderr","time":52.654206549,"data":"/usr/local/lib/python3.12/dist-packages/google/protobuf/symbol_database.py:55: UserWarning: SymbolDatabase.GetPrototype() is deprecated. Please use message_factory.GetMessageClass() instead. SymbolDatabase.GetPrototype() will be removed soon.\n"}
+,{"stream_name":"stderr","time":52.654240895,"data":"  warnings.warn('SymbolDatabase.GetPrototype() is deprecated. Please '\n"}
+,{"stream_name":"stdout","time":591.77966171,"data":"  2000/31512 crops, 2000 clips [539s]\n"}
+,{"stream_name":"stdout","time":1109.727544964,"data":"  4000/31512 crops, 4000 clips [1057s]\n"}
+,{"stream_name":"stdout","time":1624.815648244,"data":"  6000/31512 crops, 6000 clips [1573s]\n"}
+,{"stream_name":"stdout","time":2179.442025436,"data":"  8000/31512 crops, 8000 clips [2127s]\n"}
+,{"stream_name":"stdout","time":2723.987480042,"data":"  10000/31512 crops, 10000 clips [2672s]\n"}
+,{"stream_name":"stdout","time":3290.415931825,"data":"  12000/31512 crops, 12000 clips [3238s]\n"}
+,{"stream_name":"stdout","time":3832.599313731,"data":"  14000/31512 crops, 14000 clips [3780s]\n"}
+,{"stream_name":"stdout","time":4419.3959016,"data":"  16000/31512 crops, 16000 clips [4367s]\n"}
+,{"stream_name":"stdout","time":4966.947418878,"data":"  18000/31512 crops, 18000 clips [4915s]\n"}
+,{"stream_name":"stdout","time":5533.104059925,"data":"  20000/31512 crops, 20000 clips [5481s]\n"}
+,{"stream_name":"stdout","time":6097.171864158,"data":"  22000/31512 crops, 22000 clips [6045s]\n"}
+,{"stream_name":"stdout","time":6646.946393551,"data":"  24000/31512 crops, 24000 clips [6595s]\n"}
+,{"stream_name":"stdout","time":7190.632415465,"data":"  26000/31512 crops, 26000 clips [7138s]\n"}
+,{"stream_name":"stdout","time":7763.712067385,"data":"  28000/31512 crops, 28000 clips [7711s]\n"}
+,{"stream_name":"stdout","time":8306.774897627,"data":"  30000/31512 crops, 30000 clips [8254s]\n"}
+,{"stream_name":"stdout","time":8720.200743263,"data":"stream face: present in 31512/31512 (100.0%)\n"}
+,{"stream_name":"stdout","time":8721.031983931,"data":"stream facemesh: present in 30994/31512 (98.4%)\n"}
+,{"stream_name":"stdout","time":8721.065100667,"data":"stream head_pose: present in 30994/31512 (98.4%)\n"}
+,{"stream_name":"stdout","time":8722.898500736,"data":"corpus: 31512 clips, 91 subjects, 8671s\n"}
+,{"stream_name":"stdout","time":8726.653943598,"data":"\n"}
+,{"stream_name":"stdout","time":8726.653973607,"data":"== population ==\n"}
+,{"stream_name":"stdout","time":8726.657942519,"data":"  Train      clips=25259 subjects= 91 class=[4646, 3332, 5315, 11966]\n"}
+,{"stream_name":"stdout","time":8726.658643049,"data":"  Validation clips= 3116 subjects= 85 class=[571, 393, 630, 1522]\n"}
+,{"stream_name":"stdout","time":8726.659317293,"data":"  Test       clips= 3137 subjects= 88 class=[563, 415, 687, 1472]\n"}
+,{"stream_name":"stdout","time":8726.666681029,"data":"  subject overlap (Kaggle splits, NOT subject-disjoint): {'Train|Validation': 85, 'Train|Test': 88, 'Validation|Test': 85}\n"}
+,{"stream_name":"stdout","time":8726.666696454,"data":"scoped P2 grid: 6 configs x 3 seeds x 5 folds (est. ~4.2 h GPU, +~0.3 h feature extraction; 5 h session cap)\n"}
+,{"stream_name":"stdout","time":8726.686577101,"data":"P2 seed 0 | n=31512 subjects=91 class_dist=[5780, 4140, 6632, 14960]\n"}
+,{"stream_name":"stdout","time":8727.17898349,"data":"    inner split: train n=19696, val n=5364, val subjects=14\n"}
+,{"stream_name":"stdout","time":8792.930407686,"data":"  fold 0: val n=6452 QWK=0.4472 ep=22  [65.8s]\n"}
+,{"stream_name":"stdout","time":8793.057243132,"data":"    inner split: train n=19552, val n=4744, val subjects=15\n"}
+,{"stream_name":"stdout","time":8822.296301885,"data":"  fold 1: val n=7216 QWK=0.3670 ep=7  [29.3s]\n"}
+,{"stream_name":"stdout","time":8822.422358214,"data":"    inner split: train n=20380, val n=5164, val subjects=15\n"}
+,{"stream_name":"stdout","time":8840.557064251,"data":"  fold 2: val n=5968 QWK=0.2782 ep=1  [18.1s]\n"}
+,{"stream_name":"stdout","time":8840.682498737,"data":"    inner split: train n=20748, val n=4656, val subjects=15\n"}
+,{"stream_name":"stdout","time":8867.931509055,"data":"  fold 3: val n=6108 QWK=0.3141 ep=5  [27.3s]\n"}
+,{"stream_name":"stdout","time":8868.056427262,"data":"    inner split: train n=19992, val n=5752, val subjects=15\n"}
+,{"stream_name":"stdout","time":8918.175205319,"data":"  fold 4: val n=5768 QWK=0.1400 ep=17  [50.1s]\n"}
+,{"stream_name":"stdout","time":8918.855888515,"data":"    inner split: train n=19696, val n=5364, val subjects=14\n"}
+,{"stream_name":"stdout","time":8953.496384451,"data":"  fold 0: val n=6452 QWK=0.4910 ep=8  [34.7s]\n"}
+,{"stream_name":"stdout","time":8954.080140708,"data":"    inner split: train n=19552, val n=4744, val subjects=15\n"}
+,{"stream_name":"stdout","time":9009.996480379,"data":"  fold 1: val n=7216 QWK=0.5642 ep=18  [55.9s]\n"}
+,{"stream_name":"stdout","time":9010.589256813,"data":"    inner split: train n=20380, val n=5164, val subjects=15\n"}
+,{"stream_name":"stdout","time":9066.176476958,"data":"  fold 2: val n=5968 QWK=0.5106 ep=17  [55.6s]\n"}
+,{"stream_name":"stdout","time":9066.763103181,"data":"    inner split: train n=20748, val n=4656, val subjects=15\n"}
+,{"stream_name":"stdout","time":9101.034914443,"data":"  fold 3: val n=6108 QWK=0.3653 ep=7  [34.3s]\n"}
+,{"stream_name":"stdout","time":9101.621738402,"data":"    inner split: train n=19992, val n=5752, val subjects=15\n"}
+,{"stream_name":"stdout","time":9156.276447254,"data":"  fold 4: val n=5768 QWK=0.3573 ep=17  [54.7s]\n"}
+,{"stream_name":"stdout","time":9156.385739942,"data":"    inner split: train n=19696, val n=5364, val subjects=14\n"}
+,{"stream_name":"stdout","time":9199.512230626,"data":"  fold 0: val n=6452 QWK=0.3121 ep=14  [43.1s]\n"}
+,{"stream_name":"stdout","time":9199.535198722,"data":"    inner split: train n=19552, val n=4744, val subjects=15\n"}
+,{"stream_name":"stdout","time":9222.919493413,"data":"  fold 1: val n=7216 QWK=0.4743 ep=4  [23.4s]\n"}
+,{"stream_name":"stdout","time":9222.938643114,"data":"    inner split: train n=20380, val n=5164, val subjects=15\n"}
+,{"stream_name":"stdout","time":9267.748372846,"data":"  fold 2: val n=5968 QWK=0.3896 ep=14  [44.8s]\n"}
+,{"stream_name":"stdout","time":9267.769197046,"data":"    inner split: train n=20748, val n=4656, val subjects=15\n"}
+,{"stream_name":"stdout","time":9296.722957646,"data":"  fold 3: val n=6108 QWK=0.2726 ep=6  [29.0s]\n"}
+,{"stream_name":"stdout","time":9296.741821871,"data":"    inner split: train n=19992, val n=5752, val subjects=15\n"}
+,{"stream_name":"stdout","time":9323.11077151,"data":"  fold 4: val n=5768 QWK=0.4001 ep=5  [26.4s]\n"}
+,{"stream_name":"stdout","time":9323.886781274,"data":"    inner split: train n=19696, val n=5364, val subjects=14\n"}
+,{"stream_name":"stdout","time":9363.607367299,"data":"  fold 0: val n=6452 QWK=0.3089 ep=3  [39.7s]\n"}
+,{"stream_name":"stdout","time":9364.293258917,"data":"    inner split: train n=19552, val n=4744, val subjects=15\n"}
+,{"stream_name":"stdout","time":9454.262470999,"data":"  fold 1: val n=7216 QWK=0.1787 ep=17  [90.0s]\n"}
+,{"stream_name":"stdout","time":9454.968335084,"data":"    inner split: train n=20380, val n=5164, val subjects=15\n"}
+,{"stream_name":"stdout","time":9507.757744686,"data":"  fold 2: val n=5968 QWK=0.1153 ep=6  [52.8s]\n"}
+,{"stream_name":"stdout","time":9508.446918801,"data":"    inner split: train n=20748, val n=4656, val subjects=15\n"}
+,{"stream_name":"stdout","time":9550.613018816,"data":"  fold 3: val n=6108 QWK=0.1513 ep=3  [42.2s]\n"}
+,{"stream_name":"stdout","time":9551.319204905,"data":"    inner split: train n=19992, val n=5752, val subjects=15\n"}
+,{"stream_name":"stdout","time":9595.02373864,"data":"  fold 4: val n=5768 QWK=0.0271 ep=4  [43.7s]\n"}
+,{"stream_name":"stdout","time":9595.800948691,"data":"    inner split: train n=19696, val n=5364, val subjects=14\n"}
+,{"stream_name":"stdout","time":9641.667824121,"data":"  fold 0: val n=6452 QWK=0.1058 ep=6  [45.9s]\n"}
+,{"stream_name":"stdout","time":9642.368559298,"data":"    inner split: train n=19552, val n=4744, val subjects=15\n"}
+,{"stream_name":"stdout","time":9681.426253872,"data":"  fold 1: val n=7216 QWK=0.2035 ep=4  [39.1s]\n"}
+,{"stream_name":"stdout","time":9682.138247509,"data":"    inner split: train n=20380, val n=5164, val subjects=15\n"}
+,{"stream_name":"stdout","time":9749.740879403,"data":"  fold 2: val n=5968 QWK=0.1362 ep=12  [67.6s]\n"}
+,{"stream_name":"stdout","time":9750.443792817,"data":"    inner split: train n=20748, val n=4656, val subjects=15\n"}
+,{"stream_name":"stdout","time":9832.20708949,"data":"  fold 3: val n=6108 QWK=0.2410 ep=16  [81.8s]\n"}
+,{"stream_name":"stdout","time":9832.8915599,"data":"    inner split: train n=19992, val n=5752, val subjects=15\n"}
+,{"stream_name":"stdout","time":9929.829966778,"data":"  fold 4: val n=5768 QWK=0.2056 ep=21  [97.0s]\n"}
+,{"stream_name":"stdout","time":9929.914088374,"data":"shuffle control: labels permuted within whole population\n"}
+,{"stream_name":"stdout","time":9930.608770531,"data":"    inner split: train n=19696, val n=5364, val subjects=14\n"}
+,{"stream_name":"stdout","time":9964.085408194,"data":"  fold 0: val n=6452 QWK=0.0030 ep=2  [33.5s]\n"}
+,{"stream_name":"stdout","time":9964.787384669,"data":"    inner split: train n=19552, val n=4744, val subjects=15\n"}
+,{"stream_name":"stdout","time":10038.452807927,"data":"  fold 1: val n=7216 QWK=0.0111 ep=14  [73.7s]\n"}
+,{"stream_name":"stdout","time":10039.157603262,"data":"    inner split: train n=20380, val n=5164, val subjects=15\n"}
+,{"stream_name":"stdout","time":10150.136720915,"data":"  fold 2: val n=5968 QWK=0.0015 ep=24  [111.0s]\n"}
+,{"stream_name":"stdout","time":10150.824109512,"data":"    inner split: train n=20748, val n=4656, val subjects=15\n"}
+,{"stream_name":"stdout","time":10232.927654993,"data":"  fold 3: val n=6108 QWK=0.0029 ep=15  [82.1s]\n"}
+,{"stream_name":"stdout","time":10233.624657731,"data":"    inner split: train n=19992, val n=5752, val subjects=15\n"}
+,{"stream_name":"stdout","time":10295.727926875,"data":"  fold 4: val n=5768 QWK=0.0046 ep=10  [62.1s]\n"}
+,{"stream_name":"stdout","time":10295.826733485,"data":"P2 seed 1 | n=31512 subjects=91 class_dist=[5780, 4140, 6632, 14960]\n"}
+,{"stream_name":"stdout","time":10295.949498493,"data":"    inner split: train n=19660, val n=5020, val subjects=14\n"}
+,{"stream_name":"stdout","time":10324.176165351,"data":"  fold 0: val n=6832 QWK=0.1174 ep=6  [28.2s]\n"}
+,{"stream_name":"stdout","time":10324.303672466,"data":"    inner split: train n=19896, val n=4868, val subjects=15\n"}
+,{"stream_name":"stdout","time":10342.832993883,"data":"  fold 1: val n=6748 QWK=0.2209 ep=1  [18.5s]\n"}
+,{"stream_name":"stdout","time":10342.956473452,"data":"    inner split: train n=21564, val n=4308, val subjects=15\n"}
+,{"stream_name":"stdout","time":10364.82094167,"data":"  fold 2: val n=5640 QWK=0.2230 ep=2  [21.9s]\n"}
+,{"stream_name":"stdout","time":10364.946862669,"data":"    inner split: train n=21312, val n=4480, val subjects=15\n"}
+,{"stream_name":"stdout","time":10386.713382958,"data":"  fold 3: val n=5720 QWK=0.1008 ep=2  [21.8s]\n"}
+,{"stream_name":"stdout","time":10386.839444983,"data":"    inner split: train n=20196, val n=4744, val subjects=15\n"}
+,{"stream_name":"stdout","time":10411.28674,"data":"  fold 4: val n=6572 QWK=0.3626 ep=4  [24.5s]\n"}
+,{"stream_name":"stdout","time":10411.956523576,"data":"    inner split: train n=19660, val n=5020, val subjects=14\n"}
+,{"stream_name":"stdout","time":10440.67465132,"data":"  fold 0: val n=6832 QWK=0.4318 ep=5  [28.7s]\n"}
+,{"stream_name":"stdout","time":10441.273940956,"data":"    inner split: train n=19896, val n=4868, val subjects=15\n"}
+,{"stream_name":"stdout","time":10491.57471902,"data":"  fold 1: val n=6748 QWK=0.2709 ep=15  [50.3s]\n"}
+,{"stream_name":"stdout","time":10492.158325379,"data":"    inner split: train n=21564, val n=4308, val subjects=15\n"}
+,{"stream_name":"stdout","time":10553.667536267,"data":"  fold 2: val n=5640 QWK=0.2527 ep=18  [61.5s]\n"}
+,{"stream_name":"stdout","time":10554.257626358,"data":"    inner split: train n=21312, val n=4480, val subjects=15\n"}
+,{"stream_name":"stdout","time":10603.119528621,"data":"  fold 3: val n=5720 QWK=0.4880 ep=13  [48.9s]\n"}
+,{"stream_name":"stdout","time":10603.714025894,"data":"    inner split: train n=20196, val n=4744, val subjects=15\n"}
+,{"stream_name":"stdout","time":10648.111791649,"data":"  fold 4: val n=6572 QWK=0.5237 ep=12  [44.4s]\n"}
+,{"stream_name":"stdout","time":10648.208317316,"data":"    inner split: train n=19660, val n=5020, val subjects=14\n"}
+,{"stream_name":"stdout","time":10666.20346741,"data":"  fold 0: val n=6832 QWK=0.3702 ep=1  [18.0s]\n"}
+,{"stream_name":"stdout","time":10666.223329944,"data":"    inner split: train n=19896, val n=4868, val subjects=15\n"}
+,{"stream_name":"stdout","time":10707.150646871,"data":"  fold 1: val n=6748 QWK=0.2820 ep=12  [40.9s]\n"}
+,{"stream_name":"stdout","time":10707.171669251,"data":"    inner split: train n=21564, val n=4308, val subjects=15\n"}
+,{"stream_name":"stdout","time":10739.715237352,"data":"  fold 2: val n=5640 QWK=0.3199 ep=7  [32.6s]\n"}
+,{"stream_name":"stdout","time":10739.734511299,"data":"    inner split: train n=21312, val n=4480, val subjects=15\n"}
+,{"stream_name":"stdout","time":10769.520429315,"data":"  fold 3: val n=5720 QWK=0.5002 ep=6  [29.8s]\n"}
+,{"stream_name":"stdout","time":10769.539454579,"data":"    inner split: train n=20196, val n=4744, val subjects=15\n"}
+,{"stream_name":"stdout","time":10830.437087828,"data":"  fold 4: val n=6572 QWK=0.3837 ep=22  [60.9s]\n"}
+,{"stream_name":"stdout","time":10831.207829631,"data":"    inner split: train n=19660, val n=5020, val subjects=14\n"}
+,{"stream_name":"stdout","time":10885.34168713,"data":"  fold 0: val n=6832 QWK=0.2220 ep=7  [54.1s]\n"}
+,{"stream_name":"stdout","time":10886.027677092,"data":"    inner split: train n=19896, val n=4868, val subjects=15\n"}
+,{"stream_name":"stdout","time":10948.431098628,"data":"  fold 1: val n=6748 QWK=0.1055 ep=9  [62.4s]\n"}
+,{"stream_name":"stdout","time":10949.142031549,"data":"    inner split: train n=21564, val n=4308, val subjects=15\n"}
+,{"stream_name":"stdout","time":11024.384408221,"data":"  fold 2: val n=5640 QWK=0.0508 ep=11  [75.3s]\n"}
+,{"stream_name":"stdout","time":11025.08945337,"data":"    inner split: train n=21312, val n=4480, val subjects=15\n"}
+,{"stream_name":"stdout","time":11080.148776123,"data":"  fold 3: val n=5720 QWK=0.1240 ep=6  [55.1s]\n"}
+,{"stream_name":"stdout","time":11080.83988009,"data":"    inner split: train n=20196, val n=4744, val subjects=15\n"}
+,{"stream_name":"stdout","time":11139.90557648,"data":"  fold 4: val n=6572 QWK=0.4447 ep=8  [59.1s]\n"}
+,{"stream_name":"stdout","time":11140.675272813,"data":"    inner split: train n=19660, val n=5020, val subjects=14\n"}
+,{"stream_name":"stdout","time":11196.384460459,"data":"  fold 0: val n=6832 QWK=0.1472 ep=9  [55.7s]\n"}
+,{"stream_name":"stdout","time":11197.092798277,"data":"    inner split: train n=19896, val n=4868, val subjects=15\n"}
+,{"stream_name":"stdout","time":11250.15180374,"data":"  fold 1: val n=6748 QWK=0.2254 ep=8  [53.1s]\n"}
+,{"stream_name":"stdout","time":11250.842084011,"data":"    inner split: train n=21564, val n=4308, val subjects=15\n"}
+,{"stream_name":"stdout","time":11293.968614266,"data":"  fold 2: val n=5640 QWK=0.0104 ep=4  [43.1s]\n"}
+,{"stream_name":"stdout","time":11294.674519102,"data":"    inner split: train n=21312, val n=4480, val subjects=15\n"}
+,{"stream_name":"stdout","time":11326.412166845,"data":"  fold 3: val n=5720 QWK=0.0236 ep=1  [31.8s]\n"}
+,{"stream_name":"stdout","time":11327.11831068,"data":"    inner split: train n=20196, val n=4744, val subjects=15\n"}
+,{"stream_name":"stdout","time":11374.148238317,"data":"  fold 4: val n=6572 QWK=0.2503 ep=6  [47.0s]\n"}
+,{"stream_name":"stdout","time":11374.22721842,"data":"shuffle control: labels permuted within whole population\n"}
+,{"stream_name":"stdout","time":11374.922141627,"data":"    inner split: train n=19660, val n=5020, val subjects=14\n"}
+,{"stream_name":"stdout","time":11442.475018966,"data":"  fold 0: val n=6832 QWK=0.0124 ep=12  [67.6s]\n"}
+,{"stream_name":"stdout","time":11443.159664157,"data":"    inner split: train n=19896, val n=4868, val subjects=15\n"}
+,{"stream_name":"stdout","time":11511.318643611,"data":"  fold 1: val n=6748 QWK=0.0090 ep=12  [68.2s]\n"}
+,{"stream_name":"stdout","time":11512.01627131,"data":"    inner split: train n=21564, val n=4308, val subjects=15\n"}
+,{"stream_name":"stdout","time":11556.263283604,"data":"  fold 2: val n=5640 QWK=0.0057 ep=4  [44.3s]\n"}
+,{"stream_name":"stdout","time":11556.946941461,"data":"    inner split: train n=21312, val n=4480, val subjects=15\n"}
+,{"stream_name":"stdout","time":11597.159392917,"data":"  fold 3: val n=5720 QWK=0.0012 ep=3  [40.2s]\n"}
+,{"stream_name":"stdout","time":11597.864924677,"data":"    inner split: train n=20196, val n=4744, val subjects=15\n"}
+,{"stream_name":"stdout","time":11736.962772428,"data":"  fold 4: val n=6572 QWK=0.0014 ep=40  [139.1s]\n"}
+,{"stream_name":"stdout","time":11737.058259275,"data":"P2 seed 2 | n=31512 subjects=91 class_dist=[5780, 4140, 6632, 14960]\n"}
+,{"stream_name":"stdout","time":11737.180342421,"data":"    inner split: train n=19568, val n=5032, val subjects=14\n"}
+,{"stream_name":"stdout","time":11776.42939577,"data":"  fold 0: val n=6912 QWK=0.0878 ep=12  [39.3s]\n"}
+,{"stream_name":"stdout","time":11776.555139943,"data":"    inner split: train n=19892, val n=5232, val subjects=15\n"}
+,{"stream_name":"stdout","time":11796.908213461,"data":"  fold 1: val n=6388 QWK=0.0735 ep=2  [20.4s]\n"}
+,{"stream_name":"stdout","time":11797.03419193,"data":"    inner split: train n=19444, val n=5344, val subjects=15\n"}
+,{"stream_name":"stdout","time":11822.632990782,"data":"  fold 2: val n=6724 QWK=0.3624 ep=5  [25.6s]\n"}
+,{"stream_name":"stdout","time":11822.758937872,"data":"    inner split: train n=18496, val n=6256, val subjects=15\n"}
+,{"stream_name":"stdout","time":11845.424821015,"data":"  fold 3: val n=6760 QWK=0.3439 ep=4  [22.7s]\n"}
+,{"stream_name":"stdout","time":11845.551061164,"data":"    inner split: train n=21180, val n=5604, val subjects=15\n"}
+,{"stream_name":"stdout","time":11866.756364731,"data":"  fold 4: val n=4728 QWK=0.3380 ep=2  [21.2s]\n"}
+,{"stream_name":"stdout","time":11867.416107976,"data":"    inner split: train n=19568, val n=5032, val subjects=14\n"}
+,{"stream_name":"stdout","time":11910.097409926,"data":"  fold 0: val n=6912 QWK=0.3338 ep=12  [42.7s]\n"}
+,{"stream_name":"stdout","time":11910.688025504,"data":"    inner split: train n=19892, val n=5232, val subjects=15\n"}
+,{"stream_name":"stdout","time":11959.238853818,"data":"  fold 1: val n=6388 QWK=0.3059 ep=14  [48.6s]\n"}
+,{"stream_name":"stdout","time":11959.828559907,"data":"    inner split: train n=19444, val n=5344, val subjects=15\n"}
+,{"stream_name":"stdout","time":12044.65619132,"data":"  fold 2: val n=6724 QWK=0.5111 ep=40  [84.8s]\n"}
+,{"stream_name":"stdout","time":12045.232542351,"data":"    inner split: train n=18496, val n=6256, val subjects=15\n"}
+,{"stream_name":"stdout","time":12109.110199956,"data":"  fold 3: val n=6760 QWK=0.3143 ep=23  [63.9s]\n"}
+,{"stream_name":"stdout","time":12109.696701808,"data":"    inner split: train n=21180, val n=5604, val subjects=15\n"}
+,{"stream_name":"stdout","time":12130.551145801,"data":"  fold 4: val n=4728 QWK=0.3792 ep=1  [20.9s]\n"}
+,{"stream_name":"stdout","time":12130.653489324,"data":"    inner split: train n=19568, val n=5032, val subjects=14\n"}
+,{"stream_name":"stdout","time":12148.5598518,"data":"  fold 0: val n=6912 QWK=0.4066 ep=1  [17.9s]\n"}
+,{"stream_name":"stdout","time":12148.579684388,"data":"    inner split: train n=19892, val n=5232, val subjects=15\n"}
+,{"stream_name":"stdout","time":12182.856806674,"data":"  fold 1: val n=6388 QWK=0.3553 ep=9  [34.3s]\n"}
+,{"stream_name":"stdout","time":12182.87709457,"data":"    inner split: train n=19444, val n=5344, val subjects=15\n"}
+,{"stream_name":"stdout","time":12234.378768471,"data":"  fold 2: val n=6724 QWK=0.3957 ep=18  [51.5s]\n"}
+,{"stream_name":"stdout","time":12234.397277214,"data":"    inner split: train n=18496, val n=6256, val subjects=15\n"}
+,{"stream_name":"stdout","time":12280.786278808,"data":"  fold 3: val n=6760 QWK=0.2731 ep=17  [46.4s]\n"}
+,{"stream_name":"stdout","time":12280.807447978,"data":"    inner split: train n=21180, val n=5604, val subjects=15\n"}
+,{"stream_name":"stdout","time":12312.507952145,"data":"  fold 4: val n=4728 QWK=0.2669 ep=7  [31.7s]\n"}
+,{"stream_name":"stdout","time":12313.277598758,"data":"    inner split: train n=19568, val n=5032, val subjects=14\n"}
+,{"stream_name":"stdout","time":12345.710654729,"data":"  fold 0: val n=6912 QWK=0.2474 ep=1  [32.4s]\n"}
+,{"stream_name":"stdout","time":12346.410480008,"data":"    inner split: train n=19892, val n=5232, val subjects=15\n"}
+,{"stream_name":"stdout","time":12386.859552235,"data":"  fold 1: val n=6388 QWK=0.0459 ep=3  [40.5s]\n"}
+,{"stream_name":"stdout","time":12387.542725477,"data":"    inner split: train n=19444, val n=5344, val subjects=15\n"}
+,{"stream_name":"stdout","time":12430.949720968,"data":"  fold 2: val n=6724 QWK=0.1046 ep=4  [43.4s]\n"}
+,{"stream_name":"stdout","time":12431.671514952,"data":"    inner split: train n=18496, val n=6256, val subjects=15\n"}
+,{"stream_name":"stdout","time":12523.7415421,"data":"  fold 3: val n=6760 QWK=0.2564 ep=19  [92.1s]\n"}
+,{"stream_name":"stdout","time":12524.426146299,"data":"    inner split: train n=21180, val n=5604, val subjects=15\n"}
+,{"stream_name":"stdout","time":12567.423115615,"data":"  fold 4: val n=4728 QWK=0.3091 ep=3  [43.0s]\n"}
+,{"stream_name":"stdout","time":12568.191001253,"data":"    inner split: train n=19568, val n=5032, val subjects=14\n"}
+,{"stream_name":"stdout","time":12636.468325043,"data":"  fold 0: val n=6912 QWK=0.1567 ep=13  [68.3s]\n"}
+,{"stream_name":"stdout","time":12637.149673091,"data":"    inner split: train n=19892, val n=5232, val subjects=15\n"}
+,{"stream_name":"stdout","time":12689.792696126,"data":"  fold 1: val n=6388 QWK=0.0706 ep=8  [52.7s]\n"}
+,{"stream_name":"stdout","time":12690.485135841,"data":"    inner split: train n=19444, val n=5344, val subjects=15\n"}
+,{"stream_name":"stdout","time":12783.897813489,"data":"  fold 2: val n=6724 QWK=0.1612 ep=21  [93.4s]\n"}
+,{"stream_name":"stdout","time":12784.590981308,"data":"    inner split: train n=18496, val n=6256, val subjects=15\n"}
+,{"stream_name":"stdout","time":12815.421004269,"data":"  fold 3: val n=6760 QWK=0.0868 ep=2  [30.8s]\n"}
+,{"stream_name":"stdout","time":12816.114827588,"data":"    inner split: train n=21180, val n=5604, val subjects=15\n"}
+,{"stream_name":"stdout","time":12847.680408385,"data":"  fold 4: val n=4728 QWK=0.0280 ep=1  [31.6s]\n"}
+,{"stream_name":"stdout","time":12847.757552554,"data":"shuffle control: labels permuted within whole population\n"}
+,{"stream_name":"stdout","time":12848.44270179,"data":"    inner split: train n=19568, val n=5032, val subjects=14\n"}
+,{"stream_name":"stdout","time":12884.99893523,"data":"  fold 0: val n=6912 QWK=0.0037 ep=3  [36.6s]\n"}
+,{"stream_name":"stdout","time":12885.686644568,"data":"    inner split: train n=19892, val n=5232, val subjects=15\n"}
+,{"stream_name":"stdout","time":13021.148316837,"data":"  fold 1: val n=6388 QWK=0.0014 ep=39  [135.5s]\n"}
+,{"stream_name":"stdout","time":13021.858642017,"data":"    inner split: train n=19444, val n=5344, val subjects=15\n"}
+,{"stream_name":"stdout","time":13054.881780258,"data":"  fold 2: val n=6724 QWK=0.0013 ep=2  [33.0s]\n"}
+,{"stream_name":"stdout","time":13055.572244766,"data":"    inner split: train n=18496, val n=6256, val subjects=15\n"}
+,{"stream_name":"stdout","time":13112.406383007,"data":"  fold 3: val n=6760 QWK=0.0072 ep=10  [56.8s]\n"}
+,{"stream_name":"stdout","time":13113.103167838,"data":"    inner split: train n=21180, val n=5604, val subjects=15\n"}
+,{"stream_name":"stdout","time":13167.272316202,"data":"  fold 4: val n=4728 QWK=0.0018 ep=7  [54.2s]\n"}
+,{"stream_name":"stdout","time":13167.679873772,"data":"\n"}
+,{"stream_name":"stdout","time":13167.679903498,"data":"=== protocol_P2_groupkfold (pooled over 5 folds, seeds [0, 1, 2]) ===\n"}
+,{"stream_name":"stdout","time":13167.679909403,"data":"config                         QWK mean±std     acc    mae     n\n"}
+,{"stream_name":"stdout","time":13167.679915427,"data":"unimodal_facemesh            +0.3662±0.041   0.531  0.857 31512\n"}
+,{"stream_name":"stdout","time":13167.679920785,"data":"unimodal_head_pose           +0.3518±0.007   0.530  0.858 31512\n"}
+,{"stream_name":"stdout","time":13167.679925979,"data":"gate_skip1_drop0             +0.1701±0.028   0.372  0.977 31512\n"}
+,{"stream_name":"stdout","time":13167.679930778,"data":"unimodal_face                +0.1226±0.024   0.324  1.198 31512\n"}
+,{"stream_name":"stdout","time":13167.679936005,"data":"core_skip1_drop0             +0.1004±0.026   0.371  1.077 31512\n"}
+,{"stream_name":"stdout","time":13167.67994114,"data":"shuffle_core_skip1_drop1     +0.0354±0.028   0.370  1.059 31512\n"}
+,{"stream_name":"stdout","time":13167.679946231,"data":"shuffle control: max |QWK| = 0.0354 (PASS ≤ 0.1)\n"}
+,{"stream_name":"stdout","time":13167.679951103,"data":"best in-protocol unimodal: unimodal_facemesh = 0.3662\n"}
+,{"stream_name":"stdout","time":13167.68400503,"data":"total wall: 13131.8 s\n"}
+,{"stream_name":"stderr","time":13173.989572491,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":13173.989621701,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":13174.250437553,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":13174.250499058,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":13174.913964386,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":13176.013600266,"data":"[NbConvertApp] Writing 594298 bytes to __results__.html\n"}
+]

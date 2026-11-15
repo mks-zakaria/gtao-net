@@ -1,0 +1,149 @@
+[{"stream_name":"stdout","time":11.034268133,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 294.6/294.6 kB 12.5 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":11.383929247,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 35.7/35.7 MB 54.2 MB/s eta 0:00:00\n"}
+,{"stream_name":"stderr","time":14.91464439,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":14.914671851,"data":"bigframes 2.39.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":14.914677348,"data":"google-adk 1.29.0 requires google-cloud-bigquery-storage\u003e=2.0.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":14.914681698,"data":"grpcio-tools 1.71.2 requires protobuf\u003c6.0dev,\u003e=5.26.1, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":14.914685855,"data":"google-cloud-vision 3.15.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":14.914690021,"data":"google-cloud-videointelligence 2.20.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":14.914694213,"data":"a2a-sdk 0.3.26 requires protobuf\u003e=5.29.5, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":14.914698301,"data":"grpc-google-iam-v1 0.14.4 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":14.914709967,"data":"google-cloud-dataplex 2.18.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":14.914718049,"data":"tensorflow 2.20.0 requires protobuf\u003e=5.28.0, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":14.914720886,"data":"google-cloud-firestore 2.27.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":14.914723812,"data":"google-cloud-secret-manager 2.27.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":14.914726529,"data":"google-cloud-appengine-logging 1.9.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":14.914729474,"data":"proto-plus 1.27.2 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":14.914732461,"data":"google-cloud-bigquery-connection 1.21.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":14.914735348,"data":"google-cloud-speech 2.38.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":14.914738238,"data":"ydf 0.15.0 requires protobuf\u003c7.0.0,\u003e=5.29.1, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":14.914740976000001,"data":"google-cloud-audit-log 0.5.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":14.914744994,"data":"google-cloud-resource-manager 1.17.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":14.914756902,"data":"google-cloud-language 2.20.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":14.914759824,"data":"google-cloud-iam 2.22.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":14.914762564,"data":"google-cloud-pubsub 2.37.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":14.914765298,"data":"google-cloud-spanner 3.65.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":14.914767997,"data":"google-cloud-translate 3.26.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":14.914770824,"data":"google-cloud-datastore 2.24.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":14.914773534,"data":"google-cloud-dataproc 5.27.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":14.914776265,"data":"google-cloud-logging 3.15.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":14.914779031,"data":"opentelemetry-proto 1.38.0 requires protobuf\u003c7.0,\u003e=5.0, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":14.914781848,"data":"google-cloud-functions 1.23.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":14.914784559,"data":"google-api-core 2.30.3 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":14.914787345,"data":"googleapis-common-protos 1.74.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":14.914790064,"data":"google-cloud-monitoring 2.30.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":14.91479289,"data":"grain 0.2.16 requires protobuf\u003e=5.28.3, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":14.914795573,"data":"grpcio-status 1.71.2 requires protobuf\u003c6.0dev,\u003e=5.26.1, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":14.914798425,"data":"google-cloud-trace 1.19.0 requires protobuf\u003c8.0.0,\u003e=4.25.8, but you have protobuf 4.25.3 which is incompatible.\n"}
+,{"stream_name":"stdout","time":15.017251889,"data":"PB_FILE /usr/local/lib/python3.12/dist-packages/google/protobuf/__init__.py\n"}
+,{"stream_name":"stdout","time":15.017280835,"data":"PB_VER 4.25.3\n"}
+,{"stream_name":"stdout","time":15.017285504,"data":"RV_EXISTS_AFTER_SHIM True\n"}
+,{"stream_name":"stdout","time":32.77551158,"data":"MP_OK_TOP 0.10.14\n"}
+,{"stream_name":"stdout","time":33.42642318,"data":"device: cuda | FAST: False\n"}
+,{"stream_name":"stdout","time":53.253585354,"data":"reused 167 files from the earlier run in /kaggle/input/gtao-net-daisee-v2-nested-early-stopping\n"}
+,{"stream_name":"stdout","time":53.253621165,"data":"loading cached clip corpus: /kaggle/working/daisee_clips_v1.npz\n"}
+,{"stream_name":"stdout","time":53.255621579,"data":"all 7919 clips have every stream\n"}
+,{"stream_name":"stdout","time":53.2597579,"data":"\n"}
+,{"stream_name":"stdout","time":53.259775627,"data":"== population ==\n"}
+,{"stream_name":"stdout","time":53.261054581,"data":"  Train      clips= 4852 subjects= 63 class=[33, 201, 2474, 2144]\n"}
+,{"stream_name":"stdout","time":53.261756116,"data":"  Validation clips= 1429 subjects= 19 class=[23, 143, 813, 450]\n"}
+,{"stream_name":"stdout","time":53.262491881,"data":"  Test       clips= 1638 subjects= 19 class=[4, 81, 849, 704]\n"}
+,{"stream_name":"stdout","time":53.264431544,"data":"  subject overlap (Kaggle splits, NOT subject-disjoint): {'Train|Validation': 0, 'Train|Test': 0, 'Validation|Test': 0}\n"}
+,{"stream_name":"stdout","time":53.270728449,"data":"P1 | train n=4852  val n=1429  train subjects=63  val subjects=19\n"}
+,{"stream_name":"stdout","time":53.34313412,"data":"\n"}
+,{"stream_name":"stdout","time":53.343161921,"data":"=== protocol_P1_official (pooled train/val, seeds [0, 1, 2]) ===\n"}
+,{"stream_name":"stdout","time":53.343186433,"data":"config                         QWK mean±std     acc    mae     n\n"}
+,{"stream_name":"stdout","time":53.343194113,"data":"unimodal_face                +0.0930±0.009   0.487  0.574  1429\n"}
+,{"stream_name":"stdout","time":53.343198331,"data":"core_skip0_drop0_hybrid      +0.0922±0.038   0.515  0.537  1429\n"}
+,{"stream_name":"stdout","time":53.343201928,"data":"gate_skip0_drop0             +0.0910±0.047   0.501  0.556  1429\n"}
+,{"stream_name":"stdout","time":53.34320591,"data":"gate_skip0_drop0_soft        +0.0910±0.047   0.501  0.556  1429\n"}
+,{"stream_name":"stdout","time":53.343209993,"data":"core_skip0_drop1_hybrid      +0.0906±0.024   0.493  0.565  1429\n"}
+,{"stream_name":"stdout","time":53.343214471,"data":"core_skip0_drop1             +0.0879±0.023   0.483  0.580  1429\n"}
+,{"stream_name":"stdout","time":53.343218736,"data":"core_skip0_drop1_soft        +0.0879±0.023   0.483  0.580  1429\n"}
+,{"stream_name":"stdout","time":53.343223197,"data":"gate_skip0_drop1             +0.0743±0.016   0.479  0.582  1429\n"}
+,{"stream_name":"stdout","time":53.343227349,"data":"gate_skip0_drop1_soft        +0.0743±0.016   0.479  0.582  1429\n"}
+,{"stream_name":"stdout","time":53.343231403,"data":"core_skip0_drop0             +0.0674±0.039   0.470  0.597  1429\n"}
+,{"stream_name":"stdout","time":53.343242031,"data":"core_skip0_drop0_soft        +0.0674±0.039   0.470  0.597  1429\n"}
+,{"stream_name":"stdout","time":53.343246623,"data":"gate_skip0_drop1_hybrid      +0.0652±0.013   0.481  0.582  1429\n"}
+,{"stream_name":"stdout","time":53.343251501,"data":"gate_skip0_drop0_hybrid      +0.0579±0.008   0.471  0.595  1429\n"}
+,{"stream_name":"stdout","time":53.343255699,"data":"unimodal_head_pose           +0.0444±0.029   0.501  0.553  1429\n"}
+,{"stream_name":"stdout","time":53.343259693,"data":"core_skip1_drop1             +0.0438±0.006   0.342  0.801  1429\n"}
+,{"stream_name":"stdout","time":53.343266441,"data":"core_skip1_drop1_soft        +0.0438±0.006   0.342  0.801  1429\n"}
+,{"stream_name":"stdout","time":53.343270575,"data":"gate_skip1_drop1_hybrid      +0.0416±0.021   0.323  0.907  1429\n"}
+,{"stream_name":"stdout","time":53.343275301,"data":"core_skip1_drop1_hybrid      +0.0356±0.008   0.356  0.795  1429\n"}
+,{"stream_name":"stdout","time":53.343280189,"data":"gate_skip1_drop0_hybrid      +0.0305±0.004   0.340  0.811  1429\n"}
+,{"stream_name":"stdout","time":53.343285438,"data":"gate_skip1_drop0             +0.0156±0.034   0.337  0.805  1429\n"}
+,{"stream_name":"stdout","time":53.343289751,"data":"gate_skip1_drop0_soft        +0.0156±0.034   0.337  0.805  1429\n"}
+,{"stream_name":"stdout","time":53.343340471,"data":"core_skip1_drop0_hybrid      +0.0123±0.028   0.331  0.844  1429\n"}
+,{"stream_name":"stdout","time":53.343357964,"data":"gate_skip1_drop1             +0.0103±0.005   0.313  0.830  1429\n"}
+,{"stream_name":"stdout","time":53.343376915,"data":"gate_skip1_drop1_soft        +0.0103±0.005   0.313  0.830  1429\n"}
+,{"stream_name":"stdout","time":53.343383839,"data":"core_skip1_drop0             +0.0071±0.034   0.369  0.830  1429\n"}
+,{"stream_name":"stdout","time":53.343388631,"data":"core_skip1_drop0_soft        +0.0071±0.034   0.369  0.830  1429\n"}
+,{"stream_name":"stdout","time":53.343392905,"data":"unimodal_facemesh            -0.0001±0.006   0.329  0.795  1429\n"}
+,{"stream_name":"stdout","time":53.343397634,"data":"best in-protocol unimodal: unimodal_face = 0.0930\n"}
+,{"stream_name":"stdout","time":53.354953358,"data":"P2 seed 0 | n=7919 subjects=101 class_dist=[60, 425, 4136, 3298]\n"}
+,{"stream_name":"stdout","time":53.361524853,"data":"P2 seed 1 | n=7919 subjects=101 class_dist=[60, 425, 4136, 3298]\n"}
+,{"stream_name":"stdout","time":53.367718313,"data":"P2 seed 2 | n=7919 subjects=101 class_dist=[60, 425, 4136, 3298]\n"}
+,{"stream_name":"stdout","time":53.674202774,"data":"\n"}
+,{"stream_name":"stdout","time":53.674233614,"data":"=== protocol_P2_groupkfold (pooled over 5 folds, seeds [0, 1, 2]) ===\n"}
+,{"stream_name":"stdout","time":53.674238912,"data":"config                         QWK mean±std     acc    mae     n\n"}
+,{"stream_name":"stdout","time":53.674243974,"data":"core_skip0_drop1             +0.0593±0.012   0.500  0.535  7919\n"}
+,{"stream_name":"stdout","time":53.674248368,"data":"core_skip0_drop1_soft        +0.0593±0.012   0.500  0.535  7919\n"}
+,{"stream_name":"stdout","time":53.674252288,"data":"gate_skip0_drop0             +0.0573±0.009   0.496  0.540  7919\n"}
+,{"stream_name":"stdout","time":53.674256963,"data":"gate_skip0_drop0_soft        +0.0573±0.009   0.496  0.540  7919\n"}
+,{"stream_name":"stdout","time":53.674260623,"data":"gate_skip1_drop1             +0.0498±0.009   0.433  0.652  7919\n"}
+,{"stream_name":"stdout","time":53.674264811,"data":"gate_skip1_drop1_soft        +0.0498±0.009   0.433  0.652  7919\n"}
+,{"stream_name":"stdout","time":53.674269159,"data":"unimodal_head_pose           +0.0495±0.016   0.479  0.557  7919\n"}
+,{"stream_name":"stdout","time":53.674273355,"data":"gate_skip0_drop1_hybrid      +0.0483±0.020   0.494  0.542  7919\n"}
+,{"stream_name":"stdout","time":53.674277393,"data":"core_skip0_drop0_hybrid      +0.0470±0.023   0.501  0.535  7919\n"}
+,{"stream_name":"stdout","time":53.674281259,"data":"gate_skip0_drop1             +0.0466±0.017   0.492  0.544  7919\n"}
+,{"stream_name":"stdout","time":53.674285266,"data":"gate_skip0_drop1_soft        +0.0466±0.017   0.492  0.544  7919\n"}
+,{"stream_name":"stdout","time":53.674289191,"data":"core_skip0_drop0             +0.0457±0.020   0.496  0.540  7919\n"}
+,{"stream_name":"stdout","time":53.674292813,"data":"core_skip0_drop0_soft        +0.0457±0.020   0.496  0.540  7919\n"}
+,{"stream_name":"stdout","time":53.674296498,"data":"gate_skip0_drop0_hybrid      +0.0448±0.022   0.493  0.542  7919\n"}
+,{"stream_name":"stdout","time":53.674301117,"data":"core_skip0_drop1_hybrid      +0.0358±0.015   0.495  0.539  7919\n"}
+,{"stream_name":"stdout","time":53.674305659,"data":"core_skip1_drop0_hybrid      +0.0357±0.008   0.422  0.678  7919\n"}
+,{"stream_name":"stdout","time":53.674310399,"data":"gate_skip1_drop0             +0.0310±0.013   0.422  0.696  7919\n"}
+,{"stream_name":"stdout","time":53.674314781,"data":"gate_skip1_drop0_soft        +0.0310±0.013   0.422  0.696  7919\n"}
+,{"stream_name":"stdout","time":53.67431925,"data":"core_skip1_drop0             +0.0280±0.019   0.422  0.690  7919\n"}
+,{"stream_name":"stdout","time":53.674343806,"data":"core_skip1_drop0_soft        +0.0280±0.019   0.422  0.690  7919\n"}
+,{"stream_name":"stdout","time":53.674348386,"data":"unimodal_face                +0.0269±0.015   0.490  0.545  7919\n"}
+,{"stream_name":"stdout","time":53.674352274,"data":"core_skip1_drop1             +0.0241±0.011   0.433  0.645  7919\n"}
+,{"stream_name":"stdout","time":53.674356074,"data":"core_skip1_drop1_soft        +0.0241±0.011   0.433  0.645  7919\n"}
+,{"stream_name":"stdout","time":53.674369855,"data":"shuffle_core_skip1_drop1     +0.0235±0.036   0.346  1.045  7919\n"}
+,{"stream_name":"stdout","time":53.674373819,"data":"core_skip1_drop1_hybrid      +0.0195±0.013   0.412  0.708  7919\n"}
+,{"stream_name":"stdout","time":53.674377711,"data":"gate_skip1_drop1_hybrid      +0.0169±0.022   0.415  0.694  7919\n"}
+,{"stream_name":"stdout","time":53.674399163,"data":"gate_skip1_drop0_hybrid      +0.0099±0.024   0.388  0.816  7919\n"}
+,{"stream_name":"stdout","time":53.674403294,"data":"unimodal_facemesh            -0.0140±0.012   0.447  0.595  7919\n"}
+,{"stream_name":"stdout","time":53.674407466,"data":"shuffle control: max |QWK| = 0.0235 (PASS ≤ 0.1)\n"}
+,{"stream_name":"stdout","time":53.674411288,"data":"best in-protocol unimodal: unimodal_head_pose = 0.0495\n"}
+,{"stream_name":"stdout","time":53.677752231,"data":"H4 masked evaluation already done in the earlier run: kept\n"}
+,{"stream_name":"stdout","time":53.685157639,"data":"P1-Test | train n=6281  test n=1638  train subjects=82  test subjects=19\n"}
+,{"stream_name":"stdout","time":53.685194045,"data":"P1-Test: scoring unimodal_face (chosen on Validation, QWK 0.0930)\n"}
+,{"stream_name":"stdout","time":53.685199991,"data":"P1-Test: scoring core_skip0_drop0_hybrid (chosen on Validation, QWK 0.0922)\n"}
+,{"stream_name":"stdout","time":54.413279685,"data":"    inner split: train n=5044, val n=1237, val subjects=['110004', '110011', '110016', '205601', '210056', '210059', '226051', '310069', '310071', '310072', '310082', '400033', '410032', '414081', '500039', '556463']\n"}
+,{"stream_name":"stdout","time":71.558228898,"data":"  fold 0: val n=1638 QWK=0.0726 ep=15  [17.2s]\n"}
+,{"stream_name":"stdout","time":71.861279154,"data":"    inner split: train n=5119, val n=1162, val subjects=['110005', '110008', '200049', '200054', '210055', '210061', '240846', '310064', '310068', '310071', '310073', '310074', '310075', '310077', '310082', '410025']\n"}
+,{"stream_name":"stdout","time":78.22503469,"data":"  fold 0: val n=1638 QWK=0.0963 ep=5  [6.4s]\n"}
+,{"stream_name":"stdout","time":78.520074648,"data":"    inner split: train n=4936, val n=1345, val subjects=['110001', '110002', '110004', '110007', '110015', '200054', '226051', '310062', '310070', '310073', '310076', '334463', '410019', '410020', '411021', '567496']\n"}
+,{"stream_name":"stdout","time":84.964514701,"data":"  fold 0: val n=1638 QWK=0.0420 ep=6  [6.4s]\n"}
+,{"stream_name":"stdout","time":87.319466394,"data":"    inner split: train n=5044, val n=1237, val subjects=['110004', '110011', '110016', '205601', '210056', '210059', '226051', '310069', '310071', '310072', '310082', '400033', '410032', '414081', '500039', '556463']\n"}
+,{"stream_name":"stdout","time":106.477952844,"data":"  fold 0: val n=1638 QWK=0.0959 ep=13  [19.2s]\n"}
+,{"stream_name":"stdout","time":108.78142607,"data":"    inner split: train n=5119, val n=1162, val subjects=['110005', '110008', '200049', '200054', '210055', '210061', '240846', '310064', '310068', '310071', '310073', '310074', '310075', '310077', '310082', '410025']\n"}
+,{"stream_name":"stdout","time":121.958123124,"data":"  fold 0: val n=1638 QWK=0.1110 ep=6  [13.2s]\n"}
+,{"stream_name":"stdout","time":124.32793243,"data":"    inner split: train n=4936, val n=1345, val subjects=['110001', '110002', '110004', '110007', '110015', '200054', '226051', '310062', '310070', '310073', '310076', '334463', '410019', '410020', '411021', '567496']\n"}
+,{"stream_name":"stdout","time":133.218701036,"data":"  fold 0: val n=1638 QWK=0.0564 ep=2  [8.9s]\n"}
+,{"stream_name":"stdout","time":133.232079267,"data":"\n"}
+,{"stream_name":"stdout","time":133.232099587,"data":"=== protocol_P1_test (pooled train/val, seeds [0, 1, 2]) ===\n"}
+,{"stream_name":"stdout","time":133.232105502,"data":"config                         QWK mean±std     acc    mae     n\n"}
+,{"stream_name":"stdout","time":133.232125265,"data":"core_skip0_drop0_hybrid      +0.0439±0.018   0.502  0.526  1638\n"}
+,{"stream_name":"stdout","time":133.232129076,"data":"unimodal_face                +0.0425±0.013   0.504  0.524  1638\n"}
+,{"stream_name":"stdout","time":133.232133226,"data":"best in-protocol unimodal: unimodal_face = 0.0425\n"}
+,{"stream_name":"stdout","time":133.238146836,"data":"total wall: 99.8 s\n"}
+,{"stream_name":"stderr","time":139.155824258,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":139.155856741,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":139.383413161,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":139.383434448,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":139.994614518,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":141.095121596,"data":"[NbConvertApp] Writing 636574 bytes to __results__.html\n"}
+]

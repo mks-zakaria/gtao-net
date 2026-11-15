@@ -1,0 +1,44 @@
+# The 40 DIPSER session-subjects of the slice (Kaggle dataset zakariamakhas/dipseer-paper1-slice),
+# one per bundle group_01__experiment_XX__subject_YY.zipbin. The DIPSER kernel deals these 40 keys
+# into the 5 outer folds, so the folds can only be rebuilt from the full list.
+# subject_YY is the same student in experiment_01 and experiment_05 (DIPSER: 20 students per group).
+group_01/experiment_01/subject_01
+group_01/experiment_01/subject_02
+group_01/experiment_01/subject_03
+group_01/experiment_01/subject_04
+group_01/experiment_01/subject_05
+group_01/experiment_01/subject_06
+group_01/experiment_01/subject_07
+group_01/experiment_01/subject_08
+group_01/experiment_01/subject_09
+group_01/experiment_01/subject_10
+group_01/experiment_01/subject_11
+group_01/experiment_01/subject_12
+group_01/experiment_01/subject_13
+group_01/experiment_01/subject_14
+group_01/experiment_01/subject_15
+group_01/experiment_01/subject_16
+group_01/experiment_01/subject_17
+group_01/experiment_01/subject_18
+group_01/experiment_01/subject_19
+group_01/experiment_01/subject_20
+group_01/experiment_05/subject_01
+group_01/experiment_05/subject_02
+group_01/experiment_05/subject_03
+group_01/experiment_05/subject_04
+group_01/experiment_05/subject_05
+group_01/experiment_05/subject_06
+group_01/experiment_05/subject_07
+group_01/experiment_05/subject_08
+group_01/experiment_05/subject_09
+group_01/experiment_05/subject_10
+group_01/experiment_05/subject_11
+group_01/experiment_05/subject_12
+group_01/experiment_05/subject_13
+group_01/experiment_05/subject_14
+group_01/experiment_05/subject_15
+group_01/experiment_05/subject_16
+group_01/experiment_05/subject_17
+group_01/experiment_05/subject_18
+group_01/experiment_05/subject_19
+group_01/experiment_05/subject_20
