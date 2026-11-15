@@ -10,6 +10,14 @@ fixed, subject-disjoint protocol on [DIPSER](https://arxiv.org/abs/2502.20209) (
 classroom) and two webcam benchmarks, [DAiSEE](https://arxiv.org/abs/1609.01885) and
 [EngageNet](https://dl.acm.org/doi/10.1145/3577190.3614164).
 
+**Links**
+- Results and verification: https://github.com/mks-zakaria/gtao-net
+- Kaggle kernels (training code, v2 reference runs):
+  [DIPSER](https://www.kaggle.com/code/zakariamakhas/gtao-net-dipser-grid-v2-nested-early-stopping) ·
+  [DAiSEE](https://www.kaggle.com/code/zakariamakhas/gtao-net-daisee-v2-nested-early-stopping) ·
+  [EngageNet](https://www.kaggle.com/code/zakariamakhas/gtao-net-engagenet-v2-nested-early-stopping)
+- DIPSER processed slice: https://www.kaggle.com/datasets/zakariamakhas/dipseer-paper1-slice
+
 > **v2 results (nested early stopping) are the reference results.** In the v1 runs, early
 > stopping selected the epoch on the same fold that was scored, so v1 QWKs are optimistic.
 > v2 selects the epoch on an inner subject split inside each training fold. v1 files are kept
