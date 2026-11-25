@@ -1,0 +1,236 @@
+
+====================================================================================================
+v2: 1566 windows, 20 persons | label variance between persons 59% (between sessions 63%)
+config                                   QWK  between   within  bal.acc
+unimodal_facemesh_cw_soft    +0.256 ± 0.083    +0.41    +0.08    0.421
+unimodal_facemesh_cw         +0.092 ± 0.088    +0.08    +0.11    0.363
+unimodal_face_cw_soft        +0.003 ± 0.193    -0.04    +0.13    0.335
+unimodal_physio_cw           +0.002 ± 0.101    -0.00    -0.01    0.347
+unimodal_head_pose_cw        +0.002 ± 0.099    -0.04    +0.05    0.330
+unimodal_head_pose_cw_soft   -0.069 ± 0.165    -0.14    +0.03    0.312
+unimodal_physio_cw_soft      -0.120 ± 0.074    -0.17    -0.07    0.290
+unimodal_face_cw             -0.163 ± 0.029    -0.31    +0.03    0.272
+gate_skip1_drop0_soft        +0.124 ± 0.087    +0.22    +0.09    0.315
+core_skip1_drop1             +0.113 ± 0.089    +0.26    -0.06    0.388
+core_skip1_drop1_soft        +0.076 ± 0.152    +0.09    +0.08    0.344
+core_skip1_drop0_soft        +0.072 ± 0.062    +0.11    +0.05    0.320
+gate_skip0_drop1_soft        +0.043 ± 0.127    +0.03    +0.10    0.350
+gate_skip1_drop0             +0.040 ± 0.084    +0.13    -0.05    0.371
+gate_skip1_drop1_hybrid      +0.025 ± 0.115    +0.07    -0.02    0.344
+gate_skip1_drop0_hybrid      +0.025 ± 0.096    +0.08    -0.01    0.398
+gate_skip0_drop0_soft        +0.021 ± 0.156    -0.04    +0.11    0.342
+core_skip0_drop1_soft        +0.018 ± 0.156    -0.05    +0.15    0.340
+shuffle_core_skip1_drop1     +0.008 ± 0.022    -0.12    +0.02    0.327
+core_skip1_drop0             -0.000 ± 0.134    +0.05    -0.02    0.276
+gate_skip1_drop1_soft        -0.011 ± 0.089    -0.01    -0.01    0.218
+core_skip0_drop0_soft        -0.013 ± 0.053    -0.08    +0.06    0.330
+gate_skip1_drop1             -0.018 ± 0.105    +0.01    -0.07    0.404
+core_skip0_drop1             -0.029 ± 0.107    -0.08    +0.01    0.341
+core_skip1_drop1_hybrid      -0.082 ± 0.177    -0.17    +0.03    0.337
+core_skip0_drop0_hybrid      -0.089 ± 0.081    -0.18    +0.01    0.301
+gate_skip0_drop1_hybrid      -0.095 ± 0.060    -0.15    -0.04    0.330
+core_skip0_drop0             -0.099 ± 0.098    -0.23    +0.07    0.296
+gate_skip0_drop0             -0.120 ± 0.117    -0.21    -0.02    0.317
+gate_skip0_drop0_hybrid      -0.125 ± 0.091    -0.25    -0.00    0.288
+core_skip1_drop0_hybrid      -0.129 ± 0.068    -0.19    -0.08    0.302
+gate_skip0_drop1             -0.131 ± 0.054    -0.28    +0.01    0.276
+core_skip0_drop1_hybrid      -0.145 ± 0.118    -0.32    +0.00    0.279
+
+person-bootstrap 95% CI (1000 draws, persons resampled):
+  unimodal_face_cw             QWK [-0.298, -0.018]   within r [-0.016, +0.059]
+  unimodal_face_cw_soft        QWK [-0.141, +0.182]   within r [+0.024, +0.200]
+  unimodal_facemesh_cw         QWK [-0.136, +0.288]   within r [-0.013, +0.220]
+  unimodal_facemesh_cw_soft    QWK [+0.039, +0.417]   within r [-0.000, +0.153]
+  unimodal_head_pose_cw        QWK [-0.129, +0.101]   within r [-0.010, +0.089]
+  unimodal_head_pose_cw_soft   QWK [-0.206, +0.062]   within r [-0.004, +0.062]
+  unimodal_physio_cw           QWK [-0.182, +0.164]   within r [-0.071, +0.044]
+  unimodal_physio_cw_soft      QWK [-0.353, +0.102]   within r [-0.151, +0.027]
+  gate_skip1_drop0_soft        QWK [-0.008, +0.247]   within r [-0.003, +0.180]
+  shuffle_core_skip1_drop1     QWK [-0.025, +0.035]   within r [-0.007, +0.051]
+  best fusion gate_skip1_drop0_soft - best single unimodal_facemesh_cw_soft: -0.131 CI [-0.324, +0.109] | fusions above best single: 0/24
+
+contrasts (config-level Wilcoxon, Holm across factors):
+  link            wins 10/12  median +0.101  p 0.0024  p_holm 0.0122
+  gate_vs_core    wins 7/12  median +0.030  p 0.6772  p_holm 1.0000
+  dropout         wins 8/12  median +0.013  p 0.6221  p_holm 1.0000
+  soft_vs_coral   wins 7/8  median +0.079  p 0.0234  p_holm 0.0703
+  soft_vs_hybrid  wins 7/8  median +0.141  p 0.0156  p_holm 0.0625
+
+GATE 1 (v2): (a) recovered with CI>0: none -> FAIL | (b) streams with within r >= 0.10: ['unimodal_face_cw_soft', 'unimodal_facemesh_cw'] -> PASS
+
+====================================================================================================
+v3 none: 1566 windows, 20 persons | label variance between persons 59% (between sessions 63%)
+config                                   QWK  between   within  bal.acc
+unimodal_facemesh_cw_soft    +0.185 ± 0.122    +0.23    +0.13    0.395
+unimodal_facemesh_cw         +0.150 ± 0.118    +0.19    +0.13    0.381
+unimodal_head_pose_cw_soft   +0.087 ± 0.083    +0.18    +0.03    0.455
+unimodal_physio_cw_soft      +0.053 ± 0.051    +0.15    -0.03    0.353
+unimodal_head_pose_cw        +0.024 ± 0.124    -0.02    +0.07    0.319
+unimodal_face_cw_soft        -0.004 ± 0.138    -0.07    +0.00    0.330
+unimodal_face_cw             -0.011 ± 0.231    -0.03    +0.08    0.317
+unimodal_physio_cw           -0.015 ± 0.106    -0.03    +0.01    0.327
+gate_skip1_drop1_hybrid      +0.097 ± 0.097    +0.19    +0.03    0.361
+core_skip1_drop0             +0.095 ± 0.067    +0.22    +0.01    0.352
+gate_skip1_drop1_soft        +0.093 ± 0.051    +0.15    +0.04    0.413
+core_skip0_drop1_soft        +0.056 ± 0.212    +0.03    +0.03    0.351
+core_skip0_drop0             +0.030 ± 0.089    +0.05    +0.04    0.330
+core_skip0_drop0_soft        +0.026 ± 0.113    -0.01    +0.04    0.342
+gate_skip0_drop1             +0.012 ± 0.197    +0.01    +0.07    0.331
+core_skip1_drop1_soft        +0.009 ± 0.099    +0.05    -0.02    0.441
+core_skip1_drop1             +0.003 ± 0.082    -0.03    +0.05    0.286
+shuffle_core_skip1_drop1     +0.001 ± 0.019    -0.11    +0.02    0.365
+gate_skip0_drop0_soft        -0.006 ± 0.110    -0.07    +0.00    0.329
+gate_skip1_drop0             -0.008 ± 0.178    -0.04    +0.07    0.310
+core_skip1_drop0_hybrid      -0.008 ± 0.125    -0.02    +0.03    0.364
+gate_skip0_drop1_soft        -0.016 ± 0.141    -0.06    -0.03    0.326
+core_skip0_drop1_hybrid      -0.019 ± 0.177    -0.06    +0.10    0.323
+core_skip1_drop1_hybrid      -0.026 ± 0.034    -0.08    +0.03    0.336
+core_skip1_drop0_soft        -0.030 ± 0.062    -0.03    -0.02    0.397
+core_skip0_drop1             -0.031 ± 0.198    -0.08    +0.08    0.311
+gate_skip1_drop0_hybrid      -0.039 ± 0.071    -0.12    +0.06    0.330
+gate_skip1_drop1             -0.069 ± 0.097    -0.15    +0.00    0.359
+gate_skip1_drop0_soft        -0.077 ± 0.110    -0.15    -0.00    0.336
+gate_skip0_drop1_hybrid      -0.079 ± 0.226    -0.15    +0.08    0.305
+gate_skip0_drop0_hybrid      -0.081 ± 0.217    -0.14    +0.04    0.298
+gate_skip0_drop0             -0.098 ± 0.167    -0.16    +0.05    0.295
+core_skip0_drop0_hybrid      -0.108 ± 0.205    -0.20    +0.06    0.293
+
+person-bootstrap 95% CI (1000 draws, persons resampled):
+  unimodal_face_cw             QWK [-0.151, +0.144]   within r [-0.003, +0.148]
+  unimodal_face_cw_soft        QWK [-0.182, +0.159]   within r [-0.022, +0.027]
+  unimodal_facemesh_cw         QWK [-0.032, +0.311]   within r [+0.028, +0.231]
+  unimodal_facemesh_cw_soft    QWK [+0.008, +0.335]   within r [+0.001, +0.235]
+  unimodal_head_pose_cw        QWK [-0.173, +0.187]   within r [-0.002, +0.122]
+  unimodal_head_pose_cw_soft   QWK [-0.013, +0.178]   within r [-0.034, +0.076]
+  unimodal_physio_cw           QWK [-0.145, +0.110]   within r [-0.022, +0.049]
+  unimodal_physio_cw_soft      QWK [-0.076, +0.185]   within r [-0.070, +0.008]
+  gate_skip1_drop1_hybrid      QWK [-0.075, +0.227]   within r [-0.008, +0.077]
+  shuffle_core_skip1_drop1     QWK [-0.025, +0.025]   within r [-0.011, +0.041]
+  best fusion gate_skip1_drop1_hybrid - best single unimodal_facemesh_cw_soft: -0.087 CI [-0.307, +0.105] | fusions above best single: 0/24
+
+contrasts (config-level Wilcoxon, Holm across factors):
+  link            wins 7/12  median +0.039  p 0.3013  p_holm 1.0000
+  gate_vs_core    wins 4/12  median -0.040  p 0.3013  p_holm 1.0000
+  dropout         wins 7/12  median +0.017  p 0.3804  p_holm 1.0000
+  soft_vs_coral   wins 4/8  median +0.001  p 0.7422  p_holm 1.0000
+  soft_vs_hybrid  wins 5/8  median +0.049  p 0.1484  p_holm 0.7422
+
+GATE 1 (v3 none): (a) recovered with CI>0: none -> FAIL | (b) streams with within r >= 0.10: ['unimodal_facemesh_cw', 'unimodal_facemesh_cw_soft'] -> PASS
+
+====================================================================================================
+v3 fold: 1566 windows, 20 persons | label variance between persons 59% (between sessions 63%)
+config                                   QWK  between   within  bal.acc
+unimodal_facemesh_cw_soft    +0.212 ± 0.039    +0.43    +0.03    0.406
+unimodal_facemesh_cw         +0.185 ± 0.044    +0.40    +0.02    0.385
+unimodal_head_pose_cw_soft   +0.156 ± 0.036    +0.30    +0.04    0.387
+unimodal_head_pose_cw        +0.061 ± 0.036    +0.09    +0.05    0.357
+unimodal_face_cw_soft        +0.021 ± 0.117    -0.00    +0.05    0.330
+unimodal_face_cw             -0.012 ± 0.013    -0.05    +0.03    0.304
+unimodal_physio_cw_soft      -0.060 ± 0.021    -0.11    -0.03    0.310
+unimodal_physio_cw           -0.093 ± 0.098    -0.18    -0.01    0.296
+core_skip1_drop0             +0.133 ± 0.067    +0.36    +0.01    0.374
+core_skip1_drop1             +0.116 ± 0.062    +0.28    +0.03    0.441
+core_skip1_drop1_soft        +0.104 ± 0.075    +0.29    +0.01    0.321
+gate_skip1_drop0_soft        +0.102 ± 0.086    +0.20    +0.01    0.382
+core_skip1_drop0_soft        +0.100 ± 0.060    +0.26    +0.01    0.386
+core_skip1_drop1_hybrid      +0.090 ± 0.060    +0.24    +0.04    0.464
+gate_skip1_drop1_soft        +0.090 ± 0.071    +0.30    -0.03    0.435
+core_skip1_drop0_hybrid      +0.085 ± 0.021    +0.24    +0.04    0.443
+gate_skip1_drop0_hybrid      +0.071 ± 0.045    +0.19    +0.03    0.447
+gate_skip0_drop1_soft        +0.071 ± 0.121    +0.17    -0.01    0.350
+gate_skip1_drop1             +0.067 ± 0.027    +0.18    +0.02    0.495
+core_skip0_drop0_soft        +0.061 ± 0.144    +0.13    -0.02    0.346
+gate_skip1_drop0             +0.060 ± 0.011    +0.15    +0.03    0.477
+gate_skip0_drop0_soft        +0.054 ± 0.139    +0.13    -0.00    0.344
+gate_skip0_drop1             +0.023 ± 0.117    -0.04    +0.07    0.316
+core_skip0_drop0_hybrid      +0.022 ± 0.087    -0.01    +0.05    0.276
+gate_skip1_drop1_hybrid      +0.016 ± 0.059    +0.05    +0.01    0.404
+shuffle_core_skip1_drop1     -0.003 ± 0.018    -0.31    +0.01    0.350
+core_skip0_drop1_hybrid      -0.028 ± 0.106    -0.11    +0.05    0.331
+core_skip0_drop0             -0.030 ± 0.138    -0.10    +0.03    0.287
+core_skip0_drop1_soft        -0.035 ± 0.058    -0.10    +0.01    0.312
+gate_skip0_drop0             -0.050 ± 0.063    -0.17    +0.03    0.324
+core_skip0_drop1             -0.051 ± 0.093    -0.14    +0.03    0.353
+gate_skip0_drop0_hybrid      -0.065 ± 0.055    -0.16    +0.02    0.269
+gate_skip0_drop1_hybrid      -0.089 ± 0.056    -0.25    +0.05    0.274
+
+person-bootstrap 95% CI (1000 draws, persons resampled):
+  unimodal_face_cw             QWK [-0.153, +0.140]   within r [-0.088, +0.126]
+  unimodal_face_cw_soft        QWK [-0.114, +0.168]   within r [-0.013, +0.108]
+  unimodal_facemesh_cw         QWK [+0.001, +0.344]   within r [-0.079, +0.101]
+  unimodal_facemesh_cw_soft    QWK [+0.068, +0.350]   within r [-0.059, +0.095]
+  unimodal_head_pose_cw        QWK [-0.138, +0.251]   within r [-0.045, +0.132]
+  unimodal_head_pose_cw_soft   QWK [+0.022, +0.283]   within r [-0.028, +0.103]
+  unimodal_physio_cw           QWK [-0.252, +0.068]   within r [-0.067, +0.052]
+  unimodal_physio_cw_soft      QWK [-0.242, +0.069]   within r [-0.073, +0.011]
+  core_skip1_drop0             QWK [-0.007, +0.250]   within r [-0.033, +0.043]
+  shuffle_core_skip1_drop1     QWK [-0.026, +0.023]   within r [-0.018, +0.042]
+  best fusion core_skip1_drop0 - best single unimodal_facemesh_cw_soft: -0.079 CI [-0.240, +0.085] | fusions above best single: 0/24
+
+contrasts (config-level Wilcoxon, Holm across factors):
+  link            wins 12/12  median +0.108  p 0.0005  p_holm 0.0024
+  gate_vs_core    wins 3/12  median -0.017  p 0.2036  p_holm 0.4072
+  dropout         wins 5/12  median -0.015  p 0.2036  p_holm 0.4072
+  soft_vs_coral   wins 6/8  median +0.032  p 0.0781  p_holm 0.2344
+  soft_vs_hybrid  wins 7/8  median +0.035  p 0.0156  p_holm 0.0625
+
+GATE 1 (v3 fold): (a) recovered with CI>0: ['head_pose'] -> FAIL | (b) streams with within r >= 0.10: none -> FAIL
+
+====================================================================================================
+v3 subject: 1566 windows, 20 persons | label variance between persons 59% (between sessions 63%)
+config                                   QWK  between   within  bal.acc
+unimodal_head_pose_cw_soft   +0.075 ± 0.052    +0.19    +0.04    0.360
+unimodal_head_pose_cw        +0.059 ± 0.017    +0.13    +0.04    0.354
+unimodal_face_cw             +0.045 ± 0.066    +0.22    +0.03    0.330
+unimodal_face_cw_soft        +0.044 ± 0.109    +0.14    -0.00    0.353
+unimodal_facemesh_cw_soft    +0.016 ± 0.167    +0.03    +0.01    0.340
+unimodal_physio_cw_soft      -0.026 ± 0.036    -0.14    +0.03    0.322
+unimodal_facemesh_cw         -0.041 ± 0.126    -0.12    +0.03    0.316
+unimodal_physio_cw           -0.066 ± 0.041    -0.25    +0.01    0.304
+gate_skip0_drop1_soft        +0.089 ± 0.127    +0.18    +0.02    0.365
+core_skip0_drop1_soft        +0.084 ± 0.110    +0.21    +0.02    0.365
+gate_skip0_drop0_soft        +0.070 ± 0.098    +0.15    +0.05    0.361
+core_skip0_drop0             +0.027 ± 0.103    +0.14    +0.02    0.348
+core_skip0_drop0_soft        +0.022 ± 0.151    +0.07    +0.03    0.342
+core_skip0_drop1_hybrid      +0.018 ± 0.055    -0.05    +0.04    0.350
+gate_skip1_drop0_soft        +0.008 ± 0.022    +0.00    +0.01    0.316
+gate_skip0_drop0             +0.006 ± 0.074    -0.08    +0.04    0.351
+shuffle_core_skip1_drop1     +0.006 ± 0.017    +0.00    +0.00    0.345
+gate_skip0_drop0_hybrid      +0.003 ± 0.137    -0.00    +0.03    0.353
+gate_skip0_drop1             -0.001 ± 0.091    +0.03    +0.02    0.348
+core_skip1_drop1_soft        -0.004 ± 0.025    -0.09    +0.03    0.332
+gate_skip1_drop0_hybrid      -0.006 ± 0.053    -0.17    +0.03    0.426
+gate_skip1_drop1             -0.009 ± 0.029    +0.00    -0.02    0.319
+gate_skip0_drop1_hybrid      -0.011 ± 0.087    -0.16    +0.03    0.318
+core_skip0_drop0_hybrid      -0.016 ± 0.107    -0.11    +0.02    0.310
+core_skip1_drop0_soft        -0.020 ± 0.057    -0.07    +0.00    0.277
+core_skip1_drop0_hybrid      -0.023 ± 0.068    -0.16    +0.02    0.325
+gate_skip1_drop1_hybrid      -0.025 ± 0.070    -0.18    +0.02    0.321
+gate_skip1_drop1_soft        -0.025 ± 0.033    -0.14    -0.01    0.298
+core_skip1_drop1             -0.027 ± 0.065    -0.16    -0.00    0.309
+core_skip1_drop1_hybrid      -0.035 ± 0.018    -0.28    +0.01    0.332
+core_skip1_drop0             -0.037 ± 0.028    -0.20    -0.00    0.322
+core_skip0_drop1             -0.038 ± 0.103    -0.20    +0.04    0.312
+gate_skip1_drop0             -0.058 ± 0.009    -0.27    -0.01    0.307
+
+person-bootstrap 95% CI (1000 draws, persons resampled):
+  unimodal_face_cw             QWK [-0.015, +0.096]   within r [-0.039, +0.078]
+  unimodal_face_cw_soft        QWK [-0.035, +0.114]   within r [-0.044, +0.037]
+  unimodal_facemesh_cw         QWK [-0.122, +0.047]   within r [-0.008, +0.068]
+  unimodal_facemesh_cw_soft    QWK [-0.046, +0.078]   within r [-0.040, +0.049]
+  unimodal_head_pose_cw        QWK [-0.013, +0.133]   within r [-0.005, +0.084]
+  unimodal_head_pose_cw_soft   QWK [+0.008, +0.133]   within r [+0.010, +0.068]
+  unimodal_physio_cw           QWK [-0.139, +0.004]   within r [-0.033, +0.047]
+  unimodal_physio_cw_soft      QWK [-0.114, +0.061]   within r [+0.009, +0.057]
+  gate_skip0_drop1_soft        QWK [+0.012, +0.160]   within r [-0.011, +0.045]
+  shuffle_core_skip1_drop1     QWK [-0.016, +0.028]   within r [-0.019, +0.028]
+  best fusion gate_skip0_drop1_soft - best single unimodal_head_pose_cw_soft: +0.014 CI [-0.085, +0.116] | fusions above best single: 2/24
+
+contrasts (config-level Wilcoxon, Holm across factors):
+  link            wins 1/12  median -0.048  p 0.0034  p_holm 0.0171
+  gate_vs_core    wins 8/12  median +0.014  p 0.5186  p_holm 1.0000
+  dropout         wins 6/12  median +0.002  p 0.7910  p_holm 1.0000
+  soft_vs_coral   wins 6/8  median +0.044  p 0.0391  p_holm 0.1172
+  soft_vs_hybrid  wins 7/8  median +0.035  p 0.0156  p_holm 0.0625
+
+GATE 1 (v3 subject): (a) recovered with CI>0: none -> FAIL | (b) streams with within r >= 0.10: none -> FAIL

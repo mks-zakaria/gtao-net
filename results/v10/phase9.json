@@ -1,0 +1,75 @@
+{
+ "own_class_vs_own": {
+  "a_qwk": 0.0849,
+  "b_qwk": 0.1034,
+  "diff_qwk": 0.0186,
+  "ci_qwk": [
+   -0.015,
+   0.0523
+  ],
+  "p_qwk": 0.271,
+  "a_acc": 0.5385,
+  "b_acc": 0.5521,
+  "diff_acc": 0.0135,
+  "ci_acc": [
+   0.0007,
+   0.0267
+  ],
+  "persons": 57
+ },
+ "exploratory_class_only_vs_own": {
+  "a_qwk": 0.0849,
+  "b_qwk": 0.1259,
+  "diff_qwk": 0.041,
+  "ci_qwk": [
+   -0.0369,
+   0.1163
+  ],
+  "p_qwk": 0.307,
+  "a_acc": 0.5385,
+  "b_acc": 0.495,
+  "diff_acc": -0.0435,
+  "ci_acc": [
+   -0.0771,
+   -0.0095
+  ],
+  "persons": 57
+ },
+ "exploratory_pg5_own_class_vs_own": {
+  "a_qwk": 0.1731,
+  "b_qwk": 0.3159,
+  "diff_qwk": 0.1428,
+  "ci_qwk": [
+   0.0802,
+   0.2037
+  ],
+  "p_qwk": 0.0,
+  "a_acc": 0.5712,
+  "b_acc": 0.5996,
+  "diff_acc": 0.0284,
+  "ci_acc": [
+   0.0094,
+   0.0479
+  ],
+  "persons": 57
+ },
+ "exploratory_own_logo_vs_pg5": {
+  "a_qwk": 0.1731,
+  "b_qwk": 0.0701,
+  "diff_qwk": -0.103,
+  "ci_qwk": [
+   -0.1702,
+   -0.0378
+  ],
+  "p_qwk": 0.0,
+  "a_acc": 0.5712,
+  "b_acc": 0.5327,
+  "diff_acc": -0.0385,
+  "ci_acc": [
+   -0.0611,
+   -0.0162
+  ],
+  "persons": 57
+ },
+ "class_context_helps": false
+}

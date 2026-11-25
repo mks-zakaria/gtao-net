@@ -1,0 +1,15 @@
+{
+  "id": "zakariamakhas/gtao-v5-dipser-rich-merge",
+  "title": "gTAO v5 DIPSER rich merge",
+  "code_file": "merge_rich.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "dataset_sources": ["zakariamakhas/dipser-full-corpus-features"],
+  "competition_sources": [],
+  "kernel_sources": ["zakariamakhas/gtao-v5-dipser-rich-extract-shard0", "zakariamakhas/gtao-v5-dipser-rich-extract-shard1", "zakariamakhas/gtao-v5-dipser-rich-extract-shard2", "zakariamakhas/gtao-v5-dipser-rich-extract-shard3", "zakariamakhas/gtao-v5-dipser-rich-extract-shard4"],
+  "model_sources": []
+}

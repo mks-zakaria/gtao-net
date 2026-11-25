@@ -1,0 +1,1376 @@
+{
+ "levels": {
+  "0": {
+   "face": {
+    "lag": 0,
+    "ctx": 4,
+    "calib": true,
+    "phys": 4
+   },
+   "facemesh": {
+    "lag": 0,
+    "ctx": 2,
+    "calib": true,
+    "phys": 4
+   },
+   "head_pose": {
+    "lag": 0,
+    "ctx": 0,
+    "calib": true,
+    "phys": 4
+   },
+   "physio": {
+    "lag": 0,
+    "ctx": 0,
+    "calib": false,
+    "phys": 4
+   }
+  },
+  "1": {
+   "face": {
+    "lag": 0,
+    "ctx": 4,
+    "calib": false,
+    "phys": 4
+   },
+   "facemesh": {
+    "lag": 0,
+    "ctx": 0,
+    "calib": true,
+    "phys": 4
+   },
+   "head_pose": {
+    "lag": 0,
+    "ctx": 0,
+    "calib": true,
+    "phys": 4
+   },
+   "physio": {
+    "lag": 0,
+    "ctx": 2,
+    "calib": false,
+    "phys": 32
+   }
+  },
+  "2": {
+   "face": {
+    "lag": 2,
+    "ctx": 0,
+    "calib": false,
+    "phys": 4
+   },
+   "facemesh": {
+    "lag": 0,
+    "ctx": 0,
+    "calib": true,
+    "phys": 4
+   },
+   "head_pose": {
+    "lag": 0,
+    "ctx": 0,
+    "calib": false,
+    "phys": 4
+   },
+   "physio": {
+    "lag": 1,
+    "ctx": 0,
+    "calib": false,
+    "phys": 4
+   }
+  },
+  "3": {
+   "face": {
+    "lag": 0,
+    "ctx": 0,
+    "calib": false,
+    "phys": 4
+   },
+   "facemesh": {
+    "lag": 0,
+    "ctx": 2,
+    "calib": false,
+    "phys": 4
+   },
+   "head_pose": {
+    "lag": 1,
+    "ctx": 0,
+    "calib": false,
+    "phys": 4
+   },
+   "physio": {
+    "lag": 0,
+    "ctx": 0,
+    "calib": false,
+    "phys": 4
+   }
+  },
+  "4": {
+   "face": {
+    "lag": 2,
+    "ctx": 4,
+    "calib": false,
+    "phys": 4
+   },
+   "facemesh": {
+    "lag": 0,
+    "ctx": 2,
+    "calib": true,
+    "phys": 4
+   },
+   "head_pose": {
+    "lag": 1,
+    "ctx": 2,
+    "calib": true,
+    "phys": 4
+   },
+   "physio": {
+    "lag": 0,
+    "ctx": 0,
+    "calib": false,
+    "phys": 32
+   }
+  }
+ },
+ "log": {
+  "0": {
+   "n_inner_train": 17792,
+   "n_inner_val": 3699,
+   "trials": {
+    "face": [
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": -0.0511
+     },
+     {
+      "levels": {
+       "lag": 1,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": -0.0609
+     },
+     {
+      "levels": {
+       "lag": 2,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": -0.0516
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 2,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": -0.0347
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 4,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.0124
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 4,
+       "calib": true,
+       "phys": 4
+      },
+      "qwk": 0.0986
+     }
+    ],
+    "facemesh": [
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1149
+     },
+     {
+      "levels": {
+       "lag": 1,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1147
+     },
+     {
+      "levels": {
+       "lag": 2,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1058
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 2,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1331
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 4,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1225
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 2,
+       "calib": true,
+       "phys": 4
+      },
+      "qwk": 0.1933
+     }
+    ],
+    "head_pose": [
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1176
+     },
+     {
+      "levels": {
+       "lag": 1,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1075
+     },
+     {
+      "levels": {
+       "lag": 2,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.0806
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 2,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1129
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 4,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1176
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 0,
+       "calib": true,
+       "phys": 4
+      },
+      "qwk": 0.1776
+     }
+    ],
+    "physio": [
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1827
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 0,
+       "calib": false,
+       "phys": 16
+      },
+      "qwk": 0.1834
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 0,
+       "calib": false,
+       "phys": 32
+      },
+      "qwk": 0.1926
+     },
+     {
+      "levels": {
+       "lag": 1,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1671
+     },
+     {
+      "levels": {
+       "lag": 2,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1877
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 2,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.165
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 4,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1754
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 0,
+       "calib": true,
+       "phys": 4
+      },
+      "qwk": 0.0812
+     }
+    ]
+   }
+  },
+  "1": {
+   "n_inner_train": 17562,
+   "n_inner_val": 4372,
+   "trials": {
+    "face": [
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.157
+     },
+     {
+      "levels": {
+       "lag": 1,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1617
+     },
+     {
+      "levels": {
+       "lag": 2,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1591
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 2,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1741
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 4,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.183
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 4,
+       "calib": true,
+       "phys": 4
+      },
+      "qwk": 0.1638
+     }
+    ],
+    "facemesh": [
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1481
+     },
+     {
+      "levels": {
+       "lag": 1,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1448
+     },
+     {
+      "levels": {
+       "lag": 2,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1241
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 2,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1523
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 4,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1421
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 0,
+       "calib": true,
+       "phys": 4
+      },
+      "qwk": 0.1759
+     }
+    ],
+    "head_pose": [
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1411
+     },
+     {
+      "levels": {
+       "lag": 1,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.127
+     },
+     {
+      "levels": {
+       "lag": 2,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1299
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 2,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1221
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 4,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.124
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 0,
+       "calib": true,
+       "phys": 4
+      },
+      "qwk": 0.1604
+     }
+    ],
+    "physio": [
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1751
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 0,
+       "calib": false,
+       "phys": 16
+      },
+      "qwk": 0.188
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 0,
+       "calib": false,
+       "phys": 32
+      },
+      "qwk": 0.1985
+     },
+     {
+      "levels": {
+       "lag": 1,
+       "ctx": 0,
+       "calib": false,
+       "phys": 32
+      },
+      "qwk": 0.1864
+     },
+     {
+      "levels": {
+       "lag": 2,
+       "ctx": 0,
+       "calib": false,
+       "phys": 32
+      },
+      "qwk": 0.1921
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 2,
+       "calib": false,
+       "phys": 32
+      },
+      "qwk": 0.2144
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 4,
+       "calib": false,
+       "phys": 32
+      },
+      "qwk": 0.2064
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 2,
+       "calib": true,
+       "phys": 32
+      },
+      "qwk": 0.1375
+     }
+    ]
+   }
+  },
+  "2": {
+   "n_inner_train": 17169,
+   "n_inner_val": 3738,
+   "trials": {
+    "face": [
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.0648
+     },
+     {
+      "levels": {
+       "lag": 1,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.0838
+     },
+     {
+      "levels": {
+       "lag": 2,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.0951
+     },
+     {
+      "levels": {
+       "lag": 2,
+       "ctx": 2,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.0893
+     },
+     {
+      "levels": {
+       "lag": 2,
+       "ctx": 4,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.0586
+     },
+     {
+      "levels": {
+       "lag": 2,
+       "ctx": 0,
+       "calib": true,
+       "phys": 4
+      },
+      "qwk": 0.0643
+     }
+    ],
+    "facemesh": [
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1519
+     },
+     {
+      "levels": {
+       "lag": 1,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1599
+     },
+     {
+      "levels": {
+       "lag": 2,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1382
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 2,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1563
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 4,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1423
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 0,
+       "calib": true,
+       "phys": 4
+      },
+      "qwk": 0.1631
+     }
+    ],
+    "head_pose": [
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1602
+     },
+     {
+      "levels": {
+       "lag": 1,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1666
+     },
+     {
+      "levels": {
+       "lag": 2,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.163
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 2,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1513
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 4,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1651
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 0,
+       "calib": true,
+       "phys": 4
+      },
+      "qwk": 0.0979
+     }
+    ],
+    "physio": [
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.127
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 0,
+       "calib": false,
+       "phys": 16
+      },
+      "qwk": 0.1359
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 0,
+       "calib": false,
+       "phys": 32
+      },
+      "qwk": 0.1324
+     },
+     {
+      "levels": {
+       "lag": 1,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1424
+     },
+     {
+      "levels": {
+       "lag": 2,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1279
+     },
+     {
+      "levels": {
+       "lag": 1,
+       "ctx": 2,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1191
+     },
+     {
+      "levels": {
+       "lag": 1,
+       "ctx": 4,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1295
+     },
+     {
+      "levels": {
+       "lag": 1,
+       "ctx": 0,
+       "calib": true,
+       "phys": 4
+      },
+      "qwk": 0.0869
+     }
+    ]
+   }
+  },
+  "3": {
+   "n_inner_train": 16422,
+   "n_inner_val": 4482,
+   "trials": {
+    "face": [
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.0786
+     },
+     {
+      "levels": {
+       "lag": 1,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.0581
+     },
+     {
+      "levels": {
+       "lag": 2,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.0762
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 2,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.0515
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 4,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.0854
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 0,
+       "calib": true,
+       "phys": 4
+      },
+      "qwk": 0.0847
+     }
+    ],
+    "facemesh": [
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1655
+     },
+     {
+      "levels": {
+       "lag": 1,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1395
+     },
+     {
+      "levels": {
+       "lag": 2,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1508
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 2,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1787
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 4,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1345
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 2,
+       "calib": true,
+       "phys": 4
+      },
+      "qwk": 0.098
+     }
+    ],
+    "head_pose": [
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.112
+     },
+     {
+      "levels": {
+       "lag": 1,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1268
+     },
+     {
+      "levels": {
+       "lag": 2,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.117
+     },
+     {
+      "levels": {
+       "lag": 1,
+       "ctx": 2,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1342
+     },
+     {
+      "levels": {
+       "lag": 1,
+       "ctx": 4,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1167
+     },
+     {
+      "levels": {
+       "lag": 1,
+       "ctx": 0,
+       "calib": true,
+       "phys": 4
+      },
+      "qwk": 0.0944
+     }
+    ],
+    "physio": [
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.058
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 0,
+       "calib": false,
+       "phys": 16
+      },
+      "qwk": 0.06
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 0,
+       "calib": false,
+       "phys": 32
+      },
+      "qwk": 0.0598
+     },
+     {
+      "levels": {
+       "lag": 1,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.0474
+     },
+     {
+      "levels": {
+       "lag": 2,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.052
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 2,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.0636
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 4,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.0616
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 0,
+       "calib": true,
+       "phys": 4
+      },
+      "qwk": 0.0387
+     }
+    ]
+   }
+  },
+  "4": {
+   "n_inner_train": 17223,
+   "n_inner_val": 4933,
+   "trials": {
+    "face": [
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.0667
+     },
+     {
+      "levels": {
+       "lag": 1,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.066
+     },
+     {
+      "levels": {
+       "lag": 2,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1016
+     },
+     {
+      "levels": {
+       "lag": 2,
+       "ctx": 2,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.0809
+     },
+     {
+      "levels": {
+       "lag": 2,
+       "ctx": 4,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1197
+     },
+     {
+      "levels": {
+       "lag": 2,
+       "ctx": 4,
+       "calib": true,
+       "phys": 4
+      },
+      "qwk": 0.0723
+     }
+    ],
+    "facemesh": [
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1115
+     },
+     {
+      "levels": {
+       "lag": 1,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1143
+     },
+     {
+      "levels": {
+       "lag": 2,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.109
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 2,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1335
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 4,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1279
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 2,
+       "calib": true,
+       "phys": 4
+      },
+      "qwk": 0.2001
+     }
+    ],
+    "head_pose": [
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1051
+     },
+     {
+      "levels": {
+       "lag": 1,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1294
+     },
+     {
+      "levels": {
+       "lag": 2,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.116
+     },
+     {
+      "levels": {
+       "lag": 1,
+       "ctx": 2,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1576
+     },
+     {
+      "levels": {
+       "lag": 1,
+       "ctx": 4,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1389
+     },
+     {
+      "levels": {
+       "lag": 1,
+       "ctx": 2,
+       "calib": true,
+       "phys": 4
+      },
+      "qwk": 0.2128
+     }
+    ],
+    "physio": [
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 0,
+       "calib": false,
+       "phys": 4
+      },
+      "qwk": 0.1312
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 0,
+       "calib": false,
+       "phys": 16
+      },
+      "qwk": 0.1432
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 0,
+       "calib": false,
+       "phys": 32
+      },
+      "qwk": 0.1621
+     },
+     {
+      "levels": {
+       "lag": 1,
+       "ctx": 0,
+       "calib": false,
+       "phys": 32
+      },
+      "qwk": 0.1487
+     },
+     {
+      "levels": {
+       "lag": 2,
+       "ctx": 0,
+       "calib": false,
+       "phys": 32
+      },
+      "qwk": 0.1536
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 2,
+       "calib": false,
+       "phys": 32
+      },
+      "qwk": 0.1639
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 4,
+       "calib": false,
+       "phys": 32
+      },
+      "qwk": 0.1535
+     },
+     {
+      "levels": {
+       "lag": 0,
+       "ctx": 0,
+       "calib": true,
+       "phys": 32
+      },
+      "qwk": 0.0762
+     }
+    ]
+   }
+  }
+ }
+}

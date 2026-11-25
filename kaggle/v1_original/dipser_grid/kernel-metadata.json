@@ -1,0 +1,13 @@
+{
+  "id": "gtao-grid",
+  "title": "gTAO-Net grid v1 - full factorial",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "dataset_sources": [
+    "zakariamakhas/dipseer-paper1-slice"
+  ]
+}

@@ -1,0 +1,1077 @@
+[{"stream_name":"stdout","time":41.878897015,"data":"stored orders: face 24x24, temporal {'facemesh': 12, 'head_pose': 12, 'physio': 6, 'face': 12, 'face_crop': 8}\n"}
+,{"stream_name":"stdout","time":41.903826599,"data":"{\n"}
+,{"stream_name":"stdout","time":41.903863533,"data":" \"dataset\": \"dipser_crop\",\n"}
+,{"stream_name":"stdout","time":41.903869719,"data":" \"objective\": \"acc\",\n"}
+,{"stream_name":"stdout","time":41.903876078,"data":" \"classes\": 3,\n"}
+,{"stream_name":"stdout","time":41.903884991,"data":" \"n\": {\n"}
+,{"stream_name":"stdout","time":41.90388783,"data":"  \"train\": 17119,\n"}
+,{"stream_name":"stdout","time":41.903890797,"data":"  \"val\": 5323,\n"}
+,{"stream_name":"stdout","time":41.903893555,"data":"  \"test\": 6484,\n"}
+,{"stream_name":"stdout","time":41.903896257,"data":"  \"trainval\": 22442\n"}
+,{"stream_name":"stdout","time":41.903899055,"data":" },\n"}
+,{"stream_name":"stdout","time":41.903901587,"data":" \"persons\": {\n"}
+,{"stream_name":"stdout","time":41.903904204,"data":"  \"train\": 33,\n"}
+,{"stream_name":"stdout","time":41.903906872,"data":"  \"val\": 11,\n"}
+,{"stream_name":"stdout","time":41.903909648,"data":"  \"test\": 13,\n"}
+,{"stream_name":"stdout","time":41.903912257,"data":"  \"trainval\": 44\n"}
+,{"stream_name":"stdout","time":41.903914844,"data":" },\n"}
+,{"stream_name":"stdout","time":41.903917373,"data":" \"class_dist\": {\n"}
+,{"stream_name":"stdout","time":41.903920111,"data":"  \"train\": [\n"}
+,{"stream_name":"stdout","time":41.90392271,"data":"   5342,\n"}
+,{"stream_name":"stdout","time":41.903925278,"data":"   9471,\n"}
+,{"stream_name":"stdout","time":41.903927802,"data":"   2306\n"}
+,{"stream_name":"stdout","time":41.903930383,"data":"  ],\n"}
+,{"stream_name":"stdout","time":41.90393293,"data":"  \"val\": [\n"}
+,{"stream_name":"stdout","time":41.903935519,"data":"   1588,\n"}
+,{"stream_name":"stdout","time":41.903938051,"data":"   2901,\n"}
+,{"stream_name":"stdout","time":41.903940586,"data":"   834\n"}
+,{"stream_name":"stdout","time":41.903943152,"data":"  ],\n"}
+,{"stream_name":"stdout","time":41.903945773,"data":"  \"test\": [\n"}
+,{"stream_name":"stdout","time":41.903948369,"data":"   2320,\n"}
+,{"stream_name":"stdout","time":41.90395089,"data":"   3374,\n"}
+,{"stream_name":"stdout","time":41.903953407,"data":"   790\n"}
+,{"stream_name":"stdout","time":41.903955963,"data":"  ],\n"}
+,{"stream_name":"stdout","time":41.903972763,"data":"  \"trainval\": [\n"}
+,{"stream_name":"stdout","time":41.903975853,"data":"   6930,\n"}
+,{"stream_name":"stdout","time":41.90397839,"data":"   12372,\n"}
+,{"stream_name":"stdout","time":41.903983009,"data":"   3140\n"}
+,{"stream_name":"stdout","time":41.903986662,"data":"  ]\n"}
+,{"stream_name":"stdout","time":41.903990329,"data":" },\n"}
+,{"stream_name":"stdout","time":41.903993987,"data":" \"majority_test\": {\n"}
+,{"stream_name":"stdout","time":41.903997594,"data":"  \"acc\": 0.5203578038247995,\n"}
+,{"stream_name":"stdout","time":41.904001217,"data":"  \"qwk\": 0.0,\n"}
+,{"stream_name":"stdout","time":41.904005516,"data":"  \"balanced_acc\": 0.3333333333333333,\n"}
+,{"stream_name":"stdout","time":41.904009257,"data":"  \"recall\": [\n"}
+,{"stream_name":"stdout","time":41.904029542,"data":"   0.0,\n"}
+,{"stream_name":"stdout","time":41.904034307,"data":"   1.0,\n"}
+,{"stream_name":"stdout","time":41.904038561,"data":"   0.0\n"}
+,{"stream_name":"stdout","time":41.904043044,"data":"  ],\n"}
+,{"stream_name":"stdout","time":41.904046818,"data":"  \"pred_dist\": [\n"}
+,{"stream_name":"stdout","time":41.904078678,"data":"   0,\n"}
+,{"stream_name":"stdout","time":41.904081993,"data":"   6484,\n"}
+,{"stream_name":"stdout","time":41.904085282,"data":"   0\n"}
+,{"stream_name":"stdout","time":41.904087823,"data":"  ]\n"}
+,{"stream_name":"stdout","time":41.904090364,"data":" },\n"}
+,{"stream_name":"stdout","time":41.904092874,"data":" \"literature_acc\": {}\n"}
+,{"stream_name":"stdout","time":41.904095556,"data":"}\n"}
+,{"stream_name":"stderr","time":41.906930521,"data":"[I 2026-11-20 18:18:34,152] A new study created in memory with name: no-name-cca614de-d926-4209-9263-11f8c641fef0\n"}
+,{"stream_name":"stderr","time":46.030679723,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":46.030721952,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":46.171854887,"data":"trial 0: gbm ['face_crop'] -\u003e val acc 0.4954 qwk +0.1216 (4s)\n"}
+,{"stream_name":"stdout","time":104.611313186,"data":"trial 1: mlp ['face_crop', 'facemesh'] -\u003e val acc 0.5534 qwk +0.0694 (58s)\n"}
+,{"stream_name":"stderr","time":509.265469509,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":509.265617963,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":509.620295635,"data":"trial 2: gbm ['face', 'facemesh', 'physio'] -\u003e val acc 0.5422 qwk +0.1106 (405s)\n"}
+,{"stream_name":"stderr","time":513.294559487,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":513.294600083,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":513.692140071,"data":"trial 3: gbm ['face_crop', 'head_pose'] -\u003e val acc 0.5820 qwk +0.0999 (4s)\n"}
+,{"stream_name":"stdout","time":537.810569888,"data":"trial 4: mlp ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.4541 qwk +0.1480 (24s)\n"}
+,{"stream_name":"stdout","time":550.872270725,"data":"trial 5: mlp ['face', 'face_crop', 'facemesh', 'head_pose', 'physio'] -\u003e val acc 0.6027 qwk +0.2375 (13s)\n"}
+,{"stream_name":"stdout","time":555.957727051,"data":"trial 6: mlp ['face', 'head_pose'] -\u003e val acc 0.4995 qwk +0.0241 (5s)\n"}
+,{"stream_name":"stdout","time":561.07765904,"data":"trial 7: mlp ['face', 'physio'] -\u003e val acc 0.4980 qwk +0.0745 (5s)\n"}
+,{"stream_name":"stderr","time":568.580122935,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":568.580191316,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":568.648926965,"data":"trial 8: gbm ['face_crop', 'physio'] -\u003e val acc 0.5296 qwk -0.0131 (7s)\n"}
+,{"stream_name":"stderr","time":615.017188966,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":615.017236592,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":615.296101043,"data":"trial 9: gbm ['face_crop'] -\u003e val acc 0.5166 qwk +0.0033 (46s)\n"}
+,{"stream_name":"stdout","time":626.677223185,"data":"trial 10: mlp ['face', 'face_crop', 'facemesh'] -\u003e val acc 0.5598 qwk +0.1764 (11s)\n"}
+,{"stream_name":"stderr","time":1174.784955275,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":1174.785243895,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":1175.330844353,"data":"trial 11: gbm ['facemesh'] -\u003e val acc 0.5442 qwk +0.0763 (548s)\n"}
+,{"stream_name":"stdout","time":1195.246344045,"data":"trial 12: mlp ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5202 qwk +0.0293 (19s)\n"}
+,{"stream_name":"stdout","time":1691.136205964,"data":"trial 13: mlp ['face', 'face_crop', 'physio'] -\u003e val acc 0.4526 qwk +0.0495 (496s)\n"}
+,{"stream_name":"stdout","time":1721.716534486,"data":"trial 14: mlp ['facemesh'] -\u003e val acc 0.5450 qwk +0.0000 (30s)\n"}
+,{"stream_name":"stderr","time":1850.813119446,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":1850.813181941,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":1851.209028509,"data":"trial 15: gbm ['face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5598 qwk +0.0511 (129s)\n"}
+,{"stream_name":"stderr","time":1855.526322565,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":1855.526368077,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":1855.790207981,"data":"trial 16: gbm ['physio'] -\u003e val acc 0.4178 qwk +0.0676 (4s)\n"}
+,{"stream_name":"stderr","time":1980.026428825,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":1980.026494973,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":1980.4016765,"data":"trial 17: gbm ['face', 'head_pose', 'physio'] -\u003e val acc 0.5617 qwk +0.0385 (124s)\n"}
+,{"stream_name":"stderr","time":2036.551700009,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":2036.551768641,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":2036.672465631,"data":"trial 18: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5657 qwk -0.0036 (56s)\n"}
+,{"stream_name":"stdout","time":2059.225484145,"data":"trial 19: mlp ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.4079 qwk +0.0655 (22s)\n"}
+,{"stream_name":"stderr","time":2061.7619847,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":2061.762026107,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":2061.957127203,"data":"trial 20: gbm ['face_crop', 'head_pose'] -\u003e val acc 0.5657 qwk +0.0061 (2s)\n"}
+,{"stream_name":"stdout","time":2085.915444294,"data":"trial 21: mlp ['face', 'face_crop', 'facemesh', 'head_pose', 'physio'] -\u003e val acc 0.5987 qwk +0.1543 (24s)\n"}
+,{"stream_name":"stdout","time":2100.909503966,"data":"trial 22: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.6096 qwk +0.2491 (15s)\n"}
+,{"stream_name":"stdout","time":2125.346139305,"data":"trial 23: mlp ['face', 'face_crop', 'facemesh', 'head_pose', 'physio'] -\u003e val acc 0.5910 qwk +0.2053 (24s)\n"}
+,{"stream_name":"stderr","time":2361.260093733,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":2361.260275573,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":2361.703642835,"data":"trial 24: gbm ['face', 'face_crop', 'facemesh', 'head_pose', 'physio'] -\u003e val acc 0.5897 qwk +0.1753 (236s)\n"}
+,{"stream_name":"stdout","time":2373.824227814,"data":"trial 25: mlp ['face', 'face_crop', 'facemesh', 'head_pose', 'physio'] -\u003e val acc 0.5426 qwk +0.0423 (12s)\n"}
+,{"stream_name":"stdout","time":2394.58950306,"data":"trial 26: mlp ['face', 'face_crop', 'facemesh', 'head_pose', 'physio'] -\u003e val acc 0.6036 qwk +0.1707 (21s)\n"}
+,{"stream_name":"stdout","time":2408.943255085,"data":"trial 27: mlp ['face', 'face_crop', 'facemesh', 'physio'] -\u003e val acc 0.6023 qwk +0.1947 (14s)\n"}
+,{"stream_name":"stdout","time":2426.026906706,"data":"trial 28: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5523 qwk +0.0907 (17s)\n"}
+,{"stream_name":"stderr","time":2449.26553907,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":2449.265621216,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":2449.64010967,"data":"trial 29: gbm ['face_crop', 'facemesh', 'head_pose', 'physio'] -\u003e val acc 0.5884 qwk +0.1459 (23s)\n"}
+,{"stream_name":"stdout","time":2457.518062898,"data":"trial 30: mlp ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5610 qwk +0.0000 (8s)\n"}
+,{"stream_name":"stdout","time":2470.509160921,"data":"trial 31: mlp ['face', 'facemesh', 'physio'] -\u003e val acc 0.5850 qwk +0.1445 (13s)\n"}
+,{"stream_name":"stdout","time":2484.192982166,"data":"trial 32: mlp ['face_crop', 'facemesh', 'physio'] -\u003e val acc 0.5869 qwk +0.0700 (13s)\n"}
+,{"stream_name":"stdout","time":2501.339412159,"data":"trial 33: mlp ['face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5666 qwk +0.0667 (17s)\n"}
+,{"stream_name":"stdout","time":2510.018003702,"data":"trial 34: mlp ['face', 'face_crop', 'facemesh', 'head_pose', 'physio'] -\u003e val acc 0.5749 qwk +0.1602 (8s)\n"}
+,{"stream_name":"stdout","time":2520.893092502,"data":"trial 35: mlp ['face', 'facemesh'] -\u003e val acc 0.5737 qwk +0.1564 (11s)\n"}
+,{"stream_name":"stdout","time":2587.418320949,"data":"trial 36: mlp ['face', 'face_crop', 'facemesh', 'head_pose', 'physio'] -\u003e val acc 0.4928 qwk +0.0156 (66s)\n"}
+,{"stream_name":"stdout","time":2604.02441517,"data":"trial 37: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5944 qwk +0.1479 (16s)\n"}
+,{"stream_name":"stdout","time":2623.551401593,"data":"trial 38: mlp ['face', 'face_crop', 'facemesh', 'physio'] -\u003e val acc 0.5914 qwk +0.1845 (19s)\n"}
+,{"stream_name":"stdout","time":2642.153064318,"data":"trial 39: mlp ['face', 'face_crop', 'facemesh', 'head_pose', 'physio'] -\u003e val acc 0.5839 qwk +0.2395 (18s)\n"}
+,{"stream_name":"stdout","time":2666.46757375,"data":"trial 40: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.6077 qwk +0.1656 (24s)\n"}
+,{"stream_name":"stdout","time":2691.111037454,"data":"trial 41: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5690 qwk +0.1762 (24s)\n"}
+,{"stream_name":"stdout","time":2722.143050675,"data":"trial 42: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5965 qwk +0.1700 (31s)\n"}
+,{"stream_name":"stdout","time":2735.734258772,"data":"trial 43: mlp ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5677 qwk +0.1128 (13s)\n"}
+,{"stream_name":"stdout","time":2768.941789181,"data":"trial 44: mlp ['face', 'facemesh', 'head_pose'] -\u003e val acc 0.5734 qwk +0.1536 (33s)\n"}
+,{"stream_name":"stdout","time":2818.491423093,"data":"trial 45: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5397 qwk +0.0700 (49s)\n"}
+,{"stream_name":"stdout","time":2861.438671122,"data":"trial 46: mlp ['face', 'face_crop', 'facemesh', 'physio'] -\u003e val acc 0.5371 qwk +0.0910 (43s)\n"}
+,{"stream_name":"stdout","time":2874.663648488,"data":"trial 47: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5200 qwk +0.0870 (13s)\n"}
+,{"stream_name":"stdout","time":2889.878098902,"data":"trial 48: mlp ['face', 'face_crop', 'facemesh'] -\u003e val acc 0.5905 qwk +0.1323 (15s)\n"}
+,{"stream_name":"stdout","time":2912.383068523,"data":"trial 49: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5867 qwk +0.1191 (22s)\n"}
+,{"stream_name":"stderr","time":2933.920065714,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":2933.920110706,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":2934.052026283,"data":"trial 50: gbm ['face', 'face_crop', 'facemesh', 'head_pose', 'physio'] -\u003e val acc 0.5875 qwk +0.1528 (21s)\n"}
+,{"stream_name":"stdout","time":2951.30850687,"data":"trial 51: mlp ['face', 'face_crop', 'facemesh', 'physio'] -\u003e val acc 0.5700 qwk +0.1462 (17s)\n"}
+,{"stream_name":"stdout","time":2961.926479496,"data":"trial 52: mlp ['face', 'face_crop', 'physio'] -\u003e val acc 0.5754 qwk +0.1283 (10s)\n"}
+,{"stream_name":"stdout","time":2979.058151697,"data":"trial 53: mlp ['face', 'face_crop', 'facemesh', 'head_pose', 'physio'] -\u003e val acc 0.5670 qwk +0.0928 (17s)\n"}
+,{"stream_name":"stdout","time":2990.016664553,"data":"trial 54: mlp ['face_crop', 'facemesh', 'head_pose', 'physio'] -\u003e val acc 0.5690 qwk +0.0796 (11s)\n"}
+,{"stream_name":"stdout","time":3012.939277196,"data":"trial 55: mlp ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5084 qwk +0.1350 (23s)\n"}
+,{"stream_name":"stdout","time":3049.181664874,"data":"trial 56: mlp ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5649 qwk +0.0575 (36s)\n"}
+,{"stream_name":"stdout","time":3098.274019289,"data":"trial 57: mlp ['face', 'face_crop', 'facemesh', 'head_pose', 'physio'] -\u003e val acc 0.4898 qwk +0.0928 (49s)\n"}
+,{"stream_name":"stdout","time":3152.892678977,"data":"trial 58: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5940 qwk +0.2062 (54s)\n"}
+,{"stream_name":"stdout","time":3215.800013641,"data":"trial 59: mlp ['face', 'face_crop', 'facemesh', 'head_pose', 'physio'] -\u003e val acc 0.5914 qwk +0.2295 (63s)\n"}
+,{"stream_name":"stdout","time":3227.443510955,"data":"trial 60: mlp ['face', 'face_crop', 'facemesh', 'physio'] -\u003e val acc 0.5480 qwk +0.0632 (11s)\n"}
+,{"stream_name":"stdout","time":3254.250156793,"data":"trial 61: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5961 qwk +0.1367 (27s)\n"}
+,{"stream_name":"stdout","time":3277.641000022,"data":"trial 62: mlp ['face', 'facemesh', 'head_pose', 'physio'] -\u003e val acc 0.5921 qwk +0.1842 (23s)\n"}
+,{"stream_name":"stdout","time":3290.483256857,"data":"trial 63: mlp ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.6006 qwk +0.1832 (13s)\n"}
+,{"stream_name":"stdout","time":3314.883683891,"data":"trial 64: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5961 qwk +0.2098 (24s)\n"}
+,{"stream_name":"stderr","time":3413.060732731,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":3413.060820129,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":3413.43901208,"data":"trial 65: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.6042 qwk +0.1554 (98s)\n"}
+,{"stream_name":"stdout","time":3455.658305037,"data":"trial 66: mlp ['face_crop', 'facemesh', 'head_pose', 'physio'] -\u003e val acc 0.5773 qwk +0.2091 (42s)\n"}
+,{"stream_name":"stdout","time":3474.64582399,"data":"trial 67: mlp ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5938 qwk +0.1190 (19s)\n"}
+,{"stream_name":"stderr","time":3561.390073296,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":3561.39013437,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":3561.758314664,"data":"trial 68: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.6057 qwk +0.1283 (87s)\n"}
+,{"stream_name":"stderr","time":3655.947782059,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":3655.947847816,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":3656.334088537,"data":"trial 69: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5987 qwk +0.1132 (94s)\n"}
+,{"stream_name":"stdout","time":3679.32867687,"data":"trial 70: mlp ['face', 'face_crop', 'facemesh', 'head_pose', 'physio'] -\u003e val acc 0.4753 qwk +0.1348 (23s)\n"}
+,{"stream_name":"stdout","time":3697.692707748,"data":"trial 71: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.6117 qwk +0.1944 (18s)\n"}
+,{"stream_name":"stdout","time":3706.50869342,"data":"trial 72: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.6049 qwk +0.1214 (9s)\n"}
+,{"stream_name":"stderr","time":3717.103729848,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":3717.103776825,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":3717.480612032,"data":"trial 73: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5696 qwk +0.0631 (11s)\n"}
+,{"stream_name":"stdout","time":3729.554936175,"data":"trial 74: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.6047 qwk +0.1846 (12s)\n"}
+,{"stream_name":"stdout","time":3748.018130331,"data":"trial 75: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5985 qwk +0.1893 (18s)\n"}
+,{"stream_name":"stdout","time":3764.628448705,"data":"trial 76: mlp ['face', 'facemesh', 'head_pose'] -\u003e val acc 0.6002 qwk +0.1495 (16s)\n"}
+,{"stream_name":"stdout","time":3774.187842025,"data":"trial 77: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5989 qwk +0.1600 (9s)\n"}
+,{"stream_name":"stderr","time":3810.710808285,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":3810.710852791,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":3811.090365946,"data":"trial 78: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5948 qwk +0.0917 (37s)\n"}
+,{"stream_name":"stdout","time":3822.08783115,"data":"trial 79: mlp ['face', 'face_crop', 'facemesh'] -\u003e val acc 0.5942 qwk +0.1474 (11s)\n"}
+,{"stream_name":"stdout","time":3845.055170489,"data":"trial 80: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5807 qwk +0.1286 (23s)\n"}
+,{"stream_name":"stdout","time":3857.914689459,"data":"trial 81: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5039 qwk +0.0213 (13s)\n"}
+,{"stream_name":"stderr","time":4107.720353606,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":4107.720414319,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":4108.206562868,"data":"trial 82: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5751 qwk +0.0399 (250s)\n"}
+,{"stream_name":"stdout","time":4127.678143152,"data":"trial 83: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5944 qwk +0.1407 (19s)\n"}
+,{"stream_name":"stderr","time":4157.483525729,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":4157.48357032,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":4157.766896375,"data":"trial 84: gbm ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5741 qwk +0.0643 (30s)\n"}
+,{"stream_name":"stdout","time":4166.750993609,"data":"trial 85: mlp ['face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5946 qwk +0.1015 (9s)\n"}
+,{"stream_name":"stdout","time":4181.861414417,"data":"trial 86: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.6115 qwk +0.1671 (15s)\n"}
+,{"stream_name":"stdout","time":4196.567039302,"data":"trial 87: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.6027 qwk +0.1511 (14s)\n"}
+,{"stream_name":"stdout","time":4219.805120316,"data":"trial 88: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5386 qwk -0.0378 (23s)\n"}
+,{"stream_name":"stdout","time":4235.857164954,"data":"trial 89: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5401 qwk +0.0291 (16s)\n"}
+,{"stream_name":"stdout","time":4259.340305574,"data":"trial 90: mlp ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.4856 qwk +0.0073 (23s)\n"}
+,{"stream_name":"stdout","time":4267.405331682,"data":"trial 91: mlp ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5935 qwk +0.1673 (8s)\n"}
+,{"stream_name":"stderr","time":4283.361527386,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":4283.361598486,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":4283.65204857,"data":"trial 92: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.6166 qwk +0.1841 (16s)\n"}
+,{"stream_name":"stderr","time":4299.062136084,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":4299.062185794,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":4299.346047687,"data":"trial 93: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.6181 qwk +0.1965 (15s)\n"}
+,{"stream_name":"stderr","time":4321.677519028,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":4321.677574697,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":4321.958072166,"data":"trial 94: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.6051 qwk +0.1867 (22s)\n"}
+,{"stream_name":"stderr","time":4331.344982357,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":4331.345054425,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":4331.620790787,"data":"trial 95: gbm ['face_crop', 'head_pose'] -\u003e val acc 0.5985 qwk +0.1145 (9s)\n"}
+,{"stream_name":"stderr","time":4337.158659922,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":4337.158718375,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":4337.419218413,"data":"trial 96: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5805 qwk +0.0914 (6s)\n"}
+,{"stream_name":"stderr","time":4351.390921317,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":4351.39098998,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":4351.713979499,"data":"trial 97: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.6034 qwk +0.1754 (14s)\n"}
+,{"stream_name":"stderr","time":4362.271936886,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":4362.272015159,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":4362.49958339,"data":"trial 98: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5899 qwk +0.1770 (11s)\n"}
+,{"stream_name":"stderr","time":4382.125593461,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":4382.125641553,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":4382.397352363,"data":"trial 99: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.6122 qwk +0.1959 (20s)\n"}
+,{"stream_name":"stderr","time":4397.915411093,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":4397.915463763,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":4398.187205434,"data":"trial 100: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5884 qwk +0.1374 (16s)\n"}
+,{"stream_name":"stderr","time":4441.199028156,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":4441.199076871,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":4441.528086699,"data":"trial 101: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5980 qwk +0.1516 (43s)\n"}
+,{"stream_name":"stderr","time":4457.4787346,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":4457.47880493,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":4457.724390766,"data":"trial 102: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5803 qwk +0.0466 (16s)\n"}
+,{"stream_name":"stderr","time":4506.693283817,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":4506.693329813,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":4506.992315147,"data":"trial 103: gbm ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5935 qwk +0.1700 (49s)\n"}
+,{"stream_name":"stderr","time":4528.38371166,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":4528.383755062,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":4528.619368905,"data":"trial 104: gbm ['face_crop', 'head_pose'] -\u003e val acc 0.5953 qwk +0.1107 (21s)\n"}
+,{"stream_name":"stdout","time":4566.376274512,"data":"trial 105: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5322 qwk +0.0743 (38s)\n"}
+,{"stream_name":"stderr","time":4600.685485562,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":4600.685551065,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":4601.099140684,"data":"trial 106: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.6089 qwk +0.1838 (34s)\n"}
+,{"stream_name":"stdout","time":4656.163253262,"data":"trial 107: mlp ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5576 qwk +0.1807 (55s)\n"}
+,{"stream_name":"stderr","time":4696.770178498,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":4696.770250681,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":4697.105414167,"data":"trial 108: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5998 qwk +0.1756 (41s)\n"}
+,{"stream_name":"stderr","time":4722.489756349,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":4722.489806252,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":4722.835805648,"data":"trial 109: gbm ['face', 'face_crop', 'physio'] -\u003e val acc 0.5927 qwk +0.1553 (25s)\n"}
+,{"stream_name":"stderr","time":4736.351620896,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":4736.351731358,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":4736.610236062,"data":"trial 110: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.6098 qwk +0.1993 (14s)\n"}
+,{"stream_name":"stderr","time":4747.081571502,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":4747.081616912,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":4747.376742075,"data":"trial 111: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.6021 qwk +0.1799 (10s)\n"}
+,{"stream_name":"stderr","time":4754.76609214,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":4754.766136919,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":4754.969171256,"data":"trial 112: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5717 qwk +0.1223 (7s)\n"}
+,{"stream_name":"stderr","time":4759.44714911,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":4759.447211966,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":4759.69551476,"data":"trial 113: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5694 qwk +0.1136 (4s)\n"}
+,{"stream_name":"stderr","time":4765.568760441,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":4765.56882523,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":4765.817449703,"data":"trial 114: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5837 qwk +0.1508 (6s)\n"}
+,{"stream_name":"stderr","time":4893.052525272,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":4893.052683389,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":4893.40901195,"data":"trial 115: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5801 qwk +0.1164 (127s)\n"}
+,{"stream_name":"stderr","time":4918.8491643,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":4918.849217673,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":4919.092551489,"data":"trial 116: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5858 qwk +0.1465 (25s)\n"}
+,{"stream_name":"stderr","time":4937.933155365,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":4937.933208227,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":4938.17438431,"data":"trial 117: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5998 qwk +0.2027 (19s)\n"}
+,{"stream_name":"stderr","time":4957.690772536,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":4957.690823059,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":4958.000514794,"data":"trial 118: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5649 qwk +0.0692 (20s)\n"}
+,{"stream_name":"stderr","time":4961.905859386,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":4961.905905309,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":4962.125639525,"data":"trial 119: gbm ['face', 'head_pose', 'physio'] -\u003e val acc 0.5692 qwk +0.0470 (4s)\n"}
+,{"stream_name":"stdout","time":5063.70965559,"data":"trial 120: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.6000 qwk +0.1354 (101s)\n"}
+,{"stream_name":"stderr","time":5094.012402083,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":5094.012453326,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":5094.354795406,"data":"trial 121: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.6017 qwk +0.1595 (30s)\n"}
+,{"stream_name":"stdout","time":5108.127875339,"data":"trial 122: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5935 qwk +0.1985 (14s)\n"}
+,{"stream_name":"stdout","time":5113.08415832,"data":"trial 123: mlp ['face', 'face_crop'] -\u003e val acc 0.5905 qwk +0.1822 (5s)\n"}
+,{"stream_name":"stderr","time":5163.727746281,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":5163.727794514,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":5164.096566034,"data":"trial 124: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5694 qwk +0.0492 (51s)\n"}
+,{"stream_name":"stderr","time":5192.17568464,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":5192.175734061,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":5192.592727815,"data":"trial 125: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5974 qwk +0.1149 (28s)\n"}
+,{"stream_name":"stderr","time":5237.604493811,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":5237.604558054,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":5237.988515178,"data":"trial 126: gbm ['face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5863 qwk +0.0823 (45s)\n"}
+,{"stream_name":"stderr","time":5274.344530454,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":5274.347010503,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":5274.670535309,"data":"trial 127: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5790 qwk +0.0921 (36s)\n"}
+,{"stream_name":"stderr","time":5294.481096376,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":5294.481163534,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":5294.766628473,"data":"trial 128: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.6044 qwk +0.1678 (20s)\n"}
+,{"stream_name":"stderr","time":5313.70450199,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":5313.704581309,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":5313.920535855,"data":"trial 129: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5950 qwk +0.1452 (19s)\n"}
+,{"stream_name":"stderr","time":5318.278779666,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":5318.278857318,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":5318.449485043,"data":"trial 130: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5705 qwk +0.0912 (4s)\n"}
+,{"stream_name":"stderr","time":5324.595313331,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":5324.595364249,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":5324.864640356,"data":"trial 131: gbm ['face', 'head_pose'] -\u003e val acc 0.5606 qwk -0.0217 (6s)\n"}
+,{"stream_name":"stderr","time":5336.496698463,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":5336.496742501,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":5336.74062918,"data":"trial 132: gbm ['face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5998 qwk +0.1359 (12s)\n"}
+,{"stream_name":"stderr","time":5359.838623183,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":5359.838675327,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":5360.129762761,"data":"trial 133: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.6106 qwk +0.1809 (23s)\n"}
+,{"stream_name":"stderr","time":5393.870937476,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":5393.871014386,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":5394.199825946,"data":"trial 134: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5927 qwk +0.1470 (34s)\n"}
+,{"stream_name":"stdout","time":5412.891008353,"data":"trial 135: mlp ['face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5861 qwk +0.0952 (18s)\n"}
+,{"stream_name":"stderr","time":5477.770600849,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":5477.770781158,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":5478.118822364,"data":"trial 136: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5931 qwk +0.1258 (65s)\n"}
+,{"stream_name":"stdout","time":5489.774252107,"data":"trial 137: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5829 qwk +0.1538 (11s)\n"}
+,{"stream_name":"stdout","time":5528.972277354,"data":"trial 138: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.4982 qwk +0.0305 (39s)\n"}
+,{"stream_name":"stderr","time":5562.448211352,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":5562.448261359,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":5562.726301609,"data":"trial 139: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.6004 qwk +0.1527 (34s)\n"}
+,{"stream_name":"stderr","time":5571.169046795,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":5571.169089206,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":5571.561451732,"data":"trial 140: gbm ['face', 'head_pose'] -\u003e val acc 0.5563 qwk -0.0021 (9s)\n"}
+,{"stream_name":"stderr","time":5577.022295747,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":5577.022356054,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":5577.287310849,"data":"trial 141: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5797 qwk +0.0950 (5s)\n"}
+,{"stream_name":"stderr","time":5584.030191656,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":5584.030369279,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":5584.280312909,"data":"trial 142: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.6017 qwk +0.1519 (7s)\n"}
+,{"stream_name":"stderr","time":5607.374269903,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":5607.374342693,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":5607.65251307,"data":"trial 143: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5764 qwk +0.1772 (23s)\n"}
+,{"stream_name":"stderr","time":5623.102193674,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":5623.102238807,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":5623.378308117,"data":"trial 144: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5997 qwk +0.1265 (15s)\n"}
+,{"stream_name":"stdout","time":5640.376414883,"data":"trial 145: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5946 qwk +0.1080 (17s)\n"}
+,{"stream_name":"stderr","time":5651.420464186,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":5651.420511412,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":5651.502011024,"data":"trial 146: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5980 qwk +0.1721 (11s)\n"}
+,{"stream_name":"stderr","time":5669.315603943,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":5669.315651894,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":5669.621784756,"data":"trial 147: gbm ['face', 'face_crop', 'physio'] -\u003e val acc 0.5910 qwk +0.1438 (18s)\n"}
+,{"stream_name":"stderr","time":5671.901394717,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":5671.901442652,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":5672.213792321,"data":"trial 148: gbm ['head_pose'] -\u003e val acc 0.5474 qwk +0.0828 (2s)\n"}
+,{"stream_name":"stderr","time":5694.696834205,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":5694.696886514,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":5694.918304852,"data":"trial 149: gbm ['face', 'face_crop', 'facemesh', 'head_pose', 'physio'] -\u003e val acc 0.5878 qwk +0.1567 (22s)\n"}
+,{"stream_name":"stderr","time":5766.574326588,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":5766.574382778,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":5766.956949347,"data":"trial 150: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5623 qwk +0.0098 (72s)\n"}
+,{"stream_name":"stdout","time":5784.878449905,"data":"trial 151: mlp ['face', 'face_crop', 'facemesh'] -\u003e val acc 0.5963 qwk +0.1335 (18s)\n"}
+,{"stream_name":"stderr","time":5868.200142766,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":5868.200197368,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":5868.564059757,"data":"trial 152: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5786 qwk +0.0874 (83s)\n"}
+,{"stream_name":"stderr","time":5919.532316475,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":5919.532374392,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":5919.905153446,"data":"trial 153: gbm ['face_crop', 'head_pose'] -\u003e val acc 0.6012 qwk +0.1359 (51s)\n"}
+,{"stream_name":"stdout","time":5953.656281832,"data":"trial 154: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5837 qwk +0.1310 (34s)\n"}
+,{"stream_name":"stderr","time":6016.07597896,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":6016.076059086,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":6016.496239443,"data":"trial 155: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5998 qwk +0.1311 (63s)\n"}
+,{"stream_name":"stderr","time":6182.149353174,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":6182.149414898,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":6182.502573859,"data":"trial 156: gbm ['face', 'face_crop', 'facemesh', 'head_pose', 'physio'] -\u003e val acc 0.5995 qwk +0.1947 (166s)\n"}
+,{"stream_name":"stderr","time":6288.200056615,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":6288.200121486,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":6288.516775881,"data":"trial 157: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5875 qwk +0.1401 (106s)\n"}
+,{"stream_name":"stdout","time":6316.05155203,"data":"trial 158: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5828 qwk +0.2045 (27s)\n"}
+,{"stream_name":"stdout","time":6375.436265328,"data":"trial 159: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5382 qwk +0.1453 (59s)\n"}
+,{"stream_name":"stdout","time":6399.47182266,"data":"trial 160: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5895 qwk +0.1829 (24s)\n"}
+,{"stream_name":"stderr","time":6438.368223664,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":6438.368278478,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":6438.6411265,"data":"trial 161: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5891 qwk +0.1527 (39s)\n"}
+,{"stream_name":"stdout","time":6453.031135238,"data":"trial 162: mlp ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5816 qwk +0.1399 (14s)\n"}
+,{"stream_name":"stderr","time":6478.98707811,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":6478.987158812,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":6479.295887053,"data":"trial 163: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5666 qwk +0.0516 (26s)\n"}
+,{"stream_name":"stdout","time":6499.691572609,"data":"trial 164: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5501 qwk +0.1259 (20s)\n"}
+,{"stream_name":"stderr","time":6639.169828361,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":6639.169910988,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":6639.469859212,"data":"trial 165: gbm ['face', 'face_crop'] -\u003e val acc 0.5867 qwk +0.1658 (140s)\n"}
+,{"stream_name":"stdout","time":6647.391737173,"data":"trial 166: mlp ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5653 qwk +0.2146 (8s)\n"}
+,{"stream_name":"stdout","time":6662.444039638,"data":"trial 167: mlp ['face', 'face_crop', 'facemesh', 'head_pose', 'physio'] -\u003e val acc 0.5668 qwk +0.0549 (15s)\n"}
+,{"stream_name":"stderr","time":6675.821228701,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":6675.821303216,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":6676.112205892,"data":"trial 168: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.6002 qwk +0.1956 (13s)\n"}
+,{"stream_name":"stdout","time":6689.265368563,"data":"trial 169: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5756 qwk +0.1466 (13s)\n"}
+,{"stream_name":"stderr","time":6722.901106581,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":6722.901156833,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":6723.265177333,"data":"trial 170: gbm ['face_crop', 'head_pose'] -\u003e val acc 0.6023 qwk +0.0997 (34s)\n"}
+,{"stream_name":"stderr","time":6737.22325189,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":6737.223296813,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":6737.514455962,"data":"trial 171: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.6109 qwk +0.2284 (14s)\n"}
+,{"stream_name":"stderr","time":6746.124394206,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":6746.124442735,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":6746.379434506,"data":"trial 172: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.6113 qwk +0.2051 (9s)\n"}
+,{"stream_name":"stdout","time":6763.885249167,"data":"trial 173: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.6047 qwk +0.1143 (17s)\n"}
+,{"stream_name":"stderr","time":6825.151925483,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":6825.152018078,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":6825.485323047,"data":"trial 174: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5974 qwk +0.1671 (61s)\n"}
+,{"stream_name":"stderr","time":6834.599834385,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":6834.599881716,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":6834.941053138,"data":"trial 175: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5632 qwk +0.0192 (9s)\n"}
+,{"stream_name":"stderr","time":6837.027167401,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":6837.027206771,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":6837.292449344,"data":"trial 176: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5362 qwk +0.0767 (2s)\n"}
+,{"stream_name":"stderr","time":6846.037030831,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":6846.037100064,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":6846.303628278,"data":"trial 177: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5888 qwk +0.1518 (9s)\n"}
+,{"stream_name":"stderr","time":6850.764725624,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":6850.764765277,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":6851.079926377,"data":"trial 178: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5469 qwk +0.1258 (5s)\n"}
+,{"stream_name":"stdout","time":6862.968087721,"data":"trial 179: mlp ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5683 qwk +0.2009 (12s)\n"}
+,{"stream_name":"stderr","time":6892.182398609,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":6892.182447111,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":6892.486549262,"data":"trial 180: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5935 qwk +0.1484 (29s)\n"}
+,{"stream_name":"stderr","time":6911.356904966,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":6911.356987375,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":6911.61823524,"data":"trial 181: gbm ['face_crop', 'head_pose'] -\u003e val acc 0.5756 qwk +0.0695 (19s)\n"}
+,{"stream_name":"stdout","time":6929.00100681,"data":"trial 182: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5497 qwk +0.1989 (17s)\n"}
+,{"stream_name":"stderr","time":6953.922118602,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":6953.922170027,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":6954.173062365,"data":"trial 183: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.6025 qwk +0.1537 (25s)\n"}
+,{"stream_name":"stdout","time":6967.540887784,"data":"trial 184: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5944 qwk +0.2065 (13s)\n"}
+,{"stream_name":"stderr","time":6977.777709105,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":6977.777775694,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":6978.163181581,"data":"trial 185: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5685 qwk +0.0827 (10s)\n"}
+,{"stream_name":"stdout","time":7014.812618777,"data":"trial 186: mlp ['face', 'face_crop', 'facemesh', 'head_pose', 'physio'] -\u003e val acc 0.5856 qwk +0.0972 (36s)\n"}
+,{"stream_name":"stderr","time":7149.744936239,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":7149.745035587,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":7150.139090222,"data":"trial 187: gbm ['face', 'face_crop', 'facemesh', 'head_pose', 'physio'] -\u003e val acc 0.6030 qwk +0.2096 (135s)\n"}
+,{"stream_name":"stderr","time":7154.638576286,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":7154.638620643,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":7154.819733911,"data":"trial 188: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5565 qwk +0.1305 (4s)\n"}
+,{"stream_name":"stderr","time":7459.61257925,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":7459.612697432,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":7460.271356311,"data":"trial 189: gbm ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5895 qwk +0.1643 (305s)\n"}
+,{"stream_name":"stdout","time":7493.834930811,"data":"trial 190: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.6027 qwk +0.1791 (33s)\n"}
+,{"stream_name":"stderr","time":7498.276827816,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":7498.276873229,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":7498.552227262,"data":"trial 191: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5702 qwk +0.1728 (4s)\n"}
+,{"stream_name":"stdout","time":7510.044845676,"data":"trial 192: mlp ['face', 'face_crop', 'facemesh', 'head_pose', 'physio'] -\u003e val acc 0.6017 qwk +0.1792 (11s)\n"}
+,{"stream_name":"stderr","time":7524.056002975,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":7524.056068817,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":7524.362733917,"data":"trial 193: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5751 qwk +0.0627 (14s)\n"}
+,{"stream_name":"stderr","time":7544.531020845,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":7544.531095748,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":7544.857253118,"data":"trial 194: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.6047 qwk +0.1612 (20s)\n"}
+,{"stream_name":"stderr","time":7552.475749653,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":7552.475855895,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":7552.780309544,"data":"trial 195: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5848 qwk +0.1401 (8s)\n"}
+,{"stream_name":"stderr","time":7590.181671899,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":7590.181740233,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":7590.533019304,"data":"trial 196: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.6111 qwk +0.1844 (37s)\n"}
+,{"stream_name":"stdout","time":7604.483995751,"data":"trial 197: mlp ['face', 'facemesh', 'head_pose'] -\u003e val acc 0.4691 qwk +0.0110 (14s)\n"}
+,{"stream_name":"stderr","time":7622.8429904,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":7622.843039562,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":7623.162471023,"data":"trial 198: gbm ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5950 qwk +0.1429 (18s)\n"}
+,{"stream_name":"stdout","time":7631.318405528,"data":"trial 199: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5781 qwk +0.1018 (8s)\n"}
+,{"stream_name":"stderr","time":7649.682559028,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":7649.682605745,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":7650.045394759,"data":"trial 200: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.6000 qwk +0.1438 (18s)\n"}
+,{"stream_name":"stdout","time":7681.843544474,"data":"trial 201: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.6074 qwk +0.1424 (32s)\n"}
+,{"stream_name":"stderr","time":7694.026599743,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":7694.026646149,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":7694.397671061,"data":"trial 202: gbm ['face_crop', 'head_pose'] -\u003e val acc 0.5955 qwk +0.1338 (12s)\n"}
+,{"stream_name":"stderr","time":7699.668867059,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":7699.668911136,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":7699.958041191,"data":"trial 203: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5848 qwk +0.1228 (5s)\n"}
+,{"stream_name":"stderr","time":7709.513222361,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":7709.513302756,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":7709.801644047,"data":"trial 204: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5970 qwk +0.1757 (10s)\n"}
+,{"stream_name":"stderr","time":7742.124562218,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":7742.124620639,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":7742.442863254,"data":"trial 205: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.6087 qwk +0.1916 (32s)\n"}
+,{"stream_name":"stderr","time":7749.743234498,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":7749.743353489,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":7750.271117167,"data":"trial 206: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5632 qwk +0.1266 (8s)\n"}
+,{"stream_name":"stderr","time":7758.214324721,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":7758.214371599,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":7758.548078409,"data":"trial 207: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5745 qwk +0.1066 (8s)\n"}
+,{"stream_name":"stderr","time":7860.284308854,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":7860.284368081,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":7860.628364209,"data":"trial 208: gbm ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5976 qwk +0.2001 (102s)\n"}
+,{"stream_name":"stderr","time":7879.085009721,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":7879.085055496,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":7879.366298615,"data":"trial 209: gbm ['face', 'head_pose', 'physio'] -\u003e val acc 0.5536 qwk +0.0101 (18s)\n"}
+,{"stream_name":"stdout","time":7891.71690012,"data":"trial 210: mlp ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.6017 qwk +0.1919 (12s)\n"}
+,{"stream_name":"stderr","time":7907.491698773,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":7907.491743798,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":7907.748924164,"data":"trial 211: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.6074 qwk +0.2072 (16s)\n"}
+,{"stream_name":"stderr","time":7949.226162601,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":7949.226232413,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":7949.57424736,"data":"trial 212: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5927 qwk +0.1546 (42s)\n"}
+,{"stream_name":"stderr","time":7956.939009116,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":7956.939074527,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":7957.163872735,"data":"trial 213: gbm ['face', 'face_crop'] -\u003e val acc 0.5516 qwk +0.1457 (7s)\n"}
+,{"stream_name":"stdout","time":7976.25643534,"data":"trial 214: mlp ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5705 qwk +0.0953 (19s)\n"}
+,{"stream_name":"stderr","time":7981.40871381,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":7981.408790962,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":7981.70999002,"data":"trial 215: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5655 qwk +0.0633 (5s)\n"}
+,{"stream_name":"stderr","time":8000.561870896,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":8000.561939143,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":8000.900902038,"data":"trial 216: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.6077 qwk +0.2026 (19s)\n"}
+,{"stream_name":"stderr","time":8020.884711562,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":8020.884773127,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":8021.239652462,"data":"trial 217: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5906 qwk +0.1554 (20s)\n"}
+,{"stream_name":"stderr","time":8041.306453846,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":8041.306505115,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":8041.605799773,"data":"trial 218: gbm ['face', 'face_crop', 'physio'] -\u003e val acc 0.5978 qwk +0.1914 (20s)\n"}
+,{"stream_name":"stderr","time":8059.70124795,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":8059.701326029,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":8060.017373414,"data":"trial 219: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5777 qwk +0.1262 (18s)\n"}
+,{"stream_name":"stderr","time":8073.706131937,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":8073.70617965,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":8073.782854699,"data":"trial 220: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5899 qwk +0.1449 (14s)\n"}
+,{"stream_name":"stderr","time":8096.116701151,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":8096.116754427,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":8096.438584127,"data":"trial 221: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5694 qwk +0.0578 (22s)\n"}
+,{"stream_name":"stdout","time":8127.937166485,"data":"trial 222: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5876 qwk +0.2081 (31s)\n"}
+,{"stream_name":"stderr","time":8145.533449804,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":8145.53354385,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":8145.870677433,"data":"trial 223: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5666 qwk +0.0319 (18s)\n"}
+,{"stream_name":"stdout","time":8165.893369155,"data":"trial 224: mlp ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5950 qwk +0.1844 (20s)\n"}
+,{"stream_name":"stdout","time":8183.750542996,"data":"trial 225: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.6032 qwk +0.1251 (18s)\n"}
+,{"stream_name":"stderr","time":8208.402653286,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":8208.402699092,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":8208.710825616,"data":"trial 226: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.6175 qwk +0.2114 (25s)\n"}
+,{"stream_name":"stderr","time":8290.965063376,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":8290.965109941,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":8291.410631912,"data":"trial 227: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5985 qwk +0.1036 (82s)\n"}
+,{"stream_name":"stdout","time":8317.399255025,"data":"trial 228: mlp ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.6030 qwk +0.1815 (26s)\n"}
+,{"stream_name":"stderr","time":8341.5317112,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":8341.531766758,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":8341.806430971,"data":"trial 229: gbm ['face_crop', 'head_pose'] -\u003e val acc 0.5828 qwk +0.1344 (24s)\n"}
+,{"stream_name":"stderr","time":8465.711178238,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":8465.711339612,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":8466.101840519,"data":"trial 230: gbm ['face', 'face_crop', 'facemesh', 'head_pose', 'physio'] -\u003e val acc 0.5811 qwk +0.1311 (124s)\n"}
+,{"stream_name":"stdout","time":8490.735189724,"data":"trial 231: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5888 qwk +0.1759 (24s)\n"}
+,{"stream_name":"stdout","time":8502.091524941,"data":"trial 232: mlp ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5871 qwk +0.1949 (11s)\n"}
+,{"stream_name":"stderr","time":8598.399049724,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":8598.3991149,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":8598.765052019,"data":"trial 233: gbm ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5899 qwk +0.1779 (96s)\n"}
+,{"stream_name":"stdout","time":8614.976139811,"data":"trial 234: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5831 qwk +0.1201 (16s)\n"}
+,{"stream_name":"stderr","time":8623.718338123,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":8623.718399379,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":8624.000600773,"data":"trial 235: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5769 qwk +0.1295 (9s)\n"}
+,{"stream_name":"stdout","time":8636.895442429,"data":"trial 236: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5929 qwk +0.1742 (13s)\n"}
+,{"stream_name":"stderr","time":8654.795339987,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":8654.795384233,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":8655.093727528,"data":"trial 237: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5848 qwk +0.1902 (18s)\n"}
+,{"stream_name":"stderr","time":8664.796173013,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":8664.796237099,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":8665.08044013,"data":"trial 238: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5918 qwk +0.1617 (10s)\n"}
+,{"stream_name":"stderr","time":8683.089003409,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":8683.089060063,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":8683.248170337,"data":"trial 239: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.6134 qwk +0.2064 (18s)\n"}
+,{"stream_name":"stderr","time":8699.98681676,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":8699.986887342,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":8700.23369307,"data":"trial 240: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.6051 qwk +0.1874 (17s)\n"}
+,{"stream_name":"stderr","time":8720.277806098,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":8720.277856499,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":8720.477540673,"data":"trial 241: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.6002 qwk +0.1703 (20s)\n"}
+,{"stream_name":"stdout","time":8727.680855062,"data":"trial 242: mlp ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5074 qwk +0.1024 (7s)\n"}
+,{"stream_name":"stderr","time":8747.153874587,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":8747.153937702,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":8747.293172151,"data":"trial 243: gbm ['face', 'face_crop', 'physio'] -\u003e val acc 0.5876 qwk +0.1358 (19s)\n"}
+,{"stream_name":"stderr","time":8757.29325186,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":8757.293302131,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":8757.451253278,"data":"trial 244: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5968 qwk +0.1937 (10s)\n"}
+,{"stream_name":"stderr","time":8762.165126382,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":8762.165167948,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":8762.33753974,"data":"trial 245: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5673 qwk +0.0488 (5s)\n"}
+,{"stream_name":"stderr","time":8775.84212601,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":8775.842170504,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":8775.991794214,"data":"trial 246: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5976 qwk +0.1753 (13s)\n"}
+,{"stream_name":"stderr","time":8794.723930315,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":8794.724009766,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":8795.047770859,"data":"trial 247: gbm ['face_crop', 'head_pose'] -\u003e val acc 0.5976 qwk +0.1145 (19s)\n"}
+,{"stream_name":"stderr","time":8836.545078569,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":8836.545333327,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":8836.79823382,"data":"trial 248: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5953 qwk +0.1668 (41s)\n"}
+,{"stream_name":"stderr","time":8839.544130622,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":8839.544246098,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":8839.809810018,"data":"trial 249: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5555 qwk +0.0910 (2s)\n"}
+,{"stream_name":"stderr","time":8850.873010321,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":8850.873062326,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":8851.090220491,"data":"trial 250: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.6117 qwk +0.1793 (11s)\n"}
+,{"stream_name":"stderr","time":8854.95146599,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":8854.951515032,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":8855.073101699,"data":"trial 251: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5781 qwk +0.1209 (4s)\n"}
+,{"stream_name":"stderr","time":8866.908306345,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":8866.908361068,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":8867.127488363,"data":"trial 252: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5880 qwk +0.1429 (12s)\n"}
+,{"stream_name":"stderr","time":8876.054714355,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":8876.054763969,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":8876.176337605,"data":"trial 253: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.6087 qwk +0.1866 (9s)\n"}
+,{"stream_name":"stderr","time":8885.177737398,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":8885.177894021,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":8885.291730496,"data":"trial 254: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.6000 qwk +0.1413 (9s)\n"}
+,{"stream_name":"stderr","time":8896.556617844,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":8896.556660564,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":8896.685837665,"data":"trial 255: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.6092 qwk +0.2068 (11s)\n"}
+,{"stream_name":"stdout","time":8922.296599486,"data":"trial 256: mlp ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5117 qwk +0.0755 (25s)\n"}
+,{"stream_name":"stderr","time":8925.869454686,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":8925.869496807,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":8925.951895897,"data":"trial 257: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5717 qwk +0.1160 (3s)\n"}
+,{"stream_name":"stdout","time":8960.439603255,"data":"trial 258: mlp ['face', 'face_crop'] -\u003e val acc 0.4973 qwk +0.1672 (34s)\n"}
+,{"stream_name":"stderr","time":8969.182095742,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":8969.182143575,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":8969.305919369,"data":"trial 259: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5961 qwk +0.1523 (9s)\n"}
+,{"stream_name":"stderr","time":8975.332255488,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":8975.332305198,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":8975.433500501,"data":"trial 260: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5884 qwk +0.1517 (6s)\n"}
+,{"stream_name":"stderr","time":8982.849354665,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":8982.849402737,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":8982.956955668,"data":"trial 261: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5861 qwk +0.2012 (7s)\n"}
+,{"stream_name":"stderr","time":9010.564003009,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":9010.564051858,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":9010.753055897,"data":"trial 262: gbm ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5980 qwk +0.2161 (28s)\n"}
+,{"stream_name":"stderr","time":9023.373192745,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":9023.37323886,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":9023.518539363,"data":"trial 263: gbm ['face', 'head_pose', 'physio'] -\u003e val acc 0.5617 qwk +0.0257 (12s)\n"}
+,{"stream_name":"stderr","time":9025.847567248,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":9025.847611139,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":9025.93267315,"data":"trial 264: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5944 qwk +0.1554 (2s)\n"}
+,{"stream_name":"stderr","time":9043.200408231,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":9043.200459209,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":9043.388166979,"data":"trial 265: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5991 qwk +0.1900 (17s)\n"}
+,{"stream_name":"stderr","time":9050.919314643,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":9050.919363137,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":9051.03693887,"data":"trial 266: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5863 qwk +0.1450 (7s)\n"}
+,{"stream_name":"stderr","time":9066.78682032,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":9066.786876744,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":9067.034312551,"data":"trial 267: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.6109 qwk +0.2041 (16s)\n"}
+,{"stream_name":"stderr","time":9078.20607591,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":9078.206131337,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":9078.449109993,"data":"trial 268: gbm ['face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5967 qwk +0.1256 (11s)\n"}
+,{"stream_name":"stderr","time":9086.144946247,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":9086.145028894,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":9086.339558057,"data":"trial 269: gbm ['face', 'face_crop'] -\u003e val acc 0.5794 qwk +0.1269 (8s)\n"}
+,{"stream_name":"stdout","time":9107.349761581,"data":"trial 270: mlp ['face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5681 qwk +0.1373 (21s)\n"}
+,{"stream_name":"stderr","time":9123.577146278,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":9123.577211649,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":9123.908326468,"data":"trial 271: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5961 qwk +0.1860 (16s)\n"}
+,{"stream_name":"stderr","time":9128.440368449,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":9128.440431249,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":9128.538586675,"data":"trial 272: gbm ['face', 'face_crop'] -\u003e val acc 0.5416 qwk +0.0692 (4s)\n"}
+,{"stream_name":"stdout","time":9150.171916265,"data":"trial 273: mlp ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5082 qwk +0.1728 (21s)\n"}
+,{"stream_name":"stdout","time":9202.421556082,"data":"trial 274: mlp ['face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5985 qwk +0.0896 (52s)\n"}
+,{"stream_name":"stderr","time":9216.967747435,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":9216.967798383,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":9217.112841628,"data":"trial 275: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.6000 qwk +0.1682 (14s)\n"}
+,{"stream_name":"stdout","time":9240.046214377,"data":"trial 276: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5948 qwk +0.1427 (23s)\n"}
+,{"stream_name":"stderr","time":9252.878937112,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":9252.879017038,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":9253.243626765,"data":"trial 277: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5775 qwk +0.0803 (13s)\n"}
+,{"stream_name":"stderr","time":9278.346185166,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":9278.346266916,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":9278.628311009,"data":"trial 278: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5692 qwk +0.1021 (25s)\n"}
+,{"stream_name":"stderr","time":9312.556337672,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":9312.556389615,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":9312.865656764,"data":"trial 279: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5751 qwk +0.1129 (34s)\n"}
+,{"stream_name":"stderr","time":9317.005132759,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":9317.005174161,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":9317.338679769,"data":"trial 280: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5563 qwk +0.1061 (4s)\n"}
+,{"stream_name":"stderr","time":9328.280698526,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":9328.280773038,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":9328.575796054,"data":"trial 281: gbm ['face', 'face_crop'] -\u003e val acc 0.5878 qwk +0.1279 (11s)\n"}
+,{"stream_name":"stdout","time":9443.124741612,"data":"trial 282: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5362 qwk +0.1991 (114s)\n"}
+,{"stream_name":"stderr","time":9448.832356495,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":9448.832399963,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":9448.997396582,"data":"trial 283: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5722 qwk +0.0965 (6s)\n"}
+,{"stream_name":"stderr","time":9464.912756857,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":9464.912805417,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":9465.177647276,"data":"trial 284: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.6089 qwk +0.1655 (16s)\n"}
+,{"stream_name":"stderr","time":9468.419765194,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":9468.419808228,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":9468.654527608,"data":"trial 285: gbm ['face', 'head_pose'] -\u003e val acc 0.5292 qwk +0.0487 (3s)\n"}
+,{"stream_name":"stderr","time":9486.914458193,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":9486.914529699,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":9487.197938838,"data":"trial 286: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.6130 qwk +0.1969 (18s)\n"}
+,{"stream_name":"stderr","time":9491.482247459,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":9491.482289427,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":9491.770224901,"data":"trial 287: gbm ['face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5628 qwk +0.0909 (4s)\n"}
+,{"stream_name":"stderr","time":9514.396661757,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":9514.396712767,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":9514.686803145,"data":"trial 288: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5998 qwk +0.1932 (23s)\n"}
+,{"stream_name":"stdout","time":9542.101290459,"data":"trial 289: mlp ['face', 'face_crop', 'facemesh', 'head_pose', 'physio'] -\u003e val acc 0.5963 qwk +0.1681 (27s)\n"}
+,{"stream_name":"stdout","time":9569.501777257,"data":"trial 290: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5952 qwk +0.1930 (27s)\n"}
+,{"stream_name":"stderr","time":9580.236864543,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":9580.236936301,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":9580.39478983,"data":"trial 291: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.6156 qwk +0.2079 (11s)\n"}
+,{"stream_name":"stderr","time":9585.863114378,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":9585.863163903,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":9586.015403973,"data":"trial 292: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5835 qwk +0.1409 (5s)\n"}
+,{"stream_name":"stderr","time":9606.070468385,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":9606.070541036,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":9606.228221712,"data":"trial 293: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5835 qwk +0.0967 (20s)\n"}
+,{"stream_name":"stderr","time":9616.365206805,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":9616.365254159,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":9616.527455856,"data":"trial 294: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.6021 qwk +0.1488 (10s)\n"}
+,{"stream_name":"stderr","time":9620.252251304,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":9620.252300719,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":9620.499561952,"data":"trial 295: gbm ['face', 'head_pose'] -\u003e val acc 0.5692 qwk +0.0661 (4s)\n"}
+,{"stream_name":"stderr","time":9636.903238287,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":9636.903294194,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":9637.2634933,"data":"trial 296: gbm ['face_crop', 'head_pose'] -\u003e val acc 0.5978 qwk +0.1005 (16s)\n"}
+,{"stream_name":"stderr","time":9691.623909165,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":9691.623955951,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":9691.87204091,"data":"trial 297: gbm ['face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5890 qwk +0.1277 (54s)\n"}
+,{"stream_name":"stderr","time":9698.285191201,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":9698.285240232,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":9698.402868572,"data":"trial 298: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5553 qwk +0.0644 (6s)\n"}
+,{"stream_name":"stderr","time":9712.488511711,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":9712.488558017,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":9712.639821282,"data":"trial 299: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5657 qwk +0.0421 (14s)\n"}
+,{"stream_name":"stderr","time":9717.820633821,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":9717.820682023,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":9718.140188521,"data":"trial 300: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5916 qwk +0.1369 (5s)\n"}
+,{"stream_name":"stdout","time":9734.219454917,"data":"trial 301: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5809 qwk +0.1758 (16s)\n"}
+,{"stream_name":"stdout","time":9739.377422919,"data":"trial 302: mlp ['face', 'face_crop'] -\u003e val acc 0.5696 qwk +0.0898 (5s)\n"}
+,{"stream_name":"stdout","time":9847.201418068,"data":"trial 303: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5527 qwk +0.1727 (108s)\n"}
+,{"stream_name":"stderr","time":9923.125308117,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":9923.125380862,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":9923.345567603,"data":"trial 304: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5882 qwk +0.1306 (76s)\n"}
+,{"stream_name":"stderr","time":9945.219338912,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":9945.219386884,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":9945.504541494,"data":"trial 305: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.6121 qwk +0.1837 (22s)\n"}
+,{"stream_name":"stderr","time":9967.232291243,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":9967.232353689,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":9967.502783688,"data":"trial 306: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.6010 qwk +0.1642 (22s)\n"}
+,{"stream_name":"stderr","time":9985.469470958,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":9985.469518417,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":9985.733784817,"data":"trial 307: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.6117 qwk +0.1811 (18s)\n"}
+,{"stream_name":"stdout","time":10009.072998402,"data":"trial 308: mlp ['face', 'face_crop', 'facemesh', 'head_pose', 'physio'] -\u003e val acc 0.5288 qwk +0.1008 (23s)\n"}
+,{"stream_name":"stderr","time":10023.568585393,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":10023.568633645,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":10023.821460909,"data":"trial 309: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.6012 qwk +0.1556 (14s)\n"}
+,{"stream_name":"stderr","time":10044.800653533,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":10044.800773794,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":10045.142182098,"data":"trial 310: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5803 qwk +0.0385 (21s)\n"}
+,{"stream_name":"stderr","time":10067.097558035,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":10067.097625999,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":10067.385544402,"data":"trial 311: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5987 qwk +0.1203 (22s)\n"}
+,{"stream_name":"stderr","time":10074.210593631,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":10074.210643369,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":10074.473484877,"data":"trial 312: gbm ['face_crop', 'head_pose'] -\u003e val acc 0.6032 qwk +0.1377 (7s)\n"}
+,{"stream_name":"stderr","time":10078.795347632,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":10078.79542707,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":10079.026281656,"data":"trial 313: gbm ['face', 'head_pose', 'physio'] -\u003e val acc 0.5339 qwk +0.0775 (4s)\n"}
+,{"stream_name":"stderr","time":10085.601545943,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":10085.601617163,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":10085.823365158,"data":"trial 314: gbm ['face', 'face_crop'] -\u003e val acc 0.5735 qwk +0.1545 (7s)\n"}
+,{"stream_name":"stderr","time":10086.68364531,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":10086.683684872,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":10086.742141727,"data":"trial 315: gbm ['face', 'head_pose'] -\u003e val acc 0.5163 qwk +0.0059 (1s)\n"}
+,{"stream_name":"stderr","time":10107.554571316,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":10107.554645042,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":10107.831281173,"data":"trial 316: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.6012 qwk +0.1550 (21s)\n"}
+,{"stream_name":"stdout","time":10131.569247294,"data":"trial 317: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5241 qwk +0.1064 (23s)\n"}
+,{"stream_name":"stderr","time":10137.843334874,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":10137.843385109,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":10137.935338721,"data":"trial 318: gbm ['face', 'face_crop'] -\u003e val acc 0.5869 qwk +0.1797 (6s)\n"}
+,{"stream_name":"stdout","time":10151.311742711,"data":"trial 319: mlp ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.4824 qwk +0.1870 (13s)\n"}
+,{"stream_name":"stdout","time":10168.15994977,"data":"trial 320: mlp ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5230 qwk +0.0833 (17s)\n"}
+,{"stream_name":"stdout","time":10177.586446855,"data":"trial 321: mlp ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5980 qwk +0.1851 (9s)\n"}
+,{"stream_name":"stderr","time":10313.686548771,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":10313.686609318,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":10314.127088133,"data":"trial 322: gbm ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5927 qwk +0.1818 (136s)\n"}
+,{"stream_name":"stderr","time":10526.76010195,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":10526.760168058,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":10527.342212506,"data":"trial 323: gbm ['face', 'face_crop', 'facemesh', 'head_pose', 'physio'] -\u003e val acc 0.5818 qwk +0.1374 (213s)\n"}
+,{"stream_name":"stdout","time":10559.962047272,"data":"trial 324: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.4708 qwk +0.0712 (32s)\n"}
+,{"stream_name":"stderr","time":10572.103345723,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":10572.103420591,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":10572.221160425,"data":"trial 325: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5623 qwk +0.1699 (12s)\n"}
+,{"stream_name":"stderr","time":10576.843236544,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":10576.843291658,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":10577.139998074,"data":"trial 326: gbm ['face_crop', 'head_pose'] -\u003e val acc 0.6064 qwk +0.1361 (5s)\n"}
+,{"stream_name":"stderr","time":10588.421983205,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":10588.42203191,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":10588.674800714,"data":"trial 327: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5692 qwk +0.0420 (11s)\n"}
+,{"stream_name":"stderr","time":10628.110993803,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":10628.111050014,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":10628.430797937,"data":"trial 328: gbm ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5869 qwk +0.1741 (39s)\n"}
+,{"stream_name":"stdout","time":10660.248488984,"data":"trial 329: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5918 qwk +0.1894 (32s)\n"}
+,{"stream_name":"stderr","time":10689.336786009,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":10689.336836986,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":10689.575322615,"data":"trial 330: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5852 qwk +0.1422 (29s)\n"}
+,{"stream_name":"stdout","time":10701.952438041,"data":"trial 331: mlp ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5636 qwk +0.1974 (12s)\n"}
+,{"stream_name":"stderr","time":10747.375910408,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":10747.376002308,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":10747.687219359,"data":"trial 332: gbm ['face', 'face_crop'] -\u003e val acc 0.5568 qwk +0.0513 (45s)\n"}
+,{"stream_name":"stderr","time":10758.509002175,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":10758.50904739,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":10758.828646258,"data":"trial 333: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5935 qwk +0.1329 (11s)\n"}
+,{"stream_name":"stdout","time":10776.752973757,"data":"trial 334: mlp ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5595 qwk +0.0600 (18s)\n"}
+,{"stream_name":"stderr","time":10794.773293856,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":10794.773370576,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":10795.099209418,"data":"trial 335: gbm ['face', 'head_pose', 'physio'] -\u003e val acc 0.5643 qwk +0.0903 (18s)\n"}
+,{"stream_name":"stderr","time":10814.417614062,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":10814.417660822,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":10814.760746824,"data":"trial 336: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.6092 qwk +0.2202 (19s)\n"}
+,{"stream_name":"stderr","time":10831.533030066,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":10831.533084355,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":10831.895748788,"data":"trial 337: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.6151 qwk +0.2071 (17s)\n"}
+,{"stream_name":"stderr","time":10848.513862015,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":10848.513940389,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":10848.888682131,"data":"trial 338: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5970 qwk +0.1694 (17s)\n"}
+,{"stream_name":"stderr","time":10857.808071252,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":10857.808116261,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":10858.177318924,"data":"trial 339: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5833 qwk +0.1359 (9s)\n"}
+,{"stream_name":"stderr","time":10869.734951208,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":10869.735017235,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":10869.998510577,"data":"trial 340: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5867 qwk +0.1771 (12s)\n"}
+,{"stream_name":"stderr","time":10885.715528429,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":10885.715608003,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":10886.464432982,"data":"trial 341: gbm ['face', 'face_crop'] -\u003e val acc 0.5589 qwk +0.0450 (16s)\n"}
+,{"stream_name":"stderr","time":11091.768007594,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11091.768095794,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":11092.25112182,"data":"trial 342: gbm ['face', 'face_crop', 'facemesh', 'head_pose', 'physio'] -\u003e val acc 0.5897 qwk +0.1381 (206s)\n"}
+,{"stream_name":"stderr","time":11107.256775665,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11107.256855514,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":11107.531529265,"data":"trial 343: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5920 qwk +0.1219 (15s)\n"}
+,{"stream_name":"stderr","time":11120.859543177,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11120.859591992,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":11121.148163436,"data":"trial 344: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.6029 qwk +0.2030 (13s)\n"}
+,{"stream_name":"stderr","time":11127.115438695,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11127.115486832,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":11127.369831618,"data":"trial 345: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.6004 qwk +0.2105 (6s)\n"}
+,{"stream_name":"stderr","time":11143.100019417,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11143.100066162,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":11143.426934616,"data":"trial 346: gbm ['face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5775 qwk +0.1064 (16s)\n"}
+,{"stream_name":"stderr","time":11148.261044269,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11148.261289389,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":11148.31818791,"data":"trial 347: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5230 qwk +0.0453 (5s)\n"}
+,{"stream_name":"stderr","time":11175.218496691,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11175.218548751,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":11175.554768459,"data":"trial 348: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.6077 qwk +0.1644 (27s)\n"}
+,{"stream_name":"stderr","time":11179.414743146,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11179.414787671,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":11179.635052682,"data":"trial 349: gbm ['face'] -\u003e val acc 0.5255 qwk -0.0200 (4s)\n"}
+,{"stream_name":"stderr","time":11186.209787401,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11186.209833742,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":11186.538536041,"data":"trial 350: gbm ['face', 'head_pose'] -\u003e val acc 0.5555 qwk +0.0104 (7s)\n"}
+,{"stream_name":"stderr","time":11238.04789412,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11238.048039028,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":11238.372855648,"data":"trial 351: gbm ['face', 'face_crop', 'physio'] -\u003e val acc 0.5758 qwk +0.1084 (52s)\n"}
+,{"stream_name":"stdout","time":11253.598080136,"data":"trial 352: mlp ['face', 'face_crop'] -\u003e val acc 0.5240 qwk +0.1622 (15s)\n"}
+,{"stream_name":"stderr","time":11262.106039848,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11262.106083224,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":11262.31330175,"data":"trial 353: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5995 qwk +0.1310 (8s)\n"}
+,{"stream_name":"stdout","time":11283.509822511,"data":"trial 354: mlp ['face', 'face_crop', 'facemesh', 'head_pose', 'physio'] -\u003e val acc 0.5185 qwk +0.1678 (21s)\n"}
+,{"stream_name":"stdout","time":11299.690859284,"data":"trial 355: mlp ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.4862 qwk +0.0991 (16s)\n"}
+,{"stream_name":"stderr","time":11314.719687462,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11314.719740262,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":11315.047029756,"data":"trial 356: gbm ['face', 'head_pose', 'physio'] -\u003e val acc 0.5700 qwk +0.0733 (15s)\n"}
+,{"stream_name":"stderr","time":11335.145492435,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11335.145542965,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":11335.441356993,"data":"trial 357: gbm ['face', 'face_crop'] -\u003e val acc 0.5627 qwk +0.0648 (20s)\n"}
+,{"stream_name":"stderr","time":11356.746053614,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11356.746099229,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":11356.99120152,"data":"trial 358: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5925 qwk +0.1893 (21s)\n"}
+,{"stream_name":"stderr","time":11387.771375471,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11387.77160717,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":11388.077456347,"data":"trial 359: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.6062 qwk +0.1650 (31s)\n"}
+,{"stream_name":"stderr","time":11389.805949435,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11389.806003476,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":11389.948095434,"data":"trial 360: gbm ['face_crop', 'head_pose'] -\u003e val acc 0.5536 qwk +0.1377 (2s)\n"}
+,{"stream_name":"stderr","time":11394.967167162,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11394.967236267,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":11395.28542538,"data":"trial 361: gbm ['face', 'head_pose'] -\u003e val acc 0.5598 qwk +0.0244 (5s)\n"}
+,{"stream_name":"stderr","time":11409.958099817,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11409.958144678,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":11410.254728539,"data":"trial 362: gbm ['face', 'face_crop', 'head_pose', 'physio'] -\u003e val acc 0.5717 qwk +0.1041 (15s)\n"}
+,{"stream_name":"stderr","time":11436.824361855,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11436.824433346,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":11437.162042179,"data":"trial 363: gbm ['face_crop', 'physio'] -\u003e val acc 0.5837 qwk +0.1008 (27s)\n"}
+,{"stream_name":"stderr","time":11500.708815903,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11500.708874259,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":11501.025186792,"data":"trial 364: gbm ['face', 'face_crop', 'facemesh', 'head_pose'] -\u003e val acc 0.5946 qwk +0.1232 (64s)\n"}
+,{"stream_name":"stderr","time":11516.494399195,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11516.494448579,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":11516.808925484,"data":"trial 365: gbm ['face', 'head_pose'] -\u003e val acc 0.5527 qwk -0.0050 (15s)\n"}
+,{"stream_name":"stderr","time":11540.096268608,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11540.096316918,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":11540.298390459,"data":"trial 366: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5642 qwk +0.0521 (23s)\n"}
+,{"stream_name":"stderr","time":11574.388902021,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11574.388973365,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":11574.688196348,"data":"trial 367: gbm ['face', 'face_crop', 'head_pose'] -\u003e val acc 0.5970 qwk +0.1449 (34s)\n"}
+,{"stream_name":"stderr","time":11592.883598215,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11592.883642809,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":11593.258591766,"data":"TEST seed 0: acc 0.5814 qwk +0.2006 bal.acc 0.4861 recall [0.38663793103448274, 0.7842323651452282, 0.2873417721518987]\n"}
+,{"stream_name":"stderr","time":11610.680830072,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11610.680879588,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":11611.112994777,"data":"TEST seed 1: acc 0.5733 qwk +0.1823 bal.acc 0.4803 recall [0.3625, 0.7833432128037937, 0.2949367088607595]\n"}
+,{"stream_name":"stderr","time":11628.618322117,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11628.618410019,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":11629.001501732,"data":"TEST seed 2: acc 0.5713 qwk +0.1944 bal.acc 0.4834 recall [0.38663793103448274, 0.7611144042679312, 0.30253164556962026]\n"}
+,{"stream_name":"stderr","time":11646.674793272,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11646.674887852,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":11665.144328864,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11665.144397831,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":11683.548651188,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11683.548722257,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":11701.944455788,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11701.944503436,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":11720.312177579,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11720.312229102,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":11720.614704543,"data":"CV5 best: acc 0.5867 qwk +0.1668\n"}
+,{"stream_name":"stderr","time":11725.292690929,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11725.292735624,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":11730.39143927,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11730.39148536,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":11735.456450152,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11735.45676089,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":11740.476071504,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11740.476117824,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":11745.634546104,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11745.634591993,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":11745.916062786,"data":"CV5 scene_only: acc 0.5209 qwk +0.0730\n"}
+,{"stream_name":"stderr","time":11760.303536396,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11760.303623644,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":11775.619448505,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11775.619508932,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":11790.649582338,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11790.649646953,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":11805.850571804,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11805.850650205,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":11821.148399821,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11821.148448388,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":11821.478902439,"data":"CV5 crop_only:tcheb: acc 0.5687 qwk +0.1190\n"}
+,{"stream_name":"stderr","time":11839.399636587,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11839.399686008,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":11859.458321868,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11859.45870895,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":11878.204672483,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11878.204721987,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":11896.782776225,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11896.782821979,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":11915.475232728,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11915.475289314,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":11915.784714855,"data":"CV5 best_with_crop:tcheb: acc 0.5807 qwk +0.1348\n"}
+,{"stream_name":"stderr","time":11930.081447864,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11930.081499048,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":11945.165817116,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11945.165864722,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":11960.084265555,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11960.084358074,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":11974.868373929,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11974.868428191,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":11989.717485625,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":11989.717528773,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":11990.021104213,"data":"CV5 crop_only:hahn: acc 0.5707 qwk +0.1305\n"}
+,{"stream_name":"stderr","time":12007.794593617,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":12007.794662523,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":12026.443259383,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":12026.443312531,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":12045.10077865,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":12045.100865602,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":12063.648039275,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":12063.648172487,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":12082.303888614,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":12082.303941365,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":12082.604925118,"data":"CV5 best_with_crop:hahn: acc 0.5852 qwk +0.1529\n"}
+,{"stream_name":"stderr","time":12096.549308835,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":12096.549355599,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":12111.492914853,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":12111.492982191,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":12126.107189418,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":12126.107256393,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":12140.728784672,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":12140.728826067,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":12155.559714591,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":12155.559766656,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":12155.858458804,"data":"CV5 crop_only:kraw: acc 0.5644 qwk +0.1299\n"}
+,{"stream_name":"stderr","time":12173.549502238,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":12173.549554289,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":12192.068697724,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":12192.068743746,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":12210.338364288,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":12210.338442184,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":12228.583179285,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":12228.58322781,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":12246.948318448,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":12246.948370086,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":12247.256055453,"data":"CV5 best_with_crop:kraw: acc 0.5796 qwk +0.1553\n"}
+,{"stream_name":"stderr","time":12261.410644106,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":12261.410687635,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":12276.194317401,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":12276.194396641,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":12291.075106853,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":12291.07515197,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":12305.576924728,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":12305.577004168,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":12320.456998225,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":12320.45704269,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":12320.769388466,"data":"CV5 crop_only:kraw_eyes: acc 0.5689 qwk +0.1305\n"}
+,{"stream_name":"stderr","time":12338.339669217,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":12338.339744557,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":12356.779057582,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":12356.779103455,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":12375.256203506,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":12375.256288131,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":12393.666348377,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":12393.666404749,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":12412.2925728,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":12412.29262864,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":12412.614864755,"data":"CV5 best_with_crop:kraw_eyes: acc 0.5825 qwk +0.1545\n"}
+,{"stream_name":"stderr","time":12426.623742931,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":12426.623787202,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":12441.623246819,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":12441.623315593,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":12456.217891474,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":12456.217941357,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":12471.693261113,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":12471.6933206,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":12486.508583115,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":12486.508717875,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":12486.820141221,"data":"CV5 crop_only:kraw_mouth: acc 0.5684 qwk +0.1146\n"}
+,{"stream_name":"stderr","time":12510.186625479,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":12510.186691428,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":12528.676156059,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":12528.676206484,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":12547.048292409,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":12547.048346944,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":12565.31926756,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":12565.319311814,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":12583.732095186,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\n"}
+,{"stream_name":"stderr","time":12583.733995879,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":12584.03235097,"data":"CV5 best_with_crop:kraw_mouth: acc 0.5867 qwk +0.1668\n"}
+,{"stream_name":"stdout","time":12584.171222089,"data":"{\n"}
+,{"stream_name":"stdout","time":12584.171315812,"data":" \"test_mean_sd\": {\n"}
+,{"stream_name":"stdout","time":12584.171322663,"data":"  \"acc\": [\n"}
+,{"stream_name":"stdout","time":12584.171365602,"data":"   0.5753135924326548,\n"}
+,{"stream_name":"stdout","time":12584.171371831,"data":"   0.004402569209542816\n"}
+,{"stream_name":"stdout","time":12584.171377116,"data":"  ],\n"}
+,{"stream_name":"stdout","time":12584.171390744,"data":"  \"qwk\": [\n"}
+,{"stream_name":"stdout","time":12584.171395904,"data":"   0.19242429519204618,\n"}
+,{"stream_name":"stdout","time":12584.171400724,"data":"   0.007596632397199723\n"}
+,{"stream_name":"stdout","time":12584.17144975,"data":"  ],\n"}
+,{"stream_name":"stdout","time":12584.171454559,"data":"  \"balanced_acc\": [\n"}
+,{"stream_name":"stdout","time":12584.171459601,"data":"   0.4832528856520219,\n"}
+,{"stream_name":"stdout","time":12584.171503576,"data":"   0.0023754439470917116\n"}
+,{"stream_name":"stdout","time":12584.171509,"data":"  ]\n"}
+,{"stream_name":"stdout","time":12584.171513993,"data":" },\n"}
+,{"stream_name":"stdout","time":12584.171527515,"data":" \"cv5\": {\n"}
+,{"stream_name":"stdout","time":12584.171533284,"data":"  \"acc\": [\n"}
+,{"stream_name":"stdout","time":12584.171546726,"data":"   0.5866900610080883,\n"}
+,{"stream_name":"stdout","time":12584.171552449,"data":"   0.030050575381873786\n"}
+,{"stream_name":"stdout","time":12584.171557649,"data":"  ],\n"}
+,{"stream_name":"stdout","time":12584.171597872,"data":"  \"qwk\": [\n"}
+,{"stream_name":"stdout","time":12584.171603114,"data":"   0.16680560973111905,\n"}
+,{"stream_name":"stdout","time":12584.171607734,"data":"   0.04686186726525986\n"}
+,{"stream_name":"stdout","time":12584.171612733,"data":"  ],\n"}
+,{"stream_name":"stdout","time":12584.171627063,"data":"  \"balanced_acc\": [\n"}
+,{"stream_name":"stdout","time":12584.17163196,"data":"   0.4744353062337326,\n"}
+,{"stream_name":"stdout","time":12584.171644985,"data":"   0.0256581596273209\n"}
+,{"stream_name":"stdout","time":12584.171650349,"data":"  ],\n"}
+,{"stream_name":"stdout","time":12584.171690357,"data":"  \"recall\": [\n"}
+,{"stream_name":"stdout","time":12584.171696712,"data":"   0.4745,\n"}
+,{"stream_name":"stdout","time":12584.171701531,"data":"   0.7428,\n"}
+,{"stream_name":"stdout","time":12584.171714844,"data":"   0.2061\n"}
+,{"stream_name":"stdout","time":12584.171720315,"data":"  ],\n"}
+,{"stream_name":"stdout","time":12584.171725169,"data":"  \"majority_acc\": 0.5443545599114983\n"}
+,{"stream_name":"stdout","time":12584.171738489,"data":" },\n"}
+,{"stream_name":"stdout","time":12584.171793551,"data":" \"majority_test\": 0.5203578038247995,\n"}
+,{"stream_name":"stdout","time":12584.171807399,"data":" \"literature\": {}\n"}
+,{"stream_name":"stdout","time":12584.171836469,"data":"}\n"}
+,{"stream_name":"stderr","time":12591.629120174,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":12591.629174842,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":12592.072091885,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":12592.072122122,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":12593.441888854,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":12595.405529365,"data":"[NbConvertApp] Writing 404426 bytes to __results__.html\n"}
+]

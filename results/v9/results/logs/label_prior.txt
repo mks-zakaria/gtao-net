@@ -1,0 +1,5 @@
+label-variance share: person 0.13 | experiment(group-exp) 0.20 | experiment index 0.11 | session 0.49
+experiment-prior (leave-person-out) QWK 0.372  pearson r 0.412
+mean within-session label s.d. 0.443; sessions with constant label 17/483
+class-moment prior (other students, same moment) QWK 0.378  r 0.405  n=35649
+label-variance share: class-moment 0.25

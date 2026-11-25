@@ -1,0 +1,18 @@
+{
+  "id": "zakariamakhas/gtao-v10-dipser-class-context",
+  "title": "gTAO v10 DIPSER class context",
+  "code_file": "class_context.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "dataset_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "kernel_sources": [
+    "zakariamakhas/gtao-v5-dipser-rich-merge",
+    "zakariamakhas/gtao-v6-dipser-face-crop-merge"
+  ]
+}

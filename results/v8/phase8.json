@@ -1,0 +1,76 @@
+{
+ "gru_vs_none": {
+  "a_qwk": 0.1612,
+  "b_qwk": 0.1651,
+  "diff_qwk": 0.004,
+  "ci_qwk": [
+   -0.0169,
+   0.0255
+  ],
+  "p_qwk": 0.685,
+  "a_acc": 0.5704,
+  "b_acc": 0.5611,
+  "diff_acc": -0.0093,
+  "ci_acc": [
+   -0.0191,
+   -0.0002
+  ],
+  "persons": 57
+ },
+ "gru_vs_ema": {
+  "a_qwk": 0.1619,
+  "b_qwk": 0.1651,
+  "diff_qwk": 0.0033,
+  "ci_qwk": [
+   -0.0223,
+   0.0294
+  ],
+  "p_qwk": 0.786,
+  "a_acc": 0.565,
+  "b_acc": 0.5611,
+  "diff_acc": -0.0039,
+  "ci_acc": [
+   -0.0156,
+   0.0069
+  ],
+  "persons": 57
+ },
+ "exploratory_bigru_vs_none": {
+  "a_qwk": 0.1612,
+  "b_qwk": 0.1668,
+  "diff_qwk": 0.0056,
+  "ci_qwk": [
+   -0.0225,
+   0.0344
+  ],
+  "p_qwk": 0.685,
+  "a_acc": 0.5704,
+  "b_acc": 0.5612,
+  "diff_acc": -0.0092,
+  "ci_acc": [
+   -0.02,
+   0.0006
+  ],
+  "persons": 57
+ },
+ "exploratory_ema_vs_none": {
+  "a_qwk": 0.1612,
+  "b_qwk": 0.1619,
+  "diff_qwk": 0.0007,
+  "ci_qwk": [
+   -0.0208,
+   0.02
+  ],
+  "p_qwk": 0.94,
+  "a_acc": 0.5704,
+  "b_acc": 0.565,
+  "diff_acc": -0.0054,
+  "ci_acc": [
+   -0.0135,
+   0.0019
+  ],
+  "persons": 57
+ },
+ "context_helps": false,
+ "gru_beats_ema": false
+}

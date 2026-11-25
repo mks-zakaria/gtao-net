@@ -1,0 +1,7 @@
+numpy
+torch
+mpmath
+scikit-learn
+scipy
+pillow
+kaggle

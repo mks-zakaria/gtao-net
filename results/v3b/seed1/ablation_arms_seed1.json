@@ -1,0 +1,7 @@
+{
+ "base": "run",
+ "no_phys": "run",
+ "no_lag": "run",
+ "no_ctx": "run",
+ "no_calib": "run"
+}

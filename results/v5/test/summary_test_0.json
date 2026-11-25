@@ -1,0 +1,28 @@
+{
+ "mode": "test",
+ "shard": 0,
+ "n_shards": 1,
+ "seq_k": 12,
+ "face_k": 24,
+ "zips_ok": 1,
+ "zips_failed": [],
+ "zips_planned": 1,
+ "mean_MBps": 9.045946849785413,
+ "wall_h": 0.08,
+ "frames_per_window": [
+  20,
+  32.0,
+  41
+ ],
+ "share_ge_seq_k": 1.0,
+ "self_test": [
+  {
+   "windows": 74,
+   "matched_keys": 74,
+   "compared": 296,
+   "max_rel_diff": 0.267105370759964,
+   "passed": false,
+   "zip": "group_01__experiment_01__subject_01"
+  }
+ ]
+}

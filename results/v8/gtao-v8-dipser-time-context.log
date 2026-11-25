@@ -1,0 +1,136 @@
+[{"stream_name":"stdout","time":8.032235925,"data":"[   0.0 min] corpus /kaggle/input/notebooks/zakariamakhas/gtao-v5-dipser-rich-merge/corpus_rich.npz\n"}
+,{"stream_name":"stdout","time":22.864724599,"data":"[   0.3 min] 28926 windows, 435 sessions, 57 persons, streams {'face': 320, 'facemesh': 7170, 'head_pose': 15, 'physio': 40, 'face_crop': 320}\n"}
+,{"stream_name":"stdout","time":82.457113409,"data":"[   1.2 min] fold 0 seed 0 none: epochs 2, inner val qwk 0.156, test acc 0.588 qwk +0.190\n"}
+,{"stream_name":"stdout","time":148.975436004,"data":"[   2.4 min] fold 0 seed 0 gru: epochs 2, inner val qwk 0.180, test acc 0.589 qwk +0.225\n"}
+,{"stream_name":"stdout","time":228.255807271,"data":"[   3.7 min] fold 0 seed 0 bigru: epochs 2, inner val qwk 0.156, test acc 0.595 qwk +0.232\n"}
+,{"stream_name":"stdout","time":276.420001721,"data":"[   4.5 min] fold 0 seed 1 none: epochs 1, inner val qwk 0.181, test acc 0.591 qwk +0.150\n"}
+,{"stream_name":"stdout","time":335.591970027,"data":"[   5.5 min] fold 0 seed 1 gru: epochs 1, inner val qwk 0.205, test acc 0.607 qwk +0.188\n"}
+,{"stream_name":"stdout","time":406.088736586,"data":"[   6.6 min] fold 0 seed 1 bigru: epochs 1, inner val qwk 0.189, test acc 0.607 qwk +0.176\n"}
+,{"stream_name":"stdout","time":472.4262825,"data":"[   7.7 min] fold 0 seed 2 none: epochs 4, inner val qwk 0.128, test acc 0.532 qwk +0.200\n"}
+,{"stream_name":"stdout","time":557.472131181,"data":"[   9.2 min] fold 0 seed 2 gru: epochs 5, inner val qwk 0.178, test acc 0.565 qwk +0.251\n"}
+,{"stream_name":"stdout","time":653.532419718,"data":"[  10.8 min] fold 0 seed 2 bigru: epochs 4, inner val qwk 0.191, test acc 0.533 qwk +0.229\n"}
+,{"stream_name":"stdout","time":802.505301089,"data":"[  13.2 min] fold 1 seed 0 none: epochs 19, inner val qwk 0.182, test acc 0.543 qwk +0.146\n"}
+,{"stream_name":"stdout","time":893.688648945,"data":"[  14.8 min] fold 1 seed 0 gru: epochs 5, inner val qwk 0.208, test acc 0.471 qwk +0.145\n"}
+,{"stream_name":"stdout","time":1132.200890847,"data":"[  18.7 min] fold 1 seed 0 bigru: epochs 20, inner val qwk 0.224, test acc 0.511 qwk +0.088\n"}
+,{"stream_name":"stdout","time":1257.864885429,"data":"[  20.8 min] fold 1 seed 1 none: epochs 14, inner val qwk 0.180, test acc 0.550 qwk +0.149\n"}
+,{"stream_name":"stdout","time":1437.176704658,"data":"[  23.8 min] fold 1 seed 1 gru: epochs 18, inner val qwk 0.212, test acc 0.568 qwk +0.142\n"}
+,{"stream_name":"stdout","time":1585.902513454,"data":"[  26.3 min] fold 1 seed 1 bigru: epochs 10, inner val qwk 0.217, test acc 0.554 qwk +0.147\n"}
+,{"stream_name":"stdout","time":1692.44605265,"data":"[  28.1 min] fold 1 seed 2 none: epochs 11, inner val qwk 0.175, test acc 0.540 qwk +0.157\n"}
+,{"stream_name":"stdout","time":1896.336258791,"data":"[  31.5 min] fold 1 seed 2 gru: epochs 22, inner val qwk 0.221, test acc 0.531 qwk +0.084\n"}
+,{"stream_name":"stdout","time":2058.527653698,"data":"[  34.2 min] fold 1 seed 2 bigru: epochs 11, inner val qwk 0.231, test acc 0.499 qwk +0.131\n"}
+,{"stream_name":"stdout","time":2110.197475584,"data":"[  35.0 min] fold 2 seed 0 none: epochs 1, inner val qwk 0.157, test acc 0.569 qwk +0.115\n"}
+,{"stream_name":"stdout","time":2194.539510274,"data":"[  36.5 min] fold 2 seed 0 gru: epochs 4, inner val qwk 0.173, test acc 0.527 qwk +0.086\n"}
+,{"stream_name":"stdout","time":2296.925391966,"data":"[  38.2 min] fold 2 seed 0 bigru: epochs 4, inner val qwk 0.186, test acc 0.526 qwk +0.083\n"}
+,{"stream_name":"stdout","time":2356.536000964,"data":"[  39.2 min] fold 2 seed 1 none: epochs 2, inner val qwk 0.126, test acc 0.545 qwk +0.052\n"}
+,{"stream_name":"stdout","time":2428.470492317,"data":"[  40.3 min] fold 2 seed 1 gru: epochs 2, inner val qwk 0.151, test acc 0.550 qwk +0.071\n"}
+,{"stream_name":"stdout","time":2514.450574014,"data":"[  41.8 min] fold 2 seed 1 bigru: epochs 2, inner val qwk 0.189, test acc 0.544 qwk +0.098\n"}
+,{"stream_name":"stdout","time":2566.887385729,"data":"[  42.7 min] fold 2 seed 2 none: epochs 1, inner val qwk 0.129, test acc 0.571 qwk +0.064\n"}
+,{"stream_name":"stdout","time":2641.427810662,"data":"[  43.9 min] fold 2 seed 2 gru: epochs 2, inner val qwk 0.169, test acc 0.536 qwk +0.117\n"}
+,{"stream_name":"stdout","time":2752.439975228,"data":"[  45.7 min] fold 2 seed 2 bigru: epochs 5, inner val qwk 0.180, test acc 0.569 qwk +0.176\n"}
+,{"stream_name":"stdout","time":2826.843155776,"data":"[  47.0 min] fold 3 seed 0 none: epochs 5, inner val qwk 0.166, test acc 0.608 qwk +0.241\n"}
+,{"stream_name":"stdout","time":2933.807204194,"data":"[  48.8 min] fold 3 seed 0 gru: epochs 7, inner val qwk 0.180, test acc 0.580 qwk +0.240\n"}
+,{"stream_name":"stdout","time":3126.583132983,"data":"[  52.0 min] fold 3 seed 0 bigru: epochs 15, inner val qwk 0.189, test acc 0.584 qwk +0.229\n"}
+,{"stream_name":"stdout","time":3205.432301021,"data":"[  53.3 min] fold 3 seed 1 none: epochs 6, inner val qwk 0.169, test acc 0.631 qwk +0.239\n"}
+,{"stream_name":"stdout","time":3282.124584787,"data":"[  54.6 min] fold 3 seed 1 gru: epochs 3, inner val qwk 0.185, test acc 0.637 qwk +0.297\n"}
+,{"stream_name":"stdout","time":3455.456141751,"data":"[  57.5 min] fold 3 seed 1 bigru: epochs 13, inner val qwk 0.202, test acc 0.616 qwk +0.269\n"}
+,{"stream_name":"stdout","time":3516.858865937,"data":"[  58.5 min] fold 3 seed 2 none: epochs 3, inner val qwk 0.161, test acc 0.610 qwk +0.210\n"}
+,{"stream_name":"stdout","time":3648.426160034,"data":"[  60.7 min] fold 3 seed 2 gru: epochs 11, inner val qwk 0.180, test acc 0.572 qwk +0.196\n"}
+,{"stream_name":"stdout","time":3765.707289837,"data":"[  62.6 min] fold 3 seed 2 bigru: epochs 6, inner val qwk 0.207, test acc 0.624 qwk +0.235\n"}
+,{"stream_name":"stdout","time":3881.76539919,"data":"[  64.6 min] fold 4 seed 0 none: epochs 11, inner val qwk 0.223, test acc 0.546 qwk +0.172\n"}
+,{"stream_name":"stdout","time":3998.261768249,"data":"[  66.5 min] fold 4 seed 0 gru: epochs 8, inner val qwk 0.213, test acc 0.564 qwk +0.191\n"}
+,{"stream_name":"stdout","time":4153.526123206,"data":"[  69.1 min] fold 4 seed 0 bigru: epochs 10, inner val qwk 0.282, test acc 0.549 qwk +0.117\n"}
+,{"stream_name":"stdout","time":4291.838250277,"data":"[  71.4 min] fold 4 seed 1 none: epochs 16, inner val qwk 0.294, test acc 0.568 qwk +0.205\n"}
+,{"stream_name":"stdout","time":4415.566151421,"data":"[  73.5 min] fold 4 seed 1 gru: epochs 9, inner val qwk 0.262, test acc 0.536 qwk +0.150\n"}
+,{"stream_name":"stdout","time":4551.329555361,"data":"[  75.7 min] fold 4 seed 1 bigru: epochs 8, inner val qwk 0.293, test acc 0.534 qwk +0.156\n"}
+,{"stream_name":"stdout","time":4676.045096292,"data":"[  77.8 min] fold 4 seed 2 none: epochs 13, inner val qwk 0.272, test acc 0.556 qwk +0.174\n"}
+,{"stream_name":"stdout","time":4813.39601243,"data":"[  80.1 min] fold 4 seed 2 gru: epochs 11, inner val qwk 0.257, test acc 0.561 qwk +0.188\n"}
+,{"stream_name":"stdout","time":4996.621265652,"data":"[  83.2 min] fold 4 seed 2 bigru: epochs 13, inner val qwk 0.334, test acc 0.551 qwk +0.168\n"}
+,{"stream_name":"stdout","time":4996.635382931,"data":"[  83.2 min] POOLED none: {'acc': [0.5704095508078084, 0.007038134897518991], 'qwk': [0.16115064353854677, 0.010225957014087607], 'balanced_acc': [0.4951460468800493, 0.009672104238830616], 'recall': [0.5191, 0.6686, 0.2977]}\n"}
+,{"stream_name":"stdout","time":4996.64257011,"data":"[  83.2 min] POOLED gru: {'acc': [0.5611214824033741, 0.014375651438420584], 'qwk': [0.16511845162526304, 0.0028573342737927884], 'balanced_acc': [0.4963847304826572, 0.0031080009049483876], 'recall': [0.5231, 0.6429, 0.3232]}\n"}
+,{"stream_name":"stdout","time":4996.649758859,"data":"[  83.2 min] POOLED bigru: {'acc': [0.5612251953260042, 0.00843394798094648], 'qwk': [0.16677104110319518, 0.01660507375406497], 'balanced_acc': [0.49601448174496837, 0.010774186566824382], 'recall': [0.5114, 0.6487, 0.3279]}\n"}
+,{"stream_name":"stdout","time":4996.657096658,"data":"[  83.2 min] POOLED ema: {'acc': [0.5650049551729701, 0.005122444243328546], 'qwk': [0.16185432711136527, 0.019753530688379067], 'balanced_acc': [0.47902145982148464, 0.012553786390039198], 'recall': [0.4901, 0.6845, 0.2624]}\n"}
+,{"stream_name":"stdout","time":4996.764422188,"data":"{\n"}
+,{"stream_name":"stdout","time":4996.764470648,"data":" \"none\": {\n"}
+,{"stream_name":"stdout","time":4996.764476019,"data":"  \"acc\": [\n"}
+,{"stream_name":"stdout","time":4996.764479268,"data":"   0.5704095508078084,\n"}
+,{"stream_name":"stdout","time":4996.764482048,"data":"   0.007038134897518991\n"}
+,{"stream_name":"stdout","time":4996.764484959,"data":"  ],\n"}
+,{"stream_name":"stdout","time":4996.764487728,"data":"  \"qwk\": [\n"}
+,{"stream_name":"stdout","time":4996.764490619,"data":"   0.16115064353854677,\n"}
+,{"stream_name":"stdout","time":4996.764493579,"data":"   0.010225957014087607\n"}
+,{"stream_name":"stdout","time":4996.764496488,"data":"  ],\n"}
+,{"stream_name":"stdout","time":4996.764499579,"data":"  \"balanced_acc\": [\n"}
+,{"stream_name":"stdout","time":4996.764502439,"data":"   0.4951460468800493,\n"}
+,{"stream_name":"stdout","time":4996.764505159,"data":"   0.009672104238830616\n"}
+,{"stream_name":"stdout","time":4996.764507999,"data":"  ],\n"}
+,{"stream_name":"stdout","time":4996.764510699,"data":"  \"recall\": [\n"}
+,{"stream_name":"stdout","time":4996.764513459,"data":"   0.5191,\n"}
+,{"stream_name":"stdout","time":4996.764516259,"data":"   0.6686,\n"}
+,{"stream_name":"stdout","time":4996.764518848,"data":"   0.2977\n"}
+,{"stream_name":"stdout","time":4996.764521428,"data":"  ]\n"}
+,{"stream_name":"stdout","time":4996.764524179,"data":" },\n"}
+,{"stream_name":"stdout","time":4996.764526829,"data":" \"gru\": {\n"}
+,{"stream_name":"stdout","time":4996.764529589,"data":"  \"acc\": [\n"}
+,{"stream_name":"stdout","time":4996.764532279,"data":"   0.5611214824033741,\n"}
+,{"stream_name":"stdout","time":4996.764535049,"data":"   0.014375651438420584\n"}
+,{"stream_name":"stdout","time":4996.764537858,"data":"  ],\n"}
+,{"stream_name":"stdout","time":4996.764540678,"data":"  \"qwk\": [\n"}
+,{"stream_name":"stdout","time":4996.764543418,"data":"   0.16511845162526304,\n"}
+,{"stream_name":"stdout","time":4996.764546269,"data":"   0.0028573342737927884\n"}
+,{"stream_name":"stdout","time":4996.764548969,"data":"  ],\n"}
+,{"stream_name":"stdout","time":4996.764551549,"data":"  \"balanced_acc\": [\n"}
+,{"stream_name":"stdout","time":4996.764554309,"data":"   0.4963847304826572,\n"}
+,{"stream_name":"stdout","time":4996.764557229,"data":"   0.0031080009049483876\n"}
+,{"stream_name":"stdout","time":4996.764559889,"data":"  ],\n"}
+,{"stream_name":"stdout","time":4996.764562678,"data":"  \"recall\": [\n"}
+,{"stream_name":"stdout","time":4996.764565298,"data":"   0.5231,\n"}
+,{"stream_name":"stdout","time":4996.764568018,"data":"   0.6429,\n"}
+,{"stream_name":"stdout","time":4996.764570769,"data":"   0.3232\n"}
+,{"stream_name":"stdout","time":4996.764573689,"data":"  ]\n"}
+,{"stream_name":"stdout","time":4996.764576669,"data":" },\n"}
+,{"stream_name":"stdout","time":4996.764579658,"data":" \"bigru\": {\n"}
+,{"stream_name":"stdout","time":4996.764582798,"data":"  \"acc\": [\n"}
+,{"stream_name":"stdout","time":4996.764585818,"data":"   0.5612251953260042,\n"}
+,{"stream_name":"stdout","time":4996.764601578,"data":"   0.00843394798094648\n"}
+,{"stream_name":"stdout","time":4996.764604558,"data":"  ],\n"}
+,{"stream_name":"stdout","time":4996.764607229,"data":"  \"qwk\": [\n"}
+,{"stream_name":"stdout","time":4996.764609958,"data":"   0.16677104110319518,\n"}
+,{"stream_name":"stdout","time":4996.764612698,"data":"   0.01660507375406497\n"}
+,{"stream_name":"stdout","time":4996.764615438,"data":"  ],\n"}
+,{"stream_name":"stdout","time":4996.764618198,"data":"  \"balanced_acc\": [\n"}
+,{"stream_name":"stdout","time":4996.764620969,"data":"   0.49601448174496837,\n"}
+,{"stream_name":"stdout","time":4996.764623649,"data":"   0.010774186566824382\n"}
+,{"stream_name":"stdout","time":4996.764626349,"data":"  ],\n"}
+,{"stream_name":"stdout","time":4996.764629118,"data":"  \"recall\": [\n"}
+,{"stream_name":"stdout","time":4996.764632278,"data":"   0.5114,\n"}
+,{"stream_name":"stdout","time":4996.764635178,"data":"   0.6487,\n"}
+,{"stream_name":"stdout","time":4996.764637989,"data":"   0.3279\n"}
+,{"stream_name":"stdout","time":4996.764640909,"data":"  ]\n"}
+,{"stream_name":"stdout","time":4996.764643689,"data":" },\n"}
+,{"stream_name":"stdout","time":4996.764646249,"data":" \"ema\": {\n"}
+,{"stream_name":"stdout","time":4996.764649078,"data":"  \"acc\": [\n"}
+,{"stream_name":"stdout","time":4996.764651869,"data":"   0.5650049551729701,\n"}
+,{"stream_name":"stdout","time":4996.764654638,"data":"   0.005122444243328546\n"}
+,{"stream_name":"stdout","time":4996.764657349,"data":"  ],\n"}
+,{"stream_name":"stdout","time":4996.764659989,"data":"  \"qwk\": [\n"}
+,{"stream_name":"stdout","time":4996.764662699,"data":"   0.16185432711136527,\n"}
+,{"stream_name":"stdout","time":4996.764665439,"data":"   0.019753530688379067\n"}
+,{"stream_name":"stdout","time":4996.764668219,"data":"  ],\n"}
+,{"stream_name":"stdout","time":4996.764670859,"data":"  \"balanced_acc\": [\n"}
+,{"stream_name":"stdout","time":4996.764673648,"data":"   0.47902145982148464,\n"}
+,{"stream_name":"stdout","time":4996.764676339,"data":"   0.012553786390039198\n"}
+,{"stream_name":"stdout","time":4996.764679119,"data":"  ],\n"}
+,{"stream_name":"stdout","time":4996.764681879,"data":"  \"recall\": [\n"}
+,{"stream_name":"stdout","time":4996.764684788,"data":"   0.4901,\n"}
+,{"stream_name":"stdout","time":4996.764687419,"data":"   0.6845,\n"}
+,{"stream_name":"stdout","time":4996.764690268,"data":"   0.2624\n"}
+,{"stream_name":"stdout","time":4996.764693228,"data":"  ]\n"}
+,{"stream_name":"stdout","time":4996.764696039,"data":" }\n"}
+,{"stream_name":"stdout","time":4996.764698779,"data":"}\n"}
+,{"stream_name":"stderr","time":5000.85964841,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":5000.85969654,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":5001.231399436,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":5001.231432006,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":5002.411891197,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":5003.706889628,"data":"[NbConvertApp] Writing 360386 bytes to __results__.html\n"}
+]

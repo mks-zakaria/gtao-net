@@ -1,0 +1,40 @@
+{
+ "zips": 483,
+ "windows": 35649,
+ "seq_k": 12,
+ "face_k": 24,
+ "self_test": {
+  "face": {
+   "compared": 35107,
+   "rows_differing": 0,
+   "share_differing": 0.0,
+   "max_rel_diff_on_exact_rows": 2.466906501297217e-08,
+   "avail_equal": true
+  },
+  "facemesh": {
+   "compared": 33282,
+   "rows_differing": 2012,
+   "share_differing": 0.06045309777056667,
+   "max_rel_diff_on_exact_rows": 3.401829076210561e-07,
+   "avail_equal": true
+  },
+  "head_pose": {
+   "compared": 33804,
+   "rows_differing": 978,
+   "share_differing": 0.02893148739794107,
+   "max_rel_diff_on_exact_rows": 0.0,
+   "avail_equal": true
+  }
+ },
+ "frames_per_window": [
+  1,
+  31.0,
+  48
+ ],
+ "class_counts": [
+  12306,
+  17964,
+  5379
+ ],
+ "bytes": 3477243351
+}

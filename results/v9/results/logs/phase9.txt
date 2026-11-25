@@ -1,0 +1,5 @@
+own_class_vs_own                     QWK 0.085 -> 0.103 diff +0.019 [-0.015, 0.0523] p 0.271 | acc 0.538 -> 0.552 [0.0007, 0.0267]
+exploratory_class_only_vs_own        QWK 0.085 -> 0.126 diff +0.041 [-0.0369, 0.1163] p 0.307 | acc 0.538 -> 0.495 [-0.0771, -0.0095]
+exploratory_pg5_own_class_vs_own     QWK 0.173 -> 0.316 diff +0.143 [0.0802, 0.2037] p 0.000 | acc 0.571 -> 0.600 [0.0094, 0.0479]
+exploratory_own_logo_vs_pg5          QWK 0.173 -> 0.070 diff -0.103 [-0.1702, -0.0378] p 0.000 | acc 0.571 -> 0.533 [-0.0611, -0.0162]
+class context helps: False

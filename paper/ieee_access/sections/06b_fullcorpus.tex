@@ -1,0 +1,77 @@
+\section{The full DIPSER release (Q6)}
+\label{sec:fullcorpus}
+
+On the full release, all folds group persons, success criteria were fixed before each run unless stated otherwise, and all numbers are produced by Kaggle notebooks.
+
+\subsection{Replication of the fusion result}
+\label{sec:fc-fusion}
+The factorial grid was rerun with standardised inputs, person-grouped folds and three seeds. The fusion result replicates: \fcFusionsAbove{} fusion configurations exceed the best single stream (face mesh, QWK \fcBestSingleQWK, 95\% CI \fcBestSingleCI; best fusion \fcBestFusionQWK; difference \fcFusionDiff{} \fcFusionDiffCI, $p=\fcFusionP$). All streams are, however, considerably weaker than on the slice, on which 59\% of the label variance lay between the 20 students, so that models could score by recognising which students tend to be attentive.  The agreement with changes \emph{within} a student-session is small (correlation $\le\fcWithinSessionMax$ for every stream), and no stream outperforms a control model trained on the label of a \emph{classmate} at the same moment (closest: \fcClassmateStream{} stream, $p=\fcClassmateP$). The sensors therefore capture mainly what the class is doing rather than what the individual student is doing.
+
+\subsection{Structure of the labels}
+\label{sec:fc-labels}
+Of the label variance, \fcSharePerson\% lies between students, \fcShareClass\% between class sessions and \fcShareSession\% between student-sessions; attention is thus mainly a property of a lesson, and of a student within it, rather than as a stable trait. Two label-only references, which use no sensor but cannot be deployed because they read other students' labels, quantify this. The mean label of the other students in the same class session yields QWK \fcExpPrior, and the labels of the other students at the same 4-s moment yield \fcMomentPrior. Both are about twice the best sensor model.
+
+\subsection{Attempts to improve the sensor model}
+\label{sec:fc-limits}
+Table~\ref{tab:fc-tests} summarises the attempts; every comparison is paired on the same students. \textbf{Search and richer moments.} A Bayesian search (Optuna, TPE) over streams, moment orders, model family (MLP or gradient-boosted trees), size, learning rate, class weights and head was evaluated on a fixed person-disjoint split with 13 test students, scored once with three seeds. It reaches \fcSearchPaperAcc\% test accuracy (majority \fcSearchMajority\%); moments re-extracted at higher orders ($24\times24$ spatially, 12 temporally) yield a non-significant \fcSearchRichAcc\%, and the search itself selects low orders (spatial 6--8, temporal 5--7).
+
+\textbf{Face crop and moment families.}
+\label{sec:fc-crop}
+Inspection of the raw data showed that the DIPSER face stream used here and in our earlier work~\cite{makhkhas2026ordinal} is the whole webcam frame resized to $64\times64$. We therefore constructed a face crop from the per-frame face box in the DIPSER metadata (square, 10\% margin; frames without a detected face become blank images, so that face visibility itself is encoded). The crop was encoded with five discrete orthogonal moment families: Tchebichef, Hahn ($\alpha=\beta=4$) and Krawtchouk centred on the face, the eyes and the mouth. Unlike Tchebichef moments, Krawtchouk and Hahn moments are local and concentrate on a region of the image. A self-test confirmed that the whole-frame Tchebichef moments recomputed by the new pipeline equal the original features in all 35{,}374 comparable windows. The crop raises accuracy by \fcCropAccGain{} points \fcCropAccCI{} over the whole frame but does not significantly change QWK. No family outperforms Tchebichef under the predefined rule, which required a Holm-corrected gain in both an accuracy-tuned and a QWK-tuned search; the best family, Hahn, gains $+0.036$ in the latter (Holm $p=0.13$) and $+0.010$ in the former.
+
+\textbf{Temporal and class context.} Because raters mark change points, consecutive windows usually share a label. A causal recurrent model (GRU) reading the student's preceding windows nevertheless leaves QWK unchanged (\fcCtxNoneQWK{} for isolated windows, \fcCtxGruQWK{} with the past and \fcCtxBiQWK{} for an offline bidirectional model). Adding the sensor features of the other students at the same moment, without their labels, does not significantly improve QWK on a class unseen during training (\fcLogoOwnQWK{} to \fcLogoClassQWK).
+
+\textbf{Pretrained face encoders.} To test whether the moment front-end is the limit, we added frozen pretrained encoders of the face crop to the sensor features (mean and standard deviation of the frame embeddings of up to eight crops per window): ResNet-18~\cite{he2016deep}, DINOv2~\cite{oquab2024dinov2} and an expression network trained for emotion and engagement~\cite{savchenko2022hsemotion}. On a held-out class the sensor features give \fcEncBaseAcc\% and QWK \fcEncBaseQWK; adding an encoder gives QWK \fcEncResQWK, \fcEncDinoQWK{} and \fcEncExprQWK{} respectively, none significantly different (Table~\ref{tab:fc-tests}; the third encoder was run after the first two results were known).
+
+\begin{table*}[!t]
+\centering
+\caption{Attempts to improve performance on the full release. $\Delta$QWK: second condition minus first, paired on the same students (person bootstrap, 95\% CI); two-sided $p$, Holm-adjusted within the moment families and within the encoders. Phase: label in the released plan; explor.: no predefined criterion.}
+\label{tab:fc-tests}
+\small
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{lcccccc}
+\toprule
+Comparison & Phase & Rule & $\Delta$QWK & 95\% CI & $p$ & Helps \\
+\midrule
+\csname @@input\endcsname tables/fullcorpus_tests.tex
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\subsection{Tracking with sparse label probes}
+\label{sec:fc-probe}
+Since sensors alone fail, we tested a different task. The consensus label of a student is revealed at a probe every 32\,s, 1\,min or 2.5\,min, and the windows in between are predicted causally: the model reads the sensors of the current window and of the last probe window, the labels of the last two probes and the time since the last probe, never a later label or another student's label. Evaluation is on a held-out class with gradient-boosted trees, three seeds and all \fcWindows{} windows (majority \fcMajorityAll\%); the model settings and the decision rules were fixed in advance. Table~\ref{tab:fc-probe} compares repeating the last probe (persistence), a model of the probe labels alone, and the same model with sensors. With a probe every 32\,s the full model reaches \fcProbeHalfAcc\% accuracy and QWK \fcProbeHalfQWK, and \fcProbeOneAcc\% and \fcProbeOneQWK{} with one probe per minute, against \fcSensorsOnlyAcc\% and \fcSensorsOnlyQWK{} for sensors alone. Persistence, however, already obtains \fcPersistHalfAcc\% and \fcPersistHalfQWK{} (\fcPersistOneAcc\% and \fcPersistOneQWK{} per minute): the sensors add 1--3 points of accuracy, with confidence intervals excluding zero, and no QWK. This agrees with the carry-forward result reported for self-rated engagement in video learning~\cite{leng2026edugage} and extends it to an in-person classroom with multi-rater labels. The probe above is the consensus label. With the student's own self-report as the probe and the external raters as the target, persistence gives only \fcSelfPersistHalfAcc\% and QWK \fcSelfPersistHalfQWK{} at 32\,s, because self-reports agree poorly with the raters (QWK \fcSelfExtQWK); the result therefore requires observer-quality probes.
+
+\begin{table*}[!t]
+\centering
+\caption{Sparse-probe tracking on a held-out class (accuracy\,\% / QWK on non-probe windows, 3 seeds). Gain: probe + sensors minus persistence, person bootstrap, 95\% CI.}
+\label{tab:fc-probe}
+\small
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lccccc}
+\toprule
+Probe every & Persistence & Probe model & Probe + sensors & Acc.\ gain (points) & QWK gain \\
+\midrule
+\csname @@input\endcsname tables/fullcorpus_probe.tex
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\subsection{Effect of the evaluation protocol}
+\label{sec:fc-protocol}
+Table~\ref{tab:fc-protocol} reports two experiments, each of which keeps the model fixed and changes only what the test set shares with the training set. With random windows, the windows of a student fall on both sides of the split, often seconds apart, and the model obtains \fcLeakRandAcc\% accuracy and QWK \fcLeakRandQWK; with whole students held out it obtains \fcLeakPersonAcc\% and \fcLeakPersonQWK{} (majority \fcMajority\%). Holding out a whole class lowers a second model from QWK \fcPgOwnQWK{} to \fcLogoOwnQWK{} (paired difference for seed 0: \fcLogoDrop{} \fcLogoDropCI), which shows that part of what is learned is specific to the lessons seen in training. The effect is largest when class features are used: with students held out, they appear to raise QWK from \fcPgOwnQWK{} to \fcPgClassQWK{} (\fcLeakClassDiff{} \fcLeakClassCI), because the classmates' labels at the same moment are in the training set and the class features allow the model to retrieve them. On an unseen class this gain is lost. Across the splits that hold out students or classes, accuracy remains within a few points of the majority rate (\fcLogoOwnAcc--\fcLeakPersonAcc\% against \fcMajority\%), whereas QWK decreases four-fold from random windows to held-out classes.
+
+\begin{table*}[!t]
+\centering
+\caption{The same model under different splits (full release, complete windows, pooled out-of-fold, majority accuracy \fcMajority\%). A: model of the hyper-parameter search (3 seeds); B: window-level MLP on all streams including the face crop (3 seeds; student-grouped: 1 seed); B$'$: B with the classmates' sensor features.}
+\label{tab:fc-protocol}
+\small
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lllcc}
+\toprule
+Model & Split & Shared with training set & Acc.\,\% & QWK \\
+\midrule
+\csname @@input\endcsname tables/fullcorpus_protocol.tex
+\bottomrule
+\end{tabular}
+\end{table*}

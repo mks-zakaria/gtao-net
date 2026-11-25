@@ -1,0 +1,29 @@
+{
+ "zips": 483,
+ "windows": 35649,
+ "seq_k": 8,
+ "face_k": 16,
+ "families": [
+  "tcheb",
+  "hahn",
+  "kraw",
+  "kraw_eyes",
+  "kraw_mouth"
+ ],
+ "self_test_full_frame_face": {
+  "compared": 35374,
+  "rows_differing": 0,
+  "max_rel_diff": 6.167266253243042e-09
+ },
+ "face_frac": {
+  "mean": 0.9496865272521973,
+  "share_zero": 0.02095430446856854,
+  "share_one": 0.8961541698224355,
+  "mean_by_class": [
+   0.927815318107605,
+   0.9845533967018127,
+   0.8832804560661316
+  ]
+ },
+ "bytes": 1466601944
+}

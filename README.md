@@ -47,6 +47,24 @@ rescores every run on person-disjoint windows only: no fusion beats the best str
 the gate stays inert (p = 0.79) and the link still helps (10/12, p = 0.021); the soft-vs-CORAL
 gain weakens to 6/8 pairs (p = 0.078).
 
+
+## Full article workspace (added 2026-11-25)
+
+Everything behind the current manuscript, beyond the v2 reference runs above:
+
+| Folder | Contents |
+|---|---|
+| `paper/` | Manuscript LaTeX source and PDF (`main.tex`, `supplementary.tex`), tables, figures, drafts, and the IEEE Access version (`paper/ieee_access/`) |
+| `kaggle/` | Source of every Kaggle kernel: v1 original, v2 nested, v3 standardised, v3b full corpus, v4 Bayesian search, v5/v6 feature re-extraction, v8 time context, v9 statistics, v10 class context, v11 sparse probe, v12 face encoders |
+| `analysis_v3/` | Post-hoc analyses and the generator of the full-corpus tables (`paper_fullcorpus.py`) |
+| `pc_pipeline/` | Local extraction pipeline for the full DIPSER release (download, Tchebichef features, face crops, pretrained face embeddings) |
+| `results/v1`, `results/v3` … `results/v12_3enc`, `results/phase*` | Summaries, reports and logs of those runs |
+| `tools/`, `env/`, `requirements-full.txt` | Helper scripts, Kaggle setup notes, dependencies for the full pipeline |
+
+Raw data and feature caches are not included: get DIPSER, DAiSEE and EngageNet from their
+publishers under their own licences. Credentials are never stored here; the extraction
+kernels read them from environment variables or Kaggle Secrets.
+
 ---
 
 ## Repository layout

@@ -1,0 +1,250 @@
+{
+ "family": {
+  "acc": {
+   "hahn": {
+    "a_qwk": 0.1182,
+    "b_qwk": 0.1282,
+    "diff_qwk": 0.01,
+    "ci_qwk": [
+     -0.0208,
+     0.0407
+    ],
+    "p_qwk": 0.576,
+    "a_acc": 0.5707,
+    "b_acc": 0.5719,
+    "diff_acc": 0.0012,
+    "ci_acc": [
+     -0.0099,
+     0.0125
+    ],
+    "persons": 57,
+    "p_holm": 1.0,
+    "matters": false
+   },
+   "kraw": {
+    "a_qwk": 0.1182,
+    "b_qwk": 0.1319,
+    "diff_qwk": 0.0137,
+    "ci_qwk": [
+     -0.0195,
+     0.0491
+    ],
+    "p_qwk": 0.473,
+    "a_acc": 0.5707,
+    "b_acc": 0.5659,
+    "diff_acc": -0.0047,
+    "ci_acc": [
+     -0.0186,
+     0.009
+    ],
+    "persons": 57,
+    "p_holm": 1.0,
+    "matters": false
+   },
+   "kraw_eyes": {
+    "a_qwk": 0.1182,
+    "b_qwk": 0.1325,
+    "diff_qwk": 0.0143,
+    "ci_qwk": [
+     -0.0292,
+     0.0616
+    ],
+    "p_qwk": 0.55,
+    "a_acc": 0.5707,
+    "b_acc": 0.5694,
+    "diff_acc": -0.0012,
+    "ci_acc": [
+     -0.0162,
+     0.0148
+    ],
+    "persons": 57,
+    "p_holm": 1.0,
+    "matters": false
+   },
+   "kraw_mouth": {
+    "a_qwk": 0.1182,
+    "b_qwk": 0.1163,
+    "diff_qwk": -0.0019,
+    "ci_qwk": [
+     -0.0387,
+     0.0327
+    ],
+    "p_qwk": 0.914,
+    "a_acc": 0.5707,
+    "b_acc": 0.5699,
+    "diff_acc": -0.0008,
+    "ci_acc": [
+     -0.0166,
+     0.0147
+    ],
+    "persons": 57,
+    "p_holm": 1.0,
+    "matters": false
+   }
+  },
+  "qwk": {
+   "hahn": {
+    "a_qwk": 0.1044,
+    "b_qwk": 0.1404,
+    "diff_qwk": 0.036,
+    "ci_qwk": [
+     0.0024,
+     0.0731
+    ],
+    "p_qwk": 0.033,
+    "a_acc": 0.5371,
+    "b_acc": 0.5539,
+    "diff_acc": 0.0167,
+    "ci_acc": [
+     0.003,
+     0.0305
+    ],
+    "persons": 57,
+    "p_holm": 0.132,
+    "matters": false
+   },
+   "kraw": {
+    "a_qwk": 0.1044,
+    "b_qwk": 0.1149,
+    "diff_qwk": 0.0105,
+    "ci_qwk": [
+     -0.0272,
+     0.0481
+    ],
+    "p_qwk": 0.582,
+    "a_acc": 0.5371,
+    "b_acc": 0.5328,
+    "diff_acc": -0.0043,
+    "ci_acc": [
+     -0.0251,
+     0.0162
+    ],
+    "persons": 57,
+    "p_holm": 1.0,
+    "matters": false
+   },
+   "kraw_eyes": {
+    "a_qwk": 0.1044,
+    "b_qwk": 0.1132,
+    "diff_qwk": 0.0088,
+    "ci_qwk": [
+     -0.0305,
+     0.0455
+    ],
+    "p_qwk": 0.657,
+    "a_acc": 0.5371,
+    "b_acc": 0.5235,
+    "diff_acc": -0.0137,
+    "ci_acc": [
+     -0.0333,
+     0.0058
+    ],
+    "persons": 57,
+    "p_holm": 1.0,
+    "matters": false
+   },
+   "kraw_mouth": {
+    "a_qwk": 0.1044,
+    "b_qwk": 0.1023,
+    "diff_qwk": -0.0021,
+    "ci_qwk": [
+     -0.0499,
+     0.0479
+    ],
+    "p_qwk": 0.909,
+    "a_acc": 0.5371,
+    "b_acc": 0.526,
+    "diff_acc": -0.0111,
+    "ci_acc": [
+     -0.0339,
+     0.0103
+    ],
+    "persons": 57,
+    "p_holm": 1.0,
+    "matters": false
+   }
+  }
+ },
+ "crop_vs_scene": {
+  "acc": {
+   "a_qwk": 0.0736,
+   "b_qwk": 0.1182,
+   "diff_qwk": 0.0445,
+   "ci_qwk": [
+    -0.0306,
+    0.1216
+   ],
+   "p_qwk": 0.248,
+   "a_acc": 0.5213,
+   "b_acc": 0.5707,
+   "diff_acc": 0.0494,
+   "ci_acc": [
+    0.0233,
+    0.0724
+   ],
+   "persons": 57
+  },
+  "qwk": {
+   "a_qwk": 0.0888,
+   "b_qwk": 0.1044,
+   "diff_qwk": 0.0156,
+   "ci_qwk": [
+    -0.0696,
+    0.1033
+   ],
+   "p_qwk": 0.743,
+   "a_acc": 0.4938,
+   "b_acc": 0.5371,
+   "diff_acc": 0.0433,
+   "ci_acc": [
+    0.0082,
+    0.0744
+   ],
+   "persons": 57
+  }
+ },
+ "overall_test": {
+  "acc": {
+   "a_qwk": 0.1768,
+   "b_qwk": 0.1924,
+   "diff_qwk": 0.0157,
+   "ci_qwk": [
+    -0.0699,
+    0.0798
+   ],
+   "p_qwk": 0.736,
+   "a_acc": 0.5892,
+   "b_acc": 0.5753,
+   "diff_acc": -0.0139,
+   "ci_acc": [
+    -0.0391,
+    0.0104
+   ],
+   "persons": 13
+  },
+  "qwk": {
+   "a_qwk": 0.1378,
+   "b_qwk": 0.1303,
+   "diff_qwk": -0.0075,
+   "ci_qwk": [
+    -0.073,
+    0.0726
+   ],
+   "p_qwk": 0.867,
+   "a_acc": 0.5634,
+   "b_acc": 0.5484,
+   "diff_acc": -0.0151,
+   "ci_acc": [
+    -0.046,
+    0.0161
+   ],
+   "persons": 13
+  }
+ },
+ "family_matters_in_both_runs": {
+  "hahn": false,
+  "kraw": false,
+  "kraw_eyes": false,
+  "kraw_mouth": false
+ }
+}

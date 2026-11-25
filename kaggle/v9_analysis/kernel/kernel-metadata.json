@@ -1,0 +1,33 @@
+{
+  "id": "zakariamakhas/gtao-v9-statistics",
+  "title": "gTAO v9 statistics",
+  "code_file": "analysis.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "dataset_sources": [
+    "zakariamakhas/dipser-full-corpus-features"
+  ],
+  "competition_sources": [],
+  "model_sources": [],
+  "kernel_sources": [
+    "zakariamakhas/gtao-net-daisee-v2-nested-early-stopping",
+    "zakariamakhas/gtao-net-dipser-grid-v2-nested-early-stopping",
+    "zakariamakhas/gtao-net-dipser-grid-v3-standardised",
+    "zakariamakhas/gtao-net-dipser-v3b-full-corpus-seed0",
+    "zakariamakhas/gtao-net-dipser-v3b-full-corpus-seed1",
+    "zakariamakhas/gtao-net-dipser-v3b-full-corpus-seed2",
+    "zakariamakhas/gtao-net-engagenet-v2-nested-early-stopping",
+    "zakariamakhas/gtao-v10-dipser-class-context",
+    "zakariamakhas/gtao-v4-bayes-search-dipser-acc",
+    "zakariamakhas/gtao-v4-bayes-search-dipser-crop-acc",
+    "zakariamakhas/gtao-v4-bayes-search-dipser-crop-qwk",
+    "zakariamakhas/gtao-v4-bayes-search-dipser-qwk",
+    "zakariamakhas/gtao-v4-bayes-search-dipser-rich-acc",
+    "zakariamakhas/gtao-v4-bayes-search-dipser-rich-qwk",
+    "zakariamakhas/gtao-v8-dipser-time-context"
+  ]
+}

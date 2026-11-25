@@ -1,0 +1,52 @@
+[{"stream_name":"stdout","time":9.265827948,"data":"[   0.0 min] corpus /kaggle/input/notebooks/zakariamakhas/gtao-v5-dipser-rich-merge/corpus_rich.npz\n"}
+,{"stream_name":"stdout","time":26.855447504,"data":"[   0.3 min] 28926 windows, 435 sessions, 57 persons, streams {'face': 320, 'facemesh': 7170, 'head_pose': 15, 'physio': 40, 'face_crop': 320}\n"}
+,{"stream_name":"stdout","time":27.994057474999998,"data":"[   0.3 min] class moments: 1992, classmates per window median 15, windows without classmates 0.36%\n"}
+,{"stream_name":"stdout","time":283.269775385,"data":"[   4.6 min] logo fold 0 seed 0 own: epochs [24, 6]-\u003e15, acc 0.574 qwk +0.060\n"}
+,{"stream_name":"stdout","time":781.65465252,"data":"[  12.9 min] logo fold 0 seed 0 own_class: epochs [26, 4]-\u003e15, acc 0.575 qwk +0.079\n"}
+,{"stream_name":"stdout","time":856.593785613,"data":"[  14.1 min] logo fold 0 seed 0 class_only: epochs [1, 1]-\u003e1, acc 0.560 qwk +0.157\n"}
+,{"stream_name":"stdout","time":1114.331754044,"data":"[  18.4 min] logo fold 0 seed 1 own: epochs [20, 11]-\u003e16, acc 0.585 qwk +0.089\n"}
+,{"stream_name":"stdout","time":1260.598858332,"data":"[  20.9 min] logo fold 0 seed 1 own_class: epochs [1, 1]-\u003e1, acc 0.606 qwk +0.107\n"}
+,{"stream_name":"stdout","time":1335.0940541,"data":"[  22.1 min] logo fold 0 seed 1 class_only: epochs [1, 1]-\u003e1, acc 0.600 qwk +0.182\n"}
+,{"stream_name":"stdout","time":1495.553397639,"data":"[  24.8 min] logo fold 0 seed 2 own: epochs [8, 8]-\u003e8, acc 0.576 qwk +0.067\n"}
+,{"stream_name":"stdout","time":1787.919205906,"data":"[  29.7 min] logo fold 0 seed 2 own_class: epochs [13, 1]-\u003e7, acc 0.555 qwk +0.056\n"}
+,{"stream_name":"stdout","time":1862.109270601,"data":"[  30.9 min] logo fold 0 seed 2 class_only: epochs [1, 1]-\u003e1, acc 0.554 qwk +0.117\n"}
+,{"stream_name":"stdout","time":2048.340025184,"data":"[  34.0 min] logo fold 1 seed 0 own: epochs [16, 7]-\u003e12, acc 0.531 qwk +0.187\n"}
+,{"stream_name":"stdout","time":2247.387729241,"data":"[  37.3 min] logo fold 1 seed 0 own_class: epochs [7, 1]-\u003e4, acc 0.535 qwk +0.174\n"}
+,{"stream_name":"stdout","time":2345.913634344,"data":"[  39.0 min] logo fold 1 seed 0 class_only: epochs [6, 1]-\u003e4, acc 0.519 qwk +0.200\n"}
+,{"stream_name":"stdout","time":2471.111017752,"data":"[  41.0 min] logo fold 1 seed 1 own: epochs [11, 2]-\u003e6, acc 0.542 qwk +0.207\n"}
+,{"stream_name":"stdout","time":2602.077573681,"data":"[  43.2 min] logo fold 1 seed 1 own_class: epochs [1, 1]-\u003e1, acc 0.563 qwk +0.229\n"}
+,{"stream_name":"stdout","time":2795.531928674,"data":"[  46.4 min] logo fold 1 seed 1 class_only: epochs [23, 1]-\u003e12, acc 0.396 qwk +0.078\n"}
+,{"stream_name":"stdout","time":2891.980531209,"data":"[  48.1 min] logo fold 1 seed 2 own: epochs [3, 4]-\u003e4, acc 0.539 qwk +0.203\n"}
+,{"stream_name":"stdout","time":3045.865848376,"data":"[  50.6 min] logo fold 1 seed 2 own_class: epochs [3, 1]-\u003e2, acc 0.559 qwk +0.243\n"}
+,{"stream_name":"stdout","time":3295.111530931,"data":"[  54.8 min] logo fold 1 seed 2 class_only: epochs [14, 20]-\u003e17, acc 0.378 qwk +0.046\n"}
+,{"stream_name":"stdout","time":3465.360553065,"data":"[  57.6 min] logo fold 2 seed 0 own: epochs [14, 4]-\u003e9, acc 0.496 qwk -0.012\n"}
+,{"stream_name":"stdout","time":3606.740811924,"data":"[  60.0 min] logo fold 2 seed 0 own_class: epochs [1, 1]-\u003e1, acc 0.524 qwk +0.005\n"}
+,{"stream_name":"stdout","time":3678.747115675,"data":"[  61.2 min] logo fold 2 seed 0 class_only: epochs [1, 1]-\u003e1, acc 0.528 qwk +0.095\n"}
+,{"stream_name":"stdout","time":3799.571062951,"data":"[  63.2 min] logo fold 2 seed 1 own: epochs [7, 3]-\u003e5, acc 0.507 qwk +0.012\n"}
+,{"stream_name":"stdout","time":3970.374503369,"data":"[  66.0 min] logo fold 2 seed 1 own_class: epochs [3, 1]-\u003e2, acc 0.522 qwk +0.003\n"}
+,{"stream_name":"stdout","time":4042.9947455,"data":"[  67.2 min] logo fold 2 seed 1 class_only: epochs [1, 1]-\u003e1, acc 0.501 qwk +0.073\n"}
+,{"stream_name":"stdout","time":4321.938406793,"data":"[  71.9 min] logo fold 2 seed 2 own: epochs [18, 18]-\u003e18, acc 0.505 qwk -0.031\n"}
+,{"stream_name":"stdout","time":4464.864858332,"data":"[  74.3 min] logo fold 2 seed 2 own_class: epochs [1, 1]-\u003e1, acc 0.534 qwk +0.062\n"}
+,{"stream_name":"stdout","time":4537.733100077,"data":"[  75.5 min] logo fold 2 seed 2 class_only: epochs [1, 1]-\u003e1, acc 0.465 qwk +0.097\n"}
+,{"stream_name":"stdout","time":4595.202677096,"data":"[  76.4 min] pg5 fold 0 seed 0 own: epochs [1]-\u003e1, acc 0.589 qwk +0.212\n"}
+,{"stream_name":"stdout","time":4708.093489454,"data":"[  78.3 min] pg5 fold 0 seed 0 own_class: epochs [1]-\u003e1, acc 0.642 qwk +0.418\n"}
+,{"stream_name":"stdout","time":4817.399417953,"data":"[  80.1 min] pg5 fold 1 seed 0 own: epochs [5]-\u003e5, acc 0.536 qwk +0.150\n"}
+,{"stream_name":"stdout","time":5036.429618747,"data":"[  83.8 min] pg5 fold 1 seed 0 own_class: epochs [5]-\u003e5, acc 0.539 qwk +0.204\n"}
+,{"stream_name":"stdout","time":5095.817806221,"data":"[  84.8 min] pg5 fold 2 seed 0 own: epochs [1]-\u003e1, acc 0.566 qwk +0.155\n"}
+,{"stream_name":"stdout","time":5309.028535865,"data":"[  88.3 min] pg5 fold 2 seed 0 own_class: epochs [5]-\u003e5, acc 0.569 qwk +0.319\n"}
+,{"stream_name":"stdout","time":5429.639933789,"data":"[  90.3 min] pg5 fold 3 seed 0 own: epochs [6]-\u003e6, acc 0.588 qwk +0.136\n"}
+,{"stream_name":"stdout","time":5549.962991062,"data":"[  92.4 min] pg5 fold 3 seed 0 own_class: epochs [1]-\u003e1, acc 0.653 qwk +0.340\n"}
+,{"stream_name":"stdout","time":5621.313382116,"data":"[  93.5 min] pg5 fold 4 seed 0 own: epochs [2]-\u003e2, acc 0.571 qwk +0.206\n"}
+,{"stream_name":"stdout","time":5739.448657664,"data":"[  95.5 min] pg5 fold 4 seed 0 own_class: epochs [1]-\u003e1, acc 0.582 qwk +0.269\n"}
+,{"stream_name":"stdout","time":5739.488067524,"data":"[  95.5 min] POOLED logo_class_only: acc 0.4950 qwk +0.1259\n"}
+,{"stream_name":"stdout","time":5739.518689399,"data":"[  95.5 min] POOLED logo_own: acc 0.5385 qwk +0.0849\n"}
+,{"stream_name":"stdout","time":5739.549758718,"data":"[  95.5 min] POOLED logo_own_class: acc 0.5521 qwk +0.1034\n"}
+,{"stream_name":"stdout","time":5739.559269968,"data":"[  95.5 min] POOLED pg5_own: acc 0.5712 qwk +0.1731\n"}
+,{"stream_name":"stdout","time":5739.569117575,"data":"[  95.5 min] POOLED pg5_own_class: acc 0.5996 qwk +0.3159\n"}
+,{"stream_name":"stderr","time":5744.193578151,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":5744.193617689,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":5744.528460381,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":5744.528500827,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":5745.510536887,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":5746.810003157,"data":"[NbConvertApp] Writing 356905 bytes to __results__.html\n"}
+]

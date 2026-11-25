@@ -1,0 +1,18 @@
+{
+  "id": "zakariamakhas/gtao-v12-dipser-face-encoder",
+  "title": "gTAO v12 DIPSER face encoder",
+  "code_file": "phase10b.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "dataset_sources": [
+    "zakariamakhas/dipser-full-corpus-features",
+    "zakariamakhas/dipser-face-embeddings"
+  ],
+  "competition_sources": [],
+  "model_sources": [],
+  "kernel_sources": []
+}

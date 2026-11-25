@@ -20,3 +20,6 @@ __pycache__/
 # Local-only exploration notebooks + their exports (repo stays results-only)
 /notebooks/
 /output/
+# local tool state
+.claude/
+!results/**/*.log

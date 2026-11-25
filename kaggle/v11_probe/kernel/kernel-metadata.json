@@ -1,0 +1,17 @@
+{
+  "id": "zakariamakhas/gtao-v11-dipser-sparse-probe",
+  "title": "gTAO v11 DIPSER sparse probe",
+  "code_file": "phase10a.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "dataset_sources": [
+    "zakariamakhas/dipser-full-corpus-features"
+  ],
+  "competition_sources": [],
+  "model_sources": [],
+  "kernel_sources": []
+}

@@ -1,0 +1,19 @@
+{
+  "id": "zakariamakhas/gtao-net-dipser-grid-v3-standardised",
+  "title": "gTAO-Net DIPSER grid v3 - standardised",
+  "code_file": "gtao_grid.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "dataset_sources": [
+    "zakariamakhas/dipseer-paper1-slice"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [
+    "zakariamakhas/gtao-net-dipser-grid-v2-nested-early-stopping"
+  ],
+  "model_sources": []
+}

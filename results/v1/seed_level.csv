@@ -1,0 +1,271 @@
+dataset,protocol,config,fusion,skip,mdrop,loss,unimodal,shuffle,seed,qwk
+DIPSER,full factorial · GroupKFold,unimodal_facemesh_cw,unimodal,,,coral,facemesh,,seed 0,0.3954
+DIPSER,full factorial · GroupKFold,unimodal_facemesh_cw,unimodal,,,coral,facemesh,,seed 1,0.4171
+DIPSER,full factorial · GroupKFold,unimodal_facemesh_cw,unimodal,,,coral,facemesh,,seed 2,0.3584
+DIPSER,full factorial · GroupKFold,gate_skip1_drop0_soft,gate,True,False,soft,,,seed 0,0.3034
+DIPSER,full factorial · GroupKFold,gate_skip1_drop0_soft,gate,True,False,soft,,,seed 1,0.4201
+DIPSER,full factorial · GroupKFold,gate_skip1_drop0_soft,gate,True,False,soft,,,seed 2,0.3242
+DIPSER,full factorial · GroupKFold,core_skip1_drop0_soft,core,True,False,soft,,,seed 0,0.1588
+DIPSER,full factorial · GroupKFold,core_skip1_drop0_soft,core,True,False,soft,,,seed 1,0.4458
+DIPSER,full factorial · GroupKFold,core_skip1_drop0_soft,core,True,False,soft,,,seed 2,0.4217
+DIPSER,full factorial · GroupKFold,gate_skip1_drop1_soft,gate,True,True,soft,,,seed 0,0.3034
+DIPSER,full factorial · GroupKFold,gate_skip1_drop1_soft,gate,True,True,soft,,,seed 1,0.4009
+DIPSER,full factorial · GroupKFold,gate_skip1_drop1_soft,gate,True,True,soft,,,seed 2,0.2005
+DIPSER,full factorial · GroupKFold,core_skip1_drop1_soft,core,True,True,soft,,,seed 0,0.2485
+DIPSER,full factorial · GroupKFold,core_skip1_drop1_soft,core,True,True,soft,,,seed 1,0.3812
+DIPSER,full factorial · GroupKFold,core_skip1_drop1_soft,core,True,True,soft,,,seed 2,0.2453
+DIPSER,full factorial · GroupKFold,core_skip1_drop1_hybrid,core,True,True,hybrid,,,seed 0,0.219
+DIPSER,full factorial · GroupKFold,core_skip1_drop1_hybrid,core,True,True,hybrid,,,seed 1,0.3226
+DIPSER,full factorial · GroupKFold,core_skip1_drop1_hybrid,core,True,True,hybrid,,,seed 2,0.3254
+DIPSER,full factorial · GroupKFold,gate_skip0_drop1_soft,gate,False,True,soft,,,seed 0,0.3069
+DIPSER,full factorial · GroupKFold,gate_skip0_drop1_soft,gate,False,True,soft,,,seed 1,0.2714
+DIPSER,full factorial · GroupKFold,gate_skip0_drop1_soft,gate,False,True,soft,,,seed 2,0.282
+DIPSER,full factorial · GroupKFold,unimodal_head_pose_cw,unimodal,,,coral,head_pose,,seed 0,0.3074
+DIPSER,full factorial · GroupKFold,unimodal_head_pose_cw,unimodal,,,coral,head_pose,,seed 1,0.2661
+DIPSER,full factorial · GroupKFold,unimodal_head_pose_cw,unimodal,,,coral,head_pose,,seed 2,0.1918
+DIPSER,full factorial · GroupKFold,core_skip1_drop1,core,True,True,coral,,,seed 0,0.2259
+DIPSER,full factorial · GroupKFold,core_skip1_drop1,core,True,True,coral,,,seed 1,0.2981
+DIPSER,full factorial · GroupKFold,core_skip1_drop1,core,True,True,coral,,,seed 2,0.234
+DIPSER,full factorial · GroupKFold,core_skip1_drop0,core,True,False,coral,,,seed 0,0.162
+DIPSER,full factorial · GroupKFold,core_skip1_drop0,core,True,False,coral,,,seed 1,0.2467
+DIPSER,full factorial · GroupKFold,core_skip1_drop0,core,True,False,coral,,,seed 2,0.2898
+DIPSER,full factorial · GroupKFold,core_skip1_drop0_hybrid,core,True,False,hybrid,,,seed 0,0.2286
+DIPSER,full factorial · GroupKFold,core_skip1_drop0_hybrid,core,True,False,hybrid,,,seed 1,0.2473
+DIPSER,full factorial · GroupKFold,core_skip1_drop0_hybrid,core,True,False,hybrid,,,seed 2,0.2197
+DIPSER,full factorial · GroupKFold,core_skip0_drop1_soft,core,False,True,soft,,,seed 0,0.243
+DIPSER,full factorial · GroupKFold,core_skip0_drop1_soft,core,False,True,soft,,,seed 1,0.2153
+DIPSER,full factorial · GroupKFold,core_skip0_drop1_soft,core,False,True,soft,,,seed 2,0.2166
+DIPSER,full factorial · GroupKFold,gate_skip0_drop0_soft,gate,False,False,soft,,,seed 0,0.1826
+DIPSER,full factorial · GroupKFold,gate_skip0_drop0_soft,gate,False,False,soft,,,seed 1,0.2365
+DIPSER,full factorial · GroupKFold,gate_skip0_drop0_soft,gate,False,False,soft,,,seed 2,0.2314
+DIPSER,full factorial · GroupKFold,core_skip0_drop0_soft,core,False,False,soft,,,seed 0,0.1851
+DIPSER,full factorial · GroupKFold,core_skip0_drop0_soft,core,False,False,soft,,,seed 1,0.1806
+DIPSER,full factorial · GroupKFold,core_skip0_drop0_soft,core,False,False,soft,,,seed 2,0.2571
+DIPSER,full factorial · GroupKFold,gate_skip1_drop1,gate,True,True,coral,,,seed 0,0.1813
+DIPSER,full factorial · GroupKFold,gate_skip1_drop1,gate,True,True,coral,,,seed 1,0.2274
+DIPSER,full factorial · GroupKFold,gate_skip1_drop1,gate,True,True,coral,,,seed 2,0.1701
+DIPSER,full factorial · GroupKFold,gate_skip1_drop0,gate,True,False,coral,,,seed 0,0.1886
+DIPSER,full factorial · GroupKFold,gate_skip1_drop0,gate,True,False,coral,,,seed 1,0.1541
+DIPSER,full factorial · GroupKFold,gate_skip1_drop0,gate,True,False,coral,,,seed 2,0.231
+DIPSER,full factorial · GroupKFold,unimodal_physio_cw,unimodal,,,coral,physio,,seed 0,0.1949
+DIPSER,full factorial · GroupKFold,unimodal_physio_cw,unimodal,,,coral,physio,,seed 1,0.1469
+DIPSER,full factorial · GroupKFold,unimodal_physio_cw,unimodal,,,coral,physio,,seed 2,0.2293
+DIPSER,full factorial · GroupKFold,gate_skip1_drop0_hybrid,gate,True,False,hybrid,,,seed 0,0.2072
+DIPSER,full factorial · GroupKFold,gate_skip1_drop0_hybrid,gate,True,False,hybrid,,,seed 1,0.1091
+DIPSER,full factorial · GroupKFold,gate_skip1_drop0_hybrid,gate,True,False,hybrid,,,seed 2,0.196
+DIPSER,full factorial · GroupKFold,gate_skip0_drop1_hybrid,gate,False,True,hybrid,,,seed 0,0.2193
+DIPSER,full factorial · GroupKFold,gate_skip0_drop1_hybrid,gate,False,True,hybrid,,,seed 1,0.0927
+DIPSER,full factorial · GroupKFold,gate_skip0_drop1_hybrid,gate,False,True,hybrid,,,seed 2,0.1618
+DIPSER,full factorial · GroupKFold,gate_skip1_drop1_hybrid,gate,True,True,hybrid,,,seed 0,0.1558
+DIPSER,full factorial · GroupKFold,gate_skip1_drop1_hybrid,gate,True,True,hybrid,,,seed 1,0.0925
+DIPSER,full factorial · GroupKFold,gate_skip1_drop1_hybrid,gate,True,True,hybrid,,,seed 2,0.2058
+DIPSER,full factorial · GroupKFold,gate_skip0_drop1,gate,False,True,coral,,,seed 0,0.1881
+DIPSER,full factorial · GroupKFold,gate_skip0_drop1,gate,False,True,coral,,,seed 1,0.1173
+DIPSER,full factorial · GroupKFold,gate_skip0_drop1,gate,False,True,coral,,,seed 2,0.12
+DIPSER,full factorial · GroupKFold,core_skip0_drop1,core,False,True,coral,,,seed 0,0.198
+DIPSER,full factorial · GroupKFold,core_skip0_drop1,core,False,True,coral,,,seed 1,0.046
+DIPSER,full factorial · GroupKFold,core_skip0_drop1,core,False,True,coral,,,seed 2,0.1576
+DIPSER,full factorial · GroupKFold,core_skip0_drop0_hybrid,core,False,False,hybrid,,,seed 0,0.2008
+DIPSER,full factorial · GroupKFold,core_skip0_drop0_hybrid,core,False,False,hybrid,,,seed 1,0.0401
+DIPSER,full factorial · GroupKFold,core_skip0_drop0_hybrid,core,False,False,hybrid,,,seed 2,0.1515
+DIPSER,full factorial · GroupKFold,unimodal_face_cw,unimodal,,,coral,face,,seed 0,0.1732
+DIPSER,full factorial · GroupKFold,unimodal_face_cw,unimodal,,,coral,face,,seed 1,0.0666
+DIPSER,full factorial · GroupKFold,unimodal_face_cw,unimodal,,,coral,face,,seed 2,0.1061
+DIPSER,full factorial · GroupKFold,core_skip0_drop1_hybrid,core,False,True,hybrid,,,seed 0,0.1026
+DIPSER,full factorial · GroupKFold,core_skip0_drop1_hybrid,core,False,True,hybrid,,,seed 1,-0.0005
+DIPSER,full factorial · GroupKFold,core_skip0_drop1_hybrid,core,False,True,hybrid,,,seed 2,0.1586
+DIPSER,full factorial · GroupKFold,gate_skip0_drop0,gate,False,False,coral,,,seed 0,0.147
+DIPSER,full factorial · GroupKFold,gate_skip0_drop0,gate,False,False,coral,,,seed 1,0.0016
+DIPSER,full factorial · GroupKFold,gate_skip0_drop0,gate,False,False,coral,,,seed 2,0.0963
+DIPSER,full factorial · GroupKFold,gate_skip0_drop0_hybrid,gate,False,False,hybrid,,,seed 0,0.1551
+DIPSER,full factorial · GroupKFold,gate_skip0_drop0_hybrid,gate,False,False,hybrid,,,seed 1,0.0616
+DIPSER,full factorial · GroupKFold,gate_skip0_drop0_hybrid,gate,False,False,hybrid,,,seed 2,0.0149
+DIPSER,full factorial · GroupKFold,core_skip0_drop0,core,False,False,coral,,,seed 0,0.1121
+DIPSER,full factorial · GroupKFold,core_skip0_drop0,core,False,False,coral,,,seed 1,-0.0332
+DIPSER,full factorial · GroupKFold,core_skip0_drop0,core,False,False,coral,,,seed 2,0.1233
+DIPSER,full factorial · GroupKFold,shuffle_core_skip1_drop1,core,True,True,coral,,True,seed 0,0.0427
+DIPSER,full factorial · GroupKFold,shuffle_core_skip1_drop1,core,True,True,coral,,True,seed 1,0.0715
+DIPSER,full factorial · GroupKFold,shuffle_core_skip1_drop1,core,True,True,coral,,True,seed 2,0.0577
+DAiSEE,P1 · official split,gate_skip0_drop0,gate,False,False,coral,,,seed 0,0.149
+DAiSEE,P1 · official split,gate_skip0_drop0,gate,False,False,coral,,,seed 1,0.1689
+DAiSEE,P1 · official split,gate_skip0_drop0,gate,False,False,coral,,,seed 2,0.1647
+DAiSEE,P1 · official split,gate_skip0_drop0_soft,gate,False,False,soft,,,seed 0,0.149
+DAiSEE,P1 · official split,gate_skip0_drop0_soft,gate,False,False,soft,,,seed 1,0.1689
+DAiSEE,P1 · official split,gate_skip0_drop0_soft,gate,False,False,soft,,,seed 2,0.1647
+DAiSEE,P1 · official split,core_skip0_drop1_hybrid,core,False,True,hybrid,,,seed 0,0.1387
+DAiSEE,P1 · official split,core_skip0_drop1_hybrid,core,False,True,hybrid,,,seed 1,0.164
+DAiSEE,P1 · official split,core_skip0_drop1_hybrid,core,False,True,hybrid,,,seed 2,0.146
+DAiSEE,P1 · official split,core_skip0_drop0,core,False,False,coral,,,seed 0,0.1405
+DAiSEE,P1 · official split,core_skip0_drop0,core,False,False,coral,,,seed 1,0.1576
+DAiSEE,P1 · official split,core_skip0_drop0,core,False,False,coral,,,seed 2,0.1484
+DAiSEE,P1 · official split,core_skip0_drop0_soft,core,False,False,soft,,,seed 0,0.1405
+DAiSEE,P1 · official split,core_skip0_drop0_soft,core,False,False,soft,,,seed 1,0.1576
+DAiSEE,P1 · official split,core_skip0_drop0_soft,core,False,False,soft,,,seed 2,0.1484
+DAiSEE,P1 · official split,core_skip0_drop0_hybrid,core,False,False,hybrid,,,seed 0,0.129
+DAiSEE,P1 · official split,core_skip0_drop0_hybrid,core,False,False,hybrid,,,seed 1,0.1756
+DAiSEE,P1 · official split,core_skip0_drop0_hybrid,core,False,False,hybrid,,,seed 2,0.1343
+DAiSEE,P1 · official split,gate_skip0_drop1_hybrid,gate,False,True,hybrid,,,seed 0,0.1385
+DAiSEE,P1 · official split,gate_skip0_drop1_hybrid,gate,False,True,hybrid,,,seed 1,0.1429
+DAiSEE,P1 · official split,gate_skip0_drop1_hybrid,gate,False,True,hybrid,,,seed 2,0.1572
+DAiSEE,P1 · official split,gate_skip0_drop1,gate,False,True,coral,,,seed 0,0.1521
+DAiSEE,P1 · official split,gate_skip0_drop1,gate,False,True,coral,,,seed 1,0.1447
+DAiSEE,P1 · official split,gate_skip0_drop1,gate,False,True,coral,,,seed 2,0.116
+DAiSEE,P1 · official split,gate_skip0_drop1_soft,gate,False,True,soft,,,seed 0,0.1521
+DAiSEE,P1 · official split,gate_skip0_drop1_soft,gate,False,True,soft,,,seed 1,0.1447
+DAiSEE,P1 · official split,gate_skip0_drop1_soft,gate,False,True,soft,,,seed 2,0.116
+DAiSEE,P1 · official split,gate_skip0_drop0_hybrid,gate,False,False,hybrid,,,seed 0,0.1297
+DAiSEE,P1 · official split,gate_skip0_drop0_hybrid,gate,False,False,hybrid,,,seed 1,0.1556
+DAiSEE,P1 · official split,gate_skip0_drop0_hybrid,gate,False,False,hybrid,,,seed 2,0.1163
+DAiSEE,P1 · official split,core_skip0_drop1,core,False,True,coral,,,seed 0,0.152
+DAiSEE,P1 · official split,core_skip0_drop1,core,False,True,coral,,,seed 1,0.1194
+DAiSEE,P1 · official split,core_skip0_drop1,core,False,True,coral,,,seed 2,0.1267
+DAiSEE,P1 · official split,core_skip0_drop1_soft,core,False,True,soft,,,seed 0,0.152
+DAiSEE,P1 · official split,core_skip0_drop1_soft,core,False,True,soft,,,seed 1,0.1194
+DAiSEE,P1 · official split,core_skip0_drop1_soft,core,False,True,soft,,,seed 2,0.1267
+DAiSEE,P1 · official split,unimodal_face,unimodal,,,coral,face,,seed 0,0.1177
+DAiSEE,P1 · official split,unimodal_face,unimodal,,,coral,face,,seed 1,0.128
+DAiSEE,P1 · official split,unimodal_face,unimodal,,,coral,face,,seed 2,0.119
+DAiSEE,P1 · official split,unimodal_head_pose,unimodal,,,coral,head_pose,,seed 0,0.1074
+DAiSEE,P1 · official split,unimodal_head_pose,unimodal,,,coral,head_pose,,seed 1,0.0993
+DAiSEE,P1 · official split,unimodal_head_pose,unimodal,,,coral,head_pose,,seed 2,0.0997
+DAiSEE,P1 · official split,gate_skip1_drop0,gate,True,False,coral,,,seed 0,0.1182
+DAiSEE,P1 · official split,gate_skip1_drop0,gate,True,False,coral,,,seed 1,0.0685
+DAiSEE,P1 · official split,gate_skip1_drop0,gate,True,False,coral,,,seed 2,0.0613
+DAiSEE,P1 · official split,gate_skip1_drop0_soft,gate,True,False,soft,,,seed 0,0.1182
+DAiSEE,P1 · official split,gate_skip1_drop0_soft,gate,True,False,soft,,,seed 1,0.0685
+DAiSEE,P1 · official split,gate_skip1_drop0_soft,gate,True,False,soft,,,seed 2,0.0613
+DAiSEE,P1 · official split,gate_skip1_drop1_hybrid,gate,True,True,hybrid,,,seed 0,0.0393
+DAiSEE,P1 · official split,gate_skip1_drop1_hybrid,gate,True,True,hybrid,,,seed 1,0.0469
+DAiSEE,P1 · official split,gate_skip1_drop1_hybrid,gate,True,True,hybrid,,,seed 2,0.106
+DAiSEE,P1 · official split,gate_skip1_drop1,gate,True,True,coral,,,seed 0,0.0914
+DAiSEE,P1 · official split,gate_skip1_drop1,gate,True,True,coral,,,seed 1,0.0549
+DAiSEE,P1 · official split,gate_skip1_drop1,gate,True,True,coral,,,seed 2,0.0449
+DAiSEE,P1 · official split,gate_skip1_drop1_soft,gate,True,True,soft,,,seed 0,0.0914
+DAiSEE,P1 · official split,gate_skip1_drop1_soft,gate,True,True,soft,,,seed 1,0.0549
+DAiSEE,P1 · official split,gate_skip1_drop1_soft,gate,True,True,soft,,,seed 2,0.0449
+DAiSEE,P1 · official split,core_skip1_drop0,core,True,False,coral,,,seed 0,0.0676
+DAiSEE,P1 · official split,core_skip1_drop0,core,True,False,coral,,,seed 1,0.0335
+DAiSEE,P1 · official split,core_skip1_drop0,core,True,False,coral,,,seed 2,0.0438
+DAiSEE,P1 · official split,core_skip1_drop0_soft,core,True,False,soft,,,seed 0,0.0676
+DAiSEE,P1 · official split,core_skip1_drop0_soft,core,True,False,soft,,,seed 1,0.0335
+DAiSEE,P1 · official split,core_skip1_drop0_soft,core,True,False,soft,,,seed 2,0.0438
+DAiSEE,P1 · official split,core_skip1_drop0_hybrid,core,True,False,hybrid,,,seed 0,0.0676
+DAiSEE,P1 · official split,core_skip1_drop0_hybrid,core,True,False,hybrid,,,seed 1,0.0171
+DAiSEE,P1 · official split,core_skip1_drop0_hybrid,core,True,False,hybrid,,,seed 2,0.0559
+DAiSEE,P1 · official split,gate_skip1_drop0_hybrid,gate,True,False,hybrid,,,seed 0,0.0392
+DAiSEE,P1 · official split,gate_skip1_drop0_hybrid,gate,True,False,hybrid,,,seed 1,0.0285
+DAiSEE,P1 · official split,gate_skip1_drop0_hybrid,gate,True,False,hybrid,,,seed 2,0.0701
+DAiSEE,P1 · official split,core_skip1_drop1_hybrid,core,True,True,hybrid,,,seed 0,0.0622
+DAiSEE,P1 · official split,core_skip1_drop1_hybrid,core,True,True,hybrid,,,seed 1,0.0625
+DAiSEE,P1 · official split,core_skip1_drop1_hybrid,core,True,True,hybrid,,,seed 2,0.0091
+DAiSEE,P1 · official split,core_skip1_drop1,core,True,True,coral,,,seed 0,0.0605
+DAiSEE,P1 · official split,core_skip1_drop1,core,True,True,coral,,,seed 1,0.0078
+DAiSEE,P1 · official split,core_skip1_drop1,core,True,True,coral,,,seed 2,0.022
+DAiSEE,P1 · official split,core_skip1_drop1_soft,core,True,True,soft,,,seed 0,0.0605
+DAiSEE,P1 · official split,core_skip1_drop1_soft,core,True,True,soft,,,seed 1,0.0078
+DAiSEE,P1 · official split,core_skip1_drop1_soft,core,True,True,soft,,,seed 2,0.022
+DAiSEE,P1 · official split,unimodal_facemesh,unimodal,,,coral,facemesh,,seed 0,0.0313
+DAiSEE,P1 · official split,unimodal_facemesh,unimodal,,,coral,facemesh,,seed 1,0.0077
+DAiSEE,P1 · official split,unimodal_facemesh,unimodal,,,coral,facemesh,,seed 2,0.006
+DAiSEE,P2 · GroupKFold,core_skip0_drop1,core,False,True,coral,,,seed 0,0.0833
+DAiSEE,P2 · GroupKFold,core_skip0_drop1,core,False,True,coral,,,seed 1,0.0949
+DAiSEE,P2 · GroupKFold,core_skip0_drop1,core,False,True,coral,,,seed 2,0.1258
+DAiSEE,P2 · GroupKFold,core_skip0_drop1_soft,core,False,True,soft,,,seed 0,0.0833
+DAiSEE,P2 · GroupKFold,core_skip0_drop1_soft,core,False,True,soft,,,seed 1,0.0949
+DAiSEE,P2 · GroupKFold,core_skip0_drop1_soft,core,False,True,soft,,,seed 2,0.1258
+DAiSEE,P2 · GroupKFold,gate_skip0_drop0_hybrid,gate,False,False,hybrid,,,seed 0,0.0893
+DAiSEE,P2 · GroupKFold,gate_skip0_drop0_hybrid,gate,False,False,hybrid,,,seed 1,0.095
+DAiSEE,P2 · GroupKFold,gate_skip0_drop0_hybrid,gate,False,False,hybrid,,,seed 2,0.1125
+DAiSEE,P2 · GroupKFold,gate_skip0_drop0,gate,False,False,coral,,,seed 0,0.0902
+DAiSEE,P2 · GroupKFold,gate_skip0_drop0,gate,False,False,coral,,,seed 1,0.0942
+DAiSEE,P2 · GroupKFold,gate_skip0_drop0,gate,False,False,coral,,,seed 2,0.1086
+DAiSEE,P2 · GroupKFold,gate_skip0_drop0_soft,gate,False,False,soft,,,seed 0,0.0902
+DAiSEE,P2 · GroupKFold,gate_skip0_drop0_soft,gate,False,False,soft,,,seed 1,0.0942
+DAiSEE,P2 · GroupKFold,gate_skip0_drop0_soft,gate,False,False,soft,,,seed 2,0.1086
+DAiSEE,P2 · GroupKFold,gate_skip0_drop1_hybrid,gate,False,True,hybrid,,,seed 0,0.0935
+DAiSEE,P2 · GroupKFold,gate_skip0_drop1_hybrid,gate,False,True,hybrid,,,seed 1,0.0852
+DAiSEE,P2 · GroupKFold,gate_skip0_drop1_hybrid,gate,False,True,hybrid,,,seed 2,0.1066
+DAiSEE,P2 · GroupKFold,unimodal_head_pose,unimodal,,,coral,head_pose,,seed 0,0.1011
+DAiSEE,P2 · GroupKFold,unimodal_head_pose,unimodal,,,coral,head_pose,,seed 1,0.085
+DAiSEE,P2 · GroupKFold,unimodal_head_pose,unimodal,,,coral,head_pose,,seed 2,0.0871
+DAiSEE,P2 · GroupKFold,core_skip0_drop1_hybrid,core,False,True,hybrid,,,seed 0,0.0863
+DAiSEE,P2 · GroupKFold,core_skip0_drop1_hybrid,core,False,True,hybrid,,,seed 1,0.078
+DAiSEE,P2 · GroupKFold,core_skip0_drop1_hybrid,core,False,True,hybrid,,,seed 2,0.1009
+DAiSEE,P2 · GroupKFold,gate_skip0_drop1,gate,False,True,coral,,,seed 0,0.0903
+DAiSEE,P2 · GroupKFold,gate_skip0_drop1,gate,False,True,coral,,,seed 1,0.0684
+DAiSEE,P2 · GroupKFold,gate_skip0_drop1,gate,False,True,coral,,,seed 2,0.0992
+DAiSEE,P2 · GroupKFold,gate_skip0_drop1_soft,gate,False,True,soft,,,seed 0,0.0903
+DAiSEE,P2 · GroupKFold,gate_skip0_drop1_soft,gate,False,True,soft,,,seed 1,0.0684
+DAiSEE,P2 · GroupKFold,gate_skip0_drop1_soft,gate,False,True,soft,,,seed 2,0.0992
+DAiSEE,P2 · GroupKFold,unimodal_face,unimodal,,,coral,face,,seed 0,0.0886
+DAiSEE,P2 · GroupKFold,unimodal_face,unimodal,,,coral,face,,seed 1,0.0954
+DAiSEE,P2 · GroupKFold,unimodal_face,unimodal,,,coral,face,,seed 2,0.0662
+DAiSEE,P2 · GroupKFold,core_skip0_drop0,core,False,False,coral,,,seed 0,0.0805
+DAiSEE,P2 · GroupKFold,core_skip0_drop0,core,False,False,coral,,,seed 1,0.0928
+DAiSEE,P2 · GroupKFold,core_skip0_drop0,core,False,False,coral,,,seed 2,0.0721
+DAiSEE,P2 · GroupKFold,core_skip0_drop0_soft,core,False,False,soft,,,seed 0,0.0805
+DAiSEE,P2 · GroupKFold,core_skip0_drop0_soft,core,False,False,soft,,,seed 1,0.0928
+DAiSEE,P2 · GroupKFold,core_skip0_drop0_soft,core,False,False,soft,,,seed 2,0.0721
+DAiSEE,P2 · GroupKFold,gate_skip1_drop1_hybrid,gate,True,True,hybrid,,,seed 0,0.0803
+DAiSEE,P2 · GroupKFold,gate_skip1_drop1_hybrid,gate,True,True,hybrid,,,seed 1,0.0732
+DAiSEE,P2 · GroupKFold,gate_skip1_drop1_hybrid,gate,True,True,hybrid,,,seed 2,0.0846
+DAiSEE,P2 · GroupKFold,core_skip0_drop0_hybrid,core,False,False,hybrid,,,seed 0,0.0886
+DAiSEE,P2 · GroupKFold,core_skip0_drop0_hybrid,core,False,False,hybrid,,,seed 1,0.0887
+DAiSEE,P2 · GroupKFold,core_skip0_drop0_hybrid,core,False,False,hybrid,,,seed 2,0.0564
+DAiSEE,P2 · GroupKFold,gate_skip1_drop0_hybrid,gate,True,False,hybrid,,,seed 0,0.0865
+DAiSEE,P2 · GroupKFold,gate_skip1_drop0_hybrid,gate,True,False,hybrid,,,seed 1,0.0313
+DAiSEE,P2 · GroupKFold,gate_skip1_drop0_hybrid,gate,True,False,hybrid,,,seed 2,0.0786
+DAiSEE,P2 · GroupKFold,core_skip1_drop0_hybrid,core,True,False,hybrid,,,seed 0,0.0599
+DAiSEE,P2 · GroupKFold,core_skip1_drop0_hybrid,core,True,False,hybrid,,,seed 1,0.028
+DAiSEE,P2 · GroupKFold,core_skip1_drop0_hybrid,core,True,False,hybrid,,,seed 2,0.0938
+DAiSEE,P2 · GroupKFold,core_skip1_drop1,core,True,True,coral,,,seed 0,0.0567
+DAiSEE,P2 · GroupKFold,core_skip1_drop1,core,True,True,coral,,,seed 1,0.0794
+DAiSEE,P2 · GroupKFold,core_skip1_drop1,core,True,True,coral,,,seed 2,0.0345
+DAiSEE,P2 · GroupKFold,core_skip1_drop1_soft,core,True,True,soft,,,seed 0,0.0567
+DAiSEE,P2 · GroupKFold,core_skip1_drop1_soft,core,True,True,soft,,,seed 1,0.0794
+DAiSEE,P2 · GroupKFold,core_skip1_drop1_soft,core,True,True,soft,,,seed 2,0.0345
+DAiSEE,P2 · GroupKFold,gate_skip1_drop0,gate,True,False,coral,,,seed 0,0.0499
+DAiSEE,P2 · GroupKFold,gate_skip1_drop0,gate,True,False,coral,,,seed 1,0.0603
+DAiSEE,P2 · GroupKFold,gate_skip1_drop0,gate,True,False,coral,,,seed 2,0.0463
+DAiSEE,P2 · GroupKFold,gate_skip1_drop0_soft,gate,True,False,soft,,,seed 0,0.0499
+DAiSEE,P2 · GroupKFold,gate_skip1_drop0_soft,gate,True,False,soft,,,seed 1,0.0603
+DAiSEE,P2 · GroupKFold,gate_skip1_drop0_soft,gate,True,False,soft,,,seed 2,0.0463
+DAiSEE,P2 · GroupKFold,core_skip1_drop1_hybrid,core,True,True,hybrid,,,seed 0,0.0227
+DAiSEE,P2 · GroupKFold,core_skip1_drop1_hybrid,core,True,True,hybrid,,,seed 1,0.0684
+DAiSEE,P2 · GroupKFold,core_skip1_drop1_hybrid,core,True,True,hybrid,,,seed 2,0.0514
+DAiSEE,P2 · GroupKFold,core_skip1_drop0,core,True,False,coral,,,seed 0,0.0595
+DAiSEE,P2 · GroupKFold,core_skip1_drop0,core,True,False,coral,,,seed 1,0.0141
+DAiSEE,P2 · GroupKFold,core_skip1_drop0,core,True,False,coral,,,seed 2,0.0436
+DAiSEE,P2 · GroupKFold,core_skip1_drop0_soft,core,True,False,soft,,,seed 0,0.0595
+DAiSEE,P2 · GroupKFold,core_skip1_drop0_soft,core,True,False,soft,,,seed 1,0.0141
+DAiSEE,P2 · GroupKFold,core_skip1_drop0_soft,core,True,False,soft,,,seed 2,0.0436
+DAiSEE,P2 · GroupKFold,gate_skip1_drop1,gate,True,True,coral,,,seed 0,0.0277
+DAiSEE,P2 · GroupKFold,gate_skip1_drop1,gate,True,True,coral,,,seed 1,0.0256
+DAiSEE,P2 · GroupKFold,gate_skip1_drop1,gate,True,True,coral,,,seed 2,0.0465
+DAiSEE,P2 · GroupKFold,gate_skip1_drop1_soft,gate,True,True,soft,,,seed 0,0.0277
+DAiSEE,P2 · GroupKFold,gate_skip1_drop1_soft,gate,True,True,soft,,,seed 1,0.0256
+DAiSEE,P2 · GroupKFold,gate_skip1_drop1_soft,gate,True,True,soft,,,seed 2,0.0465
+DAiSEE,P2 · GroupKFold,shuffle_core_skip1_drop1,core,True,True,coral,,True,seed 0,-0.028
+DAiSEE,P2 · GroupKFold,shuffle_core_skip1_drop1,core,True,True,coral,,True,seed 1,0.0372
+DAiSEE,P2 · GroupKFold,shuffle_core_skip1_drop1,core,True,True,coral,,True,seed 2,0.0181
+DAiSEE,P2 · GroupKFold,unimodal_facemesh,unimodal,,,coral,facemesh,,seed 0,-0.008
+DAiSEE,P2 · GroupKFold,unimodal_facemesh,unimodal,,,coral,facemesh,,seed 1,-0.06
+DAiSEE,P2 · GroupKFold,unimodal_facemesh,unimodal,,,coral,facemesh,,seed 2,0.0062
+EngageNet,P2 · GroupKFold,unimodal_facemesh,unimodal,,,coral,facemesh,,seed 0,0.4184
+EngageNet,P2 · GroupKFold,unimodal_facemesh,unimodal,,,coral,facemesh,,seed 1,0.419
+EngageNet,P2 · GroupKFold,unimodal_facemesh,unimodal,,,coral,facemesh,,seed 2,0.4073
+EngageNet,P2 · GroupKFold,unimodal_head_pose,unimodal,,,coral,head_pose,,seed 0,0.3879
+EngageNet,P2 · GroupKFold,unimodal_head_pose,unimodal,,,coral,head_pose,,seed 1,0.3687
+EngageNet,P2 · GroupKFold,unimodal_head_pose,unimodal,,,coral,head_pose,,seed 2,0.3695
+EngageNet,P2 · GroupKFold,unimodal_face,unimodal,,,coral,face,,seed 0,0.2163
+EngageNet,P2 · GroupKFold,unimodal_face,unimodal,,,coral,face,,seed 1,0.248
+EngageNet,P2 · GroupKFold,unimodal_face,unimodal,,,coral,face,,seed 2,0.2473
+EngageNet,P2 · GroupKFold,gate_skip1_drop0,gate,True,False,coral,,,seed 0,0.233
+EngageNet,P2 · GroupKFold,gate_skip1_drop0,gate,True,False,coral,,,seed 1,0.2247
+EngageNet,P2 · GroupKFold,gate_skip1_drop0,gate,True,False,coral,,,seed 2,0.2048
+EngageNet,P2 · GroupKFold,core_skip1_drop0,core,True,False,coral,,,seed 0,0.1833
+EngageNet,P2 · GroupKFold,core_skip1_drop0,core,True,False,coral,,,seed 1,0.1176
+EngageNet,P2 · GroupKFold,core_skip1_drop0,core,True,False,coral,,,seed 2,0.1721
+EngageNet,P2 · GroupKFold,shuffle_core_skip1_drop1,core,True,True,coral,,True,seed 0,-0.0625
+EngageNet,P2 · GroupKFold,shuffle_core_skip1_drop1,core,True,True,coral,,True,seed 1,0.0251
+EngageNet,P2 · GroupKFold,shuffle_core_skip1_drop1,core,True,True,coral,,True,seed 2,0.1013

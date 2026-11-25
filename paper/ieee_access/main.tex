@@ -1,0 +1,85 @@
+% =====================================================================
+%  gTAO-Net Article 2, IEEE Access version (built from paper/sections, 2026-11-23).
+%  Numbers come from ../tables (generated); do not type numbers by hand.
+%  Uses the official ieeeaccess.cls when it is present in this folder,
+%  otherwise IEEEtran (same structure, for drafting only).
+%  Build: latexmk -pdf main.tex
+% =====================================================================
+\IfFileExists{ieeeaccess.cls}{\documentclass{ieeeaccess}\newif\ifaccess\accesstrue}{\documentclass[journal]{IEEEtran}\newif\ifaccess\accessfalse}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{cite}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{xcolor}
+% The architecture figure is pre-rendered (figsrc/fig_arch.tex): ieeeaccess.cls conflicts with TikZ.
+\usepackage{xurl}
+\usepackage[hidelinks]{hyperref}
+
+\newcommand{\qwk}{QWK}
+\newcommand{\pending}[1]{\textcolor{red}{\textbf{[#1]}}}
+\newif\ifnested
+\input{tables/protocol}
+\newif\ifcmptest
+\input{tables/comparison_numbers}
+\input{tables/fullcorpus_numbers}
+
+\ifaccess\else
+  \newenvironment{keywords}{\begin{IEEEkeywords}}{\end{IEEEkeywords}}
+  \providecommand{\PARstart}[2]{\IEEEPARstart{#1}{#2}}
+  \providecommand{\EOD}{}
+\fi
+
+\begin{document}
+\ifaccess
+\history{Date of publication xxxx 00, 0000, date of current version xxxx 00, 0000.}
+\doi{10.1109/ACCESS.2026.DOI}
+% Previous (fusion-first) title: Does Multimodal Fusion Help Classroom Attention Estimation? A Controlled Diagnostic of Gated Ordinal Fusion on DIPSER, DAiSEE and EngageNet
+\title{The Evaluation Protocol Outweighs Fusion in Classroom Attention Estimation: A Controlled Study on DIPSER, DAiSEE and EngageNet}
+\author{\uppercase{Zakaria Makhkhas}\authorrefmark{1}, \uppercase{Amal Rifai}\authorrefmark{2}, and \uppercase{Abdelalim Sadiq}\authorrefmark{1}}
+\address[1]{Laboratory of Information Modelling and Communication Systems, Faculty of Sciences, University Ibn Tofail, K\'enitra, Morocco}
+\address[2]{Team of Research in Engineering of Computing Environment for Human Learning, Regional Center for the Professions of Education and Training (RCPET), Rabat, Morocco}
+\tfootnote{This research did not receive any specific grant from funding agencies in the public, commercial, or not-for-profit sectors.}
+\markboth{Makhkhas \headeretal: The Evaluation Protocol Outweighs Fusion in Classroom Attention Estimation}{Makhkhas \headeretal: The Evaluation Protocol Outweighs Fusion in Classroom Attention Estimation}
+\corresp{Corresponding author: Zakaria Makhkhas (e-mail: zakaria.makhkhas@uit.ac.ma).}
+\input{sections/00_abstract}
+\titlepgskip=-15pt
+\maketitle
+\else
+% Previous (fusion-first) title: Does Multimodal Fusion Help Classroom Attention Estimation? A Controlled Diagnostic of Gated Ordinal Fusion on DIPSER, DAiSEE and EngageNet
+\title{The Evaluation Protocol Outweighs Fusion in Classroom Attention Estimation: A Controlled Study on DIPSER, DAiSEE and EngageNet}
+\author{Zakaria Makhkhas, Amal Rifai, and Abdelalim Sadiq%
+\thanks{Z. Makhkhas and A. Sadiq are with the Laboratory of Information Modelling and Communication Systems, Faculty of Sciences, University Ibn Tofail, K\'enitra, Morocco (e-mail: zakaria.makhkhas@uit.ac.ma).}%
+\thanks{A. Rifai is with the Team of Research in Engineering of Computing Environment for Human Learning, Regional Center for the Professions of Education and Training (RCPET), Rabat, Morocco.}}
+\markboth{Makhkhas \MakeLowercase{\textit{et al.}}: The Evaluation Protocol Outweighs Fusion in Classroom Attention Estimation}{}
+\maketitle
+\input{sections/00_abstract}
+\fi
+
+\input{sections/01_introduction}
+\input{sections/02_related_work}
+\input{sections/03_data}
+\input{sections/04_instrument}
+\input{sections/05_protocol}
+\input{sections/06_results}
+\input{sections/06b_fullcorpus}
+\input{sections/07_discussion}
+\input{sections/08_conclusion}
+\input{sections/09_declarations}
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\begin{IEEEbiographynophoto}{Zakaria Makhkhas}
+is a doctoral researcher with the Laboratory of Information Modelling and Communication Systems, Faculty of Sciences, University Ibn Tofail, K\'enitra, Morocco (ORCID 0009-0005-9002-8860). His doctoral research concerns multimodal machine learning for the recognition of student attention and engagement in the classroom, with a focus on discrete orthogonal moments, ordinal classification and evaluation protocols. \pending{Degrees with institution and year, and photograph, to be added by the author.}
+\end{IEEEbiographynophoto}
+\begin{IEEEbiographynophoto}{Amal Rifai}
+is with the Team of Research in Engineering of Computing Environment for Human Learning, Regional Center for the Professions of Education and Training (RCPET), Rabat, Morocco. Her research interests include computing environments for human learning, the modelling of learning scenarios, computer-based and personalised tutoring, and data-driven decision support in education. \pending{Degrees with institution and year, current position, and photograph, to be added by the author.}
+\end{IEEEbiographynophoto}
+\begin{IEEEbiographynophoto}{Abdelalim Sadiq}
+is with the Laboratory of Information Modelling and Communication Systems, Faculty of Sciences, University Ibn Tofail, K\'enitra, Morocco. His research interests include the detection of student attention in the classroom from video, facial emotion recognition and image analysis. \pending{Degrees with institution and year, current position, and photograph, to be added by the author.}
+\end{IEEEbiographynophoto}
+\EOD
+\end{document}

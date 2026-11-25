@@ -1,0 +1,73 @@
+% Supplementary material for the gTAO-Net article.  Build: latexmk -pdf supplementary.tex
+\documentclass[preprint,11pt]{elsarticle}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,booktabs,array,graphicx}
+\usepackage[margin=2.0cm]{geometry}
+\renewcommand{\thetable}{S\arabic{table}}
+\begin{document}
+\section*{Supplementary material}
+\begin{table}[!htbp]
+\centering
+\caption{DIPSER slice, complete-window population (1{,}566 windows, 23 student-sessions, 20 students): pooled out-of-fold QWK (mean $\pm$ s.d., 3 seeds), accuracy and mean absolute error. Top rows: single streams; below: fusion of the four streams. Gate $\alpha$: largest mean gate weight at the last logged epoch of seed 0, fold 0.}
+\label{tab:grid}
+\scriptsize
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{llllcccl}
+\toprule
+Model & Link & Drop & Obj. & QWK & Acc & MAE & Gate $\alpha$ \\
+\midrule
+\csname @@input\endcsname tables/dipser_grid.tex
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering
+\caption{Computational cost on DIPSER. GPU: median over all folds of the released runs (Kaggle). CPU: laptop without GPU (Apple M5, four threads), same code, synthetic inputs with the real shapes (\texttt{verify/local\_cost\_benchmark.py}). Peak training memory was 574\,MB; the one-time extraction from the raw videos took 38 minutes on Kaggle.}
+\label{tab:cost}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lcccc}
+\toprule
+Model & Parameters & GPU s/epoch & CPU s/epoch & CPU s/fold \\
+\midrule
+Gate + link, 4 streams & 2.07\,M & 0.208 & 0.131 & 1.7 \\
+Core, no link, 4 streams & 1.35\,M & 0.169 & 0.095 & 1.3 \\
+Face mesh only & 1.12\,M & 0.105 & 0.053 & 0.5 \\
+\midrule
+\multicolumn{5}{l}{All 495 fits: 24 min (GPU, measured); 15--18 min (CPU, estimated)} \\
+\bottomrule
+\end{tabular}
+\end{table}
+\begin{table}[!htbp]
+\centering
+\caption{Transfer, pooled QWK (mean $\pm$ s.d., 3 seeds). $\Delta$: best fusion minus best single stream. EngageNet: scoped subset, P2 only.}
+\label{tab:transfer}
+\footnotesize
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{lcccccc}
+\toprule
+Setting & Face & Mesh & Pose & Best fus. & $\Delta$ & Perm. \\
+\midrule
+\csname @@input\endcsname tables/transfer.tex
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering
+\caption{Sparse-probe tracking on a held-out class (full DIPSER release, leave-one-class-out, three seeds; accuracy\,\% / QWK on non-probe windows). Persistence: the last probe label is repeated. Probe model: gradient-boosted trees on the last two probe labels and the time since the probe. Gain: probe + sensors minus persistence, paired person bootstrap, 95\% CI.}
+\label{tab:probe}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lccccc}
+\toprule
+Probe every & Persistence & Probe model & Probe + sensors & Acc.\ gain (points) & QWK gain \\
+\midrule
+\csname @@input\endcsname tables/fullcorpus_probe.tex
+\bottomrule
+\end{tabular}
+\end{table}
+
+\end{document}

@@ -1,0 +1,5 @@
+gru_vs_none                  QWK 0.161 -> 0.165 diff +0.004 [-0.0169, 0.0255] p 0.685 | acc 0.570 -> 0.561 [-0.0191, -0.0002]
+gru_vs_ema                   QWK 0.162 -> 0.165 diff +0.003 [-0.0223, 0.0294] p 0.786 | acc 0.565 -> 0.561 [-0.0156, 0.0069]
+exploratory_bigru_vs_none    QWK 0.161 -> 0.167 diff +0.006 [-0.0225, 0.0344] p 0.685 | acc 0.570 -> 0.561 [-0.02, 0.0006]
+exploratory_ema_vs_none      QWK 0.161 -> 0.162 diff +0.001 [-0.0208, 0.02] p 0.940 | acc 0.570 -> 0.565 [-0.0135, 0.0019]
+context helps: False | gru beats ema: False

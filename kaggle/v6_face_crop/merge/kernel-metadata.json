@@ -1,0 +1,23 @@
+{
+  "id": "zakariamakhas/gtao-v6-dipser-face-crop-merge",
+  "title": "gTAO v6 DIPSER face crop merge",
+  "code_file": "merge_crop.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "dataset_sources": [
+    "zakariamakhas/dipser-full-corpus-features"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [
+    "zakariamakhas/gtao-v6-dipser-face-crop-shard0",
+    "zakariamakhas/gtao-v6-dipser-face-crop-shard1",
+    "zakariamakhas/gtao-v6-dipser-face-crop-shard2",
+    "zakariamakhas/gtao-v6-dipser-face-crop-shard3",
+    "zakariamakhas/gtao-v6-dipser-face-crop-shard4"
+  ],
+  "model_sources": []
+}

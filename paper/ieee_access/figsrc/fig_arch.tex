@@ -1,0 +1,43 @@
+\documentclass[tikz,border=2pt]{standalone}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb}
+\usetikzlibrary{arrows.meta,positioning,calc,fit,backgrounds}
+\begin{document}
+\begin{tikzpicture}[
+  font=\sffamily\small, >={Stealth[length=2.2mm]},
+  box/.style={draw, rounded corners=2pt, minimum height=7mm, align=center, inner sep=2.5pt},
+  inp/.style={box, fill=gray!8, minimum width=22mm},
+  mom/.style={box, fill=orange!15, minimum width=25mm},
+  tow/.style={box, fill=blue!8, minimum width=15mm},
+  op/.style={box, fill=violet!10},
+  ]
+  \foreach \n/\lab/\enc/\dim [count=\i] in
+    {face/{Face\\$64{\times}64$}/ {2D16+1D6}/1536,
+     fm/{Face mesh\\$478{\times}3$}/{1D6}/8604,
+     hp/{Head pose\\3 ang}/{1D6}/18,
+     ph/{Physiology\\8 ch}/{1D6}/48} {
+    \node[inp] (in\n) at (0,-1.2*\i) {\lab};
+    \node[mom, right=5mm of in\n] (m\n) {Tcheb.\\\enc};
+    \node[tow, right=7mm of m\n] (t\n) {tower\\$z_{\n}$};
+    \draw[->] (in\n) -- (m\n);
+    \draw[->] (m\n) -- node[above, font=\sffamily\scriptsize]{\dim} (t\n);
+  }
+  \node[op, minimum height=40mm, minimum width=28mm, right=9mm of $(tfm)!0.5!(thp)$] (fuse)
+    {self-attention\\$Z'=\mathrm{softmax}\!\big(\tfrac{QK^\top}{\sqrt d}\big)Z$\\[2mm]
+     \textbf{gate}: $\tilde z=\sum_i \alpha_i Z'_i$\\[1mm] \emph{or}\\[1mm]
+     \textbf{core}: $\tilde z=\tfrac1S\sum_i Z'_i$};
+  \foreach \n in {face,fm,hp,ph} \draw[->] (t\n.east) -- (fuse.west |- t\n.east);
+  \node[draw, circle, inner sep=1pt, right=7mm of fuse] (plus) {$+$};
+  \node[box, fill=yellow!20, right=6mm of plus] (head) {CORAL head};
+  \node[box, fill=green!10, right=6mm of head] (out) {level};
+  \draw[->] (fuse) -- (plus); \draw[->] (plus) -- (head); \draw[->] (head) -- (out);
+  \coordinate (lk) at ($(inph.south)+(0,-6mm)$);
+  \foreach \n in {face,fm,hp,ph} {
+    \coordinate (tap\n) at ($(m\n.east)!0.72!(t\n.west)$);
+    \fill[red!70!black] (tap\n) circle (1.2pt);
+  }
+  \draw[very thick, red!70!black] (tapface) -- (tapph);
+  \draw[->, very thick, red!70!black] (tapph) -- (tapph |- lk) -| node[pos=0.25, below, font=\sffamily\scriptsize] {global link $G(x)=\sum_k W^{g}_k\phi_k(x_k)$} (plus.south);
+  \node[below=1mm of head, font=\sffamily\scriptsize] {CORAL $|$ hybrid $|$ soft};
+\end{tikzpicture}
+\end{document}

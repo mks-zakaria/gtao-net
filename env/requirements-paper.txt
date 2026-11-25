@@ -1,0 +1,6 @@
+# Rebuild statistics, tables and the PDF (no GPU needed)
+numpy>=1.26
+scipy>=1.11
+openpyxl>=3.1        # only to open docs/journals_Q1Q2_max1200_GTAO.xlsx
+kaggle>=2.2          # Kaggle CLI: push kernels, pull outputs
+# plus a TeX distribution with latexmk, elsarticle, tikz, pgfplots, xurl (TeX Live 2024+)

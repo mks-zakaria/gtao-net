@@ -1,0 +1,35 @@
+
+DIPSER v2 (paper slice, session folds): 1566 windows, 20 persons, label between-person 59%, between-session 63%
+  Face         unimodal_face_cw_soft        QWK +0.003  between -0.04  within +0.13
+  Face mesh    unimodal_facemesh_cw_soft    QWK +0.256  between +0.41  within +0.08
+  Head pose    unimodal_head_pose_cw        QWK +0.002  between -0.04  within +0.05
+  Physiology   unimodal_physio_cw           QWK +0.002  between -0.00  within -0.01
+  Best fusion  gate_skip1_drop0_soft        QWK +0.124  between +0.22  within +0.09
+
+DIPSER v3 fold (person folds, z-score): 1566 windows, 20 persons, label between-person 59%, between-session 63%
+  Face         unimodal_face_cw_soft        QWK +0.021  between -0.00  within +0.05
+  Face mesh    unimodal_facemesh_cw_soft    QWK +0.212  between +0.43  within +0.03
+  Head pose    unimodal_head_pose_cw_soft   QWK +0.156  between +0.30  within +0.04
+  Physiology   unimodal_physio_cw_soft      QWK -0.060  between -0.11  within -0.03
+  Best fusion  core_skip1_drop0             QWK +0.133  between +0.36  within +0.01
+
+DIPSER v3 subject (within-session z-score): 1566 windows, 20 persons, label between-person 59%, between-session 63%
+  Face         unimodal_face_cw             QWK +0.045  between +0.22  within +0.03
+  Face mesh    unimodal_facemesh_cw_soft    QWK +0.016  between +0.03  within +0.01
+  Head pose    unimodal_head_pose_cw_soft   QWK +0.075  between +0.19  within +0.04
+  Physiology   unimodal_physio_cw_soft      QWK -0.026  between -0.14  within +0.03
+  Best fusion  gate_skip0_drop1_soft        QWK +0.089  between +0.18  within +0.02
+
+DAiSEE (group k-fold): 7919 windows, 101 persons, label between-person 12%, between-session 12%
+  Face         unimodal_face                QWK +0.027  between +0.10  within +0.01
+  Face mesh    unimodal_facemesh            QWK -0.014  between -0.04  within +0.02
+  Head pose    unimodal_head_pose           QWK +0.049  between +0.17  within +0.05
+  Best fusion  core_skip0_drop1             QWK +0.059  between +0.22  within +0.03
+
+EngageNet (group k-fold): 31512 windows, 91 persons, label between-person 51%, between-session 51%
+  Face         unimodal_face                QWK +0.123  between +0.12  within +0.06
+  Face mesh    unimodal_facemesh            QWK +0.366  between +0.51  within +0.19
+  Head pose    unimodal_head_pose           QWK +0.352  between +0.60  within +0.19
+  Best fusion  gate_skip1_drop0             QWK +0.170  between +0.20  within +0.11
+
+DIPSER full corpus (labels only): 35649 windows, 57 persons; between person 13%, experiment 20%, session 49%

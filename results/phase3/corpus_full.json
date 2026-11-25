@@ -1,0 +1,22 @@
+{
+ "zips": 483,
+ "windows": 35649,
+ "subjects": 483,
+ "class_counts": [
+  12306,
+  17964,
+  5379
+ ],
+ "complete_windows": 28926,
+ "complete_class_counts": [
+  9250,
+  15746,
+  3930
+ ],
+ "avail_pct": {
+  "face": 1.0,
+  "facemesh": 0.947,
+  "head_pose": 0.962,
+  "physio": 0.859
+ }
+}
