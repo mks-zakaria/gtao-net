@@ -1,10 +1,41 @@
 \section{Datasets and task}
 \label{sec:data}
 
-\textbf{DIPSER slice.} We use session D1 of DIPSER~\cite{marquezcarpintero2025dipser}, segmented into non-overlapping 4-s windows. Four external raters and the student (self-report) mark attention on a 1--5 scale as change points. For each rater, a window takes the latest annotation at or before its midpoint, which gives up to five votes. The levels are collapsed into three ordinal classes (low $=\{1,2\}$, medium $=\{3\}$, high $=\{4,5\}$). The hard label is the most frequent vote (ties go to the lower class), and the soft label is the vector of vote fractions $\bar p\in\Delta^{2}$. The streams are the student's webcam frame (640$\times$480), MediaPipe face mesh with iris points (478$\times$3)~\cite{kartynnik2019facemesh,grishchenko2020attentionmesh}, head pose (three angles) and eight smartwatch channels. The webcam frame is used whole and therefore also shows the classroom and often other students. We retain the name \emph{face stream} for consistency with earlier work, although it is not a face crop (Section~\ref{sec:fc-crop}). The slice contains 2{,}959 windows from 40 student-sessions (20 students, two sessions each), with class counts [1{,}447, 1{,}502, 10]. Physiology is available in 52.9\% of windows. All slice experiments use the complete-window population, in which every stream exists: 1{,}566 windows, 23 student-sessions and counts [679, 880, 7].
+Table~\ref{tab:datasets} summarises the data. The same code extracts the streams and builds the labels for the slice and for the full release of DIPSER.
 
-\textbf{Full DIPSER release.} Section~\ref{sec:fullcorpus} uses every labelled student-session of DIPSER, extracted with the same code: \fcPersons{} students in three class groups (20, 21 and 16 students), \fcSessions{} student-sessions in 27 class sessions, and \fcWindows{} windows with counts [12{,}306, 17{,}964, 5{,}379] (\fcShareHigh\% high). Of these windows, \fcComplete{} have every stream. Each session is rated by four external raters, drawn from a pool of five, and by the student.
+\begin{table*}[!t]
+\centering
+\caption{Datasets as used in this study. Units: number of scored samples. Students: distinct persons. Four streams: frame, mesh, pose and physiology. The DIPSER class counts are low / medium / high; the DAiSEE and EngageNet counts are the four engagement levels in increasing order.}
+\label{tab:datasets}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{llrrlll}
+\toprule
+Dataset & Setting & Units & Students & Class counts & Streams & Folds group \\
+\midrule
+DIPSER slice, all windows & classroom & 2{,}959 & 20 & 1{,}447 / 1{,}502 / 10 & 4 streams & -- \\
+DIPSER slice, complete windows & classroom & 1{,}566 & 20 & 679 / 880 / 7 & 4 streams & student-sessions \\
+DIPSER full release, all windows & classroom & \fcWindows & \fcPersons & 12{,}306 / 17{,}964 / 5{,}379 & 4 streams, face crop & students or classes \\
+DIPSER full release, complete windows & classroom & \fcComplete & \fcPersons & 9{,}250 / 15{,}746 / 3{,}930 & 4 streams, face crop & students or classes \\
+DAiSEE & webcam & 7{,}919 & 101 & 60 / 425 / 4{,}136 / 3{,}298 & frame, mesh, pose & subjects \\
+EngageNet (redistributed frames) & webcam & 31{,}512 & 91 & 5{,}780 / 4{,}140 / 6{,}632 / 14{,}960 & frame, mesh, pose & subjects \\
+\bottomrule
+\end{tabular}
+\end{table*}
 
-\textbf{DAiSEE and EngageNet.} DAiSEE~\cite{gupta2016daisee} contains webcam clips with four levels; requiring all three visual streams leaves 7{,}919 clips from 101 subjects, with counts [60, 425, 4{,}136, 3{,}298] and six frames per clip. Its official splits are subject-disjoint. EngageNet~\cite{singh2023engagenet} is described with a subject-independent split. The release we used, however, contains 31{,}512 frame-level samples from 91 subjects with four levels and counts [5{,}780, 4{,}140, 6{,}632, 14{,}960], and in it the training, validation and test splits share subjects (our check); we therefore use only subject-grouped folds. Mesh and pose were extracted for 98.4\% of samples and missing streams are zero-filled; since samples are single frames, temporal moments carry no motion.
+\subsection{DIPSER}
+DIPSER~\cite{marquezcarpintero2025dipser} records in-person university classes. Each student has a webcam (640$\times$480) and a smartwatch, and the recordings are organised in three class groups, each of which takes part in nine sessions with different activities. The data are distributed on request under a CC-BY licence; the dataset authors report ethics approval and signed informed consent. Attention is annotated on a 1--5 scale as change points, by four expert labellers per session and by the student, whose self-report is given retrospectively.
 
-\textbf{Metric.} The primary metric is the quadratic weighted kappa (QWK)~\cite{cohen1968weighted}. It equals 1 for perfect agreement and 0 for chance or constant prediction, and it weights an error by the square of its distance, which suits imbalanced ordinal labels. Accuracy is reported for comparability, together with the majority-class rate.
+\textbf{Windows and labels.} We segment each student-session into non-overlapping 4-s windows; the windows are our construction and not part of the dataset. For each rater, a window takes the latest annotation at or before its midpoint, which gives up to five votes. The levels are collapsed into three ordinal classes (low $=\{1,2\}$, medium $=\{3\}$, high $=\{4,5\}$). The hard label is the most frequent vote (ties go to the lower class), and the soft label is the vector of vote fractions $\bar p\in\Delta^{2}$.
+
+\textbf{Streams.} Four streams are taken from the files of the release: the webcam frame, the face mesh with iris points (478 landmarks with three coordinates each~\cite{kartynnik2019facemesh,grishchenko2020attentionmesh}), the head pose (three angles) and eight smartwatch channels (heart rate, three accelerometer axes, three gyroscope axes and ambient light). The webcam frame is used whole. It therefore also shows part of the classroom and often other students, and it is not a face crop; Section~\ref{sec:fc-crop} adds a true face crop.
+
+\textbf{Slice.} The first part of the study uses the 40 student-sessions of class group 1 in sessions 1 and 5 (20 students, two sessions each). It contains 2{,}959 windows with class counts [1{,}447, 1{,}502, 10]. Physiology is available in 52.9\% of the windows. All slice experiments use the complete-window population, in which every stream exists: 1{,}566 windows from 23 student-sessions, with counts [679, 880, 7].
+
+\textbf{Full release.} The second part uses every labelled student-session that we obtained from the distribution server: \fcSessions{} student-sessions in 27 class sessions, \fcWindows{} windows and \fcShareHigh\% of high labels. The release contains \fcPersons{} distinct student identifiers (20, 21 and 16 in the three groups), whereas the dataset description reports 54 participants; we count identifiers as they appear in the files. Of the windows, \fcComplete{} have every stream. Across sessions the release contains five labeller identifiers, of which four rate any given session.
+
+\subsection{DAiSEE and EngageNet}
+DAiSEE~\cite{gupta2016daisee} contains ten-second webcam clips with four engagement levels and subject-disjoint official splits. Requiring all three visual streams leaves 7{,}919 clips from 101 subjects, with six frames sampled per clip. We use the released aggregated label, so each clip has a single label. EngageNet~\cite{singh2023engagenet} is described by its authors with 127 participants and a subject-independent split. We did not use that benchmark but a public redistribution of frames (identified in the availability statement), which contains 31{,}512 frame-level samples from 91 subjects and in which the training, validation and test folders share subjects (our check). We therefore use only subject-grouped folds on it, and our EngageNet figures are not comparable with the official benchmark. Mesh and pose were extracted for 98.4\% of the samples and missing streams are zero-filled; since the samples are single frames, temporal moments carry no motion.
+
+\subsection{Metric}
+The primary metric is the quadratic weighted kappa (QWK)~\cite{cohen1968weighted}. It equals 1 for perfect agreement and 0 for chance agreement or for a constant prediction, and it weights an error by the square of its distance, which suits imbalanced ordinal labels. Accuracy is reported together with the majority-class rate.

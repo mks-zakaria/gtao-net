@@ -1,7 +1,16 @@
 # gTAO-Net
 
-**Does multimodal fusion help classroom attention estimation? A controlled diagnostic of gated
-ordinal fusion on DIPSER, DAiSEE and EngageNet**
+**The Evaluation Protocol Outweighs Fusion in Classroom Attention Estimation: A Controlled
+Study on DIPSER, DAiSEE and EngageNet**
+
+> **Educational use.** Copyright (c) 2026 Zakaria Makhkhas, Amal Rifai and Abdelalim Sadiq.
+> This work may be used for educational and research purposes with citation; see
+> [NOTICE.md](./NOTICE.md). The code is under the MIT licence.
+
+Current manuscript: [`paper/ieee_access/main.pdf`](./paper/ieee_access/main.pdf)
+(rewritten 2026-11-27, in preparation for IEEE Access; not yet submitted). The earlier title
+was *Does multimodal fusion help classroom attention estimation? A controlled diagnostic of
+gated ordinal fusion on DIPSER, DAiSEE and EngageNet*.
 
 gTAO-Net is an instrumented gated ordinal fusion network (face, face-mesh, head-pose and
 wrist-physiology streams, Tchebichef-moment front-ends). It is used as a diagnostic, not as a
@@ -47,6 +56,31 @@ rescores every run on person-disjoint windows only: no fusion beats the best str
 the gate stays inert (p = 0.79) and the link still helps (10/12, p = 0.021); the soft-vs-CORAL
 gain weakens to 6/8 pairs (p = 0.078).
 
+
+## Findings on the full DIPSER release (57 students, 35,649 windows)
+
+| Finding | Evidence |
+|---|---|
+| The fusion result is replicated with held-out students | 0 of 24 fusions above the best single stream (face mesh, QWK 0.116, 95% CI [0.077, 0.158]); difference -0.016 [-0.052, +0.020] |
+| The sensor signal is mostly shared by the class | no stream beats a control trained on a classmate's label; label-only references reach QWK 0.372 (same lesson) and 0.378 (same moment) |
+| Seven attempts to improve the sensor model fail | search, higher-order and local moments, face crop, time context, class context, three frozen face encoders (`paper/tables/fullcorpus_tests.tex`) |
+| The split changes the score more than any model choice | same model: QWK 0.342 on random windows, 0.122 on held-out students, 0.085 on a held-out class; accuracy 65.4 / 57.2 / 53.9% against a 54.4% majority rate |
+| Label persistence explains the sparse-probe gain | probe every 32 s: 74.2% with sensors against 72.3% for repeating the last label |
+
+Reproduce the tables and figures of the manuscript from the stored results:
+
+```bash
+python analysis_v3/paper_fullcorpus.py    # paper/tables/fullcorpus_*.tex
+python analysis_v3/published_qwk.py       # QWK of published DAiSEE systems from their confusion matrices
+python analysis_v3/paper_figures.py       # paper/figures/fig_*.pdf (needs matplotlib)
+```
+
+The analysis plan with the criteria fixed before each full-release run is
+[`docs/PLAN_accuracy.md`](./docs/PLAN_accuracy.md). The notebooks of the full-release
+experiments are in `kaggle/` (source) with their outputs summarised in `results/v3b` ...
+`results/v12_3enc`. On Kaggle, the three v2 notebooks listed below are public; the
+full-release analysis notebooks are being made public, and the data-extraction notebooks
+stay private because they handle the dataset access credentials and face-derived features.
 
 ## Full article workspace (added 2026-11-25)
 
@@ -160,15 +194,17 @@ Each kernel mounts its dataset, runs the protocol and writes its metric file to 
 
 ```bibtex
 @article{makhkhas2026gtaonet,
-  title   = {Does Multimodal Fusion Help Classroom Attention Estimation? A Controlled Diagnostic of Gated Ordinal Fusion on DIPSER, DAiSEE and EngageNet},
+  title   = {The Evaluation Protocol Outweighs Fusion in Classroom Attention Estimation: A Controlled Study on DIPSER, DAiSEE and EngageNet},
   author  = {Makhkhas, Zakaria and Rifai, Amal and Sadiq, Abdelalim},
   year    = {2026},
-  note    = {Submitted to Intelligent Systems with Applications},
+  note    = {Manuscript in preparation},
   url     = {https://github.com/mks-zakaria/gtao-net}
 }
 ```
 
 ## License
 
-Code and results: [MIT](./LICENSE). The datasets remain the property of their owners and are
-used under their terms.
+Code: [MIT](./LICENSE). The whole work may be used for educational and research purposes
+with citation; the terms for each part are in [NOTICE.md](./NOTICE.md). The datasets remain
+the property of their owners and are used under their terms (DIPSER is distributed by its
+authors on request).
